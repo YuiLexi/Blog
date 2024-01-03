@@ -57,7 +57,7 @@
 /* 3.导航栏魔改------------------------------------------------------------------------------- */
 /* 导航栏字体大小设置 */
 #nav {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /* 一级菜单居中 */
@@ -66,6 +66,11 @@
     width: fit-content !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
+}
+
+#nav .menus_items span {
+    color: #7c4c8c;
+    font-weight: 900;
 }
 
 /* 子菜单横向展示 */

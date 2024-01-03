@@ -112,3 +112,45 @@ search:
   path: search.xml
   field: post
   content: true
+
+# 分类磁贴
+# 个人博客分类目录：Unity3D、大学学习、Csharp、Hexo、、Csharp、C语言、Python、Rust、Git、Java、游戏攻略、前端
+magnet:
+  enable: true
+  priority: 1
+  enable_page: /
+  type: categories
+  devide: 3
+  display:
+    - name: Unity3D
+      display_name: 小YのUnity学习
+      icon: 🎮
+    - name: 大学学习
+      display_name: 小Yの读书笔记
+      icon: 📒
+    - name: 游戏攻略
+      display_name: 小Yの游戏攻略
+      icon: 🎮
+    - name: Csharp
+      display_name: 小YのC#学习
+      icon: 🌵
+    - name: C语言
+      display_name: 小YのC语言学习
+      icon: 🍃
+    - name: Rust
+      display_name: 小YのRust学习
+      icon: 🍉
+    - name: Python
+      display_name: 小YのPython学习
+      icon: 🔥
+  color_setting:
+    text_color: black
+    text_hover_color: white
+    background_color: "#f2f2f2"
+    background_hover_color: "#b30070"
+  layout:
+    type: id
+    name: recent-posts
+    index: 0
+  temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
+  plus_style: ""
