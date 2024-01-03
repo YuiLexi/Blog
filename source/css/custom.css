@@ -55,6 +55,11 @@
 }
 
 /* 3.导航栏魔改------------------------------------------------------------------------------- */
+/* 导航栏字体大小设置 */
+#nav {
+    font-size: 20px;
+}
+
 /* 一级菜单居中 */
 #nav .menus_items {
     position: absolute !important;
@@ -70,8 +75,21 @@
 
 /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
 .menus_items .menus_item:nth-child(2) .menus_item_child {
-    left: -125px;
+    left: -84px;
 }
+
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+    left: -36px;
+}
+
+.menus_items .menus_item:nth-child(4) .menus_item_child {
+    left: -36px;
+}
+
+.menus_items .menus_item:nth-child(5) .menus_item_child {
+    left: -36px;
+}
+
 
 
 
@@ -388,4 +406,12 @@ div#archive {
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+svg.icon {
+    width: 1.28em;
+    height: 1.28em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
 }

@@ -9,16 +9,20 @@ nav:
 
 # Menu 目錄
 menu:
-  主页: / || fas fa-home
-  归档||fas fa-list||hide:
-    时间轴: /archives/ || fas fa-archive
-    标签: /tags/ || fas fa-tags
-    分类: /categories/ || fas fa-folder-open
-  清单||fas fa-list||hide:
-    音乐: /music/ || fas fa-music
-    电影: /movies/ || fas fa-video
-  链接: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  主页: / || icon-zhuye- || faa-tada
+  归档 || icon-fenlei-liang || faa-tada || hide:
+    时间轴: /archives/ || icon-WEBSITE || faa-tada
+    标签: /tags/ || icon-biaoqian || faa-tada
+    分类: /categories/ || icon-fenlei || faa-tada
+  清单 || icon-fenlei-liang || faa-tada || hide:
+    音乐: /music/ || icon-yinlehe || faa-tada
+    电影: /movies/ || icon-icon-test || faa-tada
+  社交 || icon-shejiao || faa-tada || hide:
+    链接: /link/ || icon-lianjie || faa-tada
+    留言板: /message/ || icon-liuyanban || faa-tada
+  关于 || icon-zhifeiji || faa-tada || hide:
+    个人: /about/ || icon-gerenziliao || faa-tada
+    网站: /website/ || icon-WEBSITE || faa-tada
 
 # Code Blocks (代码相关)
 # --------------------------------------
@@ -315,12 +319,12 @@ readmode: true
 darkmode:
   enable: false
   # Toggle Button to switch dark/light mode
-  button: true
+  button: false
   # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: 1
+  autoChangeMode: false
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
   start: # 8
   end: # 22
@@ -912,10 +916,16 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"> # 自定义 css样式
+    - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"> # 引入组件库(f12)
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4044604_v6lr7ryus9m.css" media="defer" onload="this.media='all'"> # iconfont图标引入
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'"> # 动画标签anima的依赖
   bottom:
+    - <script async src="/js/share.js"></script> # 自定义
+    - <script async src="/js/custom.js"></script> # 自定义
     - <script async src="//at.alicdn.com/t/c/font_4044604_v6lr7ryus9m.js"></script> # iconfont图标引入
+    - <script async src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script> # 引入VUE(f12)
+    - <script async src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script> # 引入ElementUI(f12)
+    - <script src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script> # 分享直达按钮
 
 # CDN
 # Don't modify the following settings unless you know how they work
