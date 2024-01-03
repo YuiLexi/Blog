@@ -420,3 +420,36 @@ svg.icon {
     fill: currentColor;
     overflow: hidden;
 }
+
+/* 8.文章三栏调整------------------------------------------------------------------------------------------ */
+.pagination .spacer {
+    background-color: white;
+    border-radius: 8px
+}
+
+/* 9.文章页设置------------------------------------------------------------------------------------------- */
+/* 段落缩进 */
+.post-content>p,
+.post-content li>p:not(:first-child) {
+    text-indent: 2em;
+}
+
+.post-content>p strong {
+    color: #570010;
+}
+
+.post-content li strong {
+    color: #3c0073;
+}
+
+.post-content>MathJax MJX-TEX,
+.post-content li>MathJax MJX-TEX {
+    color: #0092d2;
+}
+
+
+/* 图片圆角，并且外边缘发光，有阴影 */
+.post-content img {
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgb(217, 255, 255);
+}
