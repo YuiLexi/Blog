@@ -447,9 +447,16 @@ svg.icon {
     color: #0092d2;
 }
 
-
 /* 图片圆角，并且外边缘发光，有阴影 */
 .post-content img {
-    border-radius: 8px;
-    box-shadow: 0 0 16px rgb(217, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 0 24px rgb(203, 255, 255);
+}
+
+/* 一级标题居中显示 */
+.post-content>h1 {
+    text-align: center;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
 }
