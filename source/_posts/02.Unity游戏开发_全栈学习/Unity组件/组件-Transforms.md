@@ -183,3 +183,25 @@ public void SetParent(Transform parent, bool worldPositionStays);
 - `worldPositionStays`
   - ` true` ：修改相对于父级的位置、缩放和旋转，**以使对象保持与以前相同的世界空间位置、旋转和缩放**。
   - `false` ：设置相对于父级的位置、缩放和旋转，为默认值。（此举可能会改变世界坐标系空间的状态）
+
+# README
+
+## 更新日志
+
+{% folding 更新日志 %}
+
+{% timeline 更新日志,orange %}
+
+<!-- timeline 2023-5-12 -->
+
+1.  添加了 `Find()` 方法的测试
+<!-- endtimeline -->
+
+<!-- timeline 2023-5-11 -->
+
+1.  创建文档，介绍 Transform 组件的使用
+<!-- endtimeline -->
+
+{% endtimeline %}
+
+{% endfolding %}

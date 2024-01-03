@@ -13,8 +13,8 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: http://blog.yuilexi.cn
+permalink: :title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -29,7 +29,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - _post/0.Global/*
+  - [_post/0.Global/*]
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -99,6 +99,9 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+# 新版的搜索插件
+plugins:
+  - hexo-algoliasearch
 
 # 部署
 ## Docs: https://hexo.io/docs/one-command-deployment

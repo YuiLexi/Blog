@@ -959,3 +959,20 @@ public class MainMenuUIPanel : BaseUIPanel
       ```
 
 {% endfolding %}
+
+## 更新日志
+
+{% folding 更新日志 %}
+
+{% timeline 更新日志,orange %}
+
+<!-- timeline 2023-5-8 -->
+
+1.  添加了**事件响应**功能，以及将`BaseUIPanel`类调整为抽象类，因此`UIPanel`上将会挂载`BaseUIPanel`的子类，而不是`BaseUIPanel`。
+2.  更新了 **框架设计** 部分的图示。
+
+<!-- endtimeline -->
+
+{% endtimeline %}
+
+{% endfolding %}
