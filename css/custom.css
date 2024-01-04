@@ -447,6 +447,10 @@ svg.icon {
     color: #0092d2;
 }
 
+.post-content code{
+    color: #3d9025;
+}
+
 /* 图片圆角，并且外边缘发光，有阴影 */
 .post-content img {
     border-radius: 16px;

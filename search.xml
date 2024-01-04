@@ -152,11 +152,11 @@
       
         <tags>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -189,11 +189,11 @@
       
         <tags>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -226,11 +226,11 @@
       
         <tags>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -263,11 +263,11 @@
       
         <tags>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -344,37 +344,6 @@
     
     
     <entry>
-      <title>第三章 多维随机变量及其分布【概率论与数理统计】</title>
-      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
-      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第三章-多维随机变量及其分布【概率论与数理统计】"><a href="#第三章-多维随机变量及其分布【概率论与数理统计】" class="headerlink" title="第三章 多维随机变量及其分布【概率论与数理统计】"></a>第三章 多维随机变量及其分布【概率论与数理统计】</h1><h1 id="一、二维随机变量及其分布"><a href="#一、二维随机变量及其分布" class="headerlink" title="一、二维随机变量及其分布"></a>一、二维随机变量及其分布</h1><h2 id="1-1-二维随机变量"><a href="#1-1-二维随机变量" class="headerlink" title="1.1 二维随机变量"></a>1.1 二维随机变量</h2><p>设 $E$ 是一次试验， $\Omega $ 是样本空间， $X,Y$ 是 $\Omega $ 的两个随机变量，那么分布函数</p><script type="math/tex; mode=display">F(x,y) = P\left \{ X\le x,Y\le y \right \}</script><p>为 $X,Y$ 的<strong>联合分布函数</strong>。</p><p><strong>性质</strong>：</p><ol><li>$F(x,y)$ 是一个不减函数；</li><li>$F(-\infty,y)=0,F(x,-\infty)=0$ ；</li><li>$F(-\infty,-\infty)=0,F(\infty,\infty)=1$ ；</li><li>$F(x,y)$ 分别关于 $x$ 和 $y$ 右连续；</li><li>$P\left \{ x_{1}&lt; X\le x_{2},y_{1}&lt; Y\le y_{2} \right \}=F(x_{2},y_{2}) -F(x_{2},y_{1})-F(x_{1},y_{2})+F(x_{1},y_{1})$ 。</li></ol><h2 id="1-2-边缘分布"><a href="#1-2-边缘分布" class="headerlink" title="1.2 边缘分布"></a>1.2 边缘分布</h2><p><strong>定义</strong>： $X,Y$ 的<strong>联合分布函数</strong>的分布函数为 $F(x,y)$ ，那么关于 $X$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{X}(x) & = P\left \{ X\le x \right \}  = F(x,+\infty )\\&=\int_{-\infty }^{x} \int_{-\infty }^{+\infty}f(t,y)\mathrm{d}y\mathrm{d}t\end{align}</script><p> 关于 $Y$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{Y}(y) & = P\left \{ Y\le y \right \}  = F(+\infty,y )\\&=\int_{-\infty }^{y} \int_{-\infty }^{+\infty}f(x,t)\mathrm{d}x\mathrm{d}t\end{align}</script><h1 id="二、二维离散型的联合概率分布及边缘分布"><a href="#二、二维离散型的联合概率分布及边缘分布" class="headerlink" title="二、二维离散型的联合概率分布及边缘分布"></a>二、二维离散型的联合概率分布及边缘分布</h1><h2 id="2-1-联合分布表"><a href="#2-1-联合分布表" class="headerlink" title="2.1 联合分布表"></a>2.1 联合分布表</h2><p>形如：</p><div class="table-container"><table><thead><tr><th style="text-align:center">X\Y</th><th style="text-align:center">1</th><th style="text-align:center">2</th><th style="text-align:center">3</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">$0$</td><td style="text-align:center">$\displaystyle \frac{1}{2} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr></tbody></table></div><p><strong>性质 </strong>：</p><ol><li>$p_{ij}\ge 0$ ；</li><li>$\sum_{i,j}p_{ij}=1$ ；</li><li>$\displaystyle F(x,y) = P\left \{ X\le x,Y\le y \right \} $ ；</li></ol><h2 id="2-2-边缘分布"><a href="#2-2-边缘分布" class="headerlink" title="2.2 边缘分布"></a>2.2 边缘分布</h2><ul><li>$X$ 的边缘分布，就是将每一行求和，并且将符合要求的行相加；</li><li>$Y$ 的边缘分布，就是将每一列求和，并且将符合要求的列相加；</li></ul><h1 id="三、二位连续性的联合概率密度和边缘分布函数"><a href="#三、二位连续性的联合概率密度和边缘分布函数" class="headerlink" title="三、二位连续性的联合概率密度和边缘分布函数"></a>三、二位连续性的联合概率密度和边缘分布函数</h1><p><strong>定义</strong>：分布函数</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x,y) & = P\left \{ X\le x,Y\le y \right \} \\&=\int_{-\infty }^{x}\int_{-\infty }^{y} f(s,t)\mathrm{d}s\mathrm{d}t \end{align}</script><p>并且称 $f(x,y)$ 为联合概率密度。</p><p><strong>性质</strong>：</p><ol><li>$f(x,y)\ge 0$ ；</li><li>$\displaystyle \int_{-\infty }^{+\infty}\int_{-\infty }^{+\infty} f(x,y)\mathrm{d}x\mathrm{d}y$ ；</li><li>$\displaystyle \frac{\partial^{2}  F(x,y)}{\partial x\partial y} =f(x,y)$ ；</li></ol><p><strong>边缘分布</strong>：</p><ol><li>$\displaystyle F_{X} (x)=F(x,+\infty )=\int_{- \infty }^{x} \int_{-\infty }^{+\infty } f(t,y)\mathrm{d}t\mathrm{d}y$ ；</li><li>$\displaystyle F_{Y} (x)=F(+\infty,y)=\int_{- \infty }^{y} \int_{-\infty }^{+\infty } f(x,t)\mathrm{d}x\mathrm{d}t$ ；</li></ol><p><strong>边缘概率密度</strong>：</p><ol><li>$\displaystyle f_{X}(x) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}y $ ；</li><li>$\displaystyle f_{Y}(y) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}x $ 。</li></ol><blockquote><ol><li>二维正态分布的边缘分布也是正态分布；</li><li>两个边缘分布是正态分布，二维并非正态分布。</li></ol></blockquote><h1 id="四、条件分布"><a href="#四、条件分布" class="headerlink" title="四、条件分布"></a>四、条件分布</h1><p><strong>定义</strong>：在事件 $A$ 发生的条件下，即</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x|A) & = P\left \{ X\le x|A \right \} \\&=\frac{P\left \{  X\le x|A \right \} }{P\left \{ A \right \} } \end{align}</script><h3 id="3-4-1-离散型"><a href="#3-4-1-离散型" class="headerlink" title="3.4.1 离散型"></a>3.4.1 离散型</h3><p>方法：</p><ol><li>列出联合概率分布表；</li><li>计算出对应的边缘概率分布表</li><li>然后根据公式进行计算</li></ol><h3 id="3-4-2-连续性"><a href="#3-4-2-连续性" class="headerlink" title="3.4.2 连续性"></a>3.4.2 连续性</h3><p><strong>定义</strong>：已知概率密度函数为 $f(x,y)$ ，且边缘分布函数为：$f_{X}(x),f_{Y}(y)$ ，如果 $f_{Y}(y)&gt;0$ ，那么在 $Y=y$ 的条件下</p><script type="math/tex; mode=display">F(x|y)=\int_{-\infty }^{x} \frac{f(t,y)}{f_{Y}(y)}\mathrm{d}t</script><h1 id="五、随机变量的独立性"><a href="#五、随机变量的独立性" class="headerlink" title="五、随机变量的独立性"></a>五、随机变量的独立性</h1><p><strong>定义</strong>：如果满足</p><script type="math/tex; mode=display">f(x,y) = f_{X}(x)f_{Y}(y)</script><p>那么称二维随机变量 $X,Y$ 是<strong>相互独立</strong>的。</p><h3 id="3-5-1-二维离散型"><a href="#3-5-1-二维离散型" class="headerlink" title="3.5.1 二维离散型"></a>3.5.1 二维离散型</h3><p><strong>定理</strong>：如果随机变量是独立的，那么由随机变量构造的函数之间也是独立的。</p><h3 id="3-5-2-二维连续型"><a href="#3-5-2-二维连续型" class="headerlink" title="3.5.2 二维连续型"></a>3.5.2 二维连续型</h3><h1 id="六、二维随机变量函数的分布"><a href="#六、二维随机变量函数的分布" class="headerlink" title="六、二维随机变量函数的分布"></a>六、二维随机变量函数的分布</h1><h3 id="3-6-1-二维离散型"><a href="#3-6-1-二维离散型" class="headerlink" title="3.6.1 二维离散型"></a>3.6.1 二维离散型</h3>]]></content>
-      
-      
-      <categories>
-          
-          <category> 大学学习 </category>
-          
-          <category> 概率论与数理统计 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 大学学习 </tag>
-            
-            <tag> 数学 </tag>
-            
-            <tag> 概率论与数理统计 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>第二章 随机变量及其分布【概率论与数理统计】</title>
       <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/2_%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
       <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/2_%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
@@ -406,11 +375,11 @@
     
     
     <entry>
-      <title>第五章 大数定律及中心极限定理【概率论与数理统计】</title>
-      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/5_%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%E5%8F%8A%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86.html"/>
-      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/5_%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%E5%8F%8A%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86.html</url>
+      <title>第三章 多维随机变量及其分布【概率论与数理统计】</title>
+      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
+      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
       
-        <content type="html"><![CDATA[<h1 id="第五章-大数定律及中心极限定理【概率论与数理统计】"><a href="#第五章-大数定律及中心极限定理【概率论与数理统计】" class="headerlink" title="第五章 大数定律及中心极限定理【概率论与数理统计】"></a>第五章 大数定律及中心极限定理【概率论与数理统计】</h1><h1 id="一、大数定律"><a href="#一、大数定律" class="headerlink" title="一、大数定律"></a>一、大数定律</h1><p>当量重复试验的平均结果的稳定性</p><h2 id="1-1-切比雪夫不等式"><a href="#1-1-切比雪夫不等式" class="headerlink" title="1.1 切比雪夫不等式"></a>1.1 切比雪夫不等式</h2><p><strong>定理</strong>：假设 $EX$ 和 $X$ 都存在，$\displaystyle \forall \varepsilon &gt;0$ ，那么</p><script type="math/tex; mode=display">\displaystyle P(\left | X-EX \right |\ge \varepsilon  )\le \frac{DX}{\varepsilon ^{2} }</script><h2 id="1-2-切比雪夫大数定律"><a href="#1-2-切比雪夫大数定律" class="headerlink" title="1.2 切比雪夫大数定律"></a>1.2 切比雪夫大数定律</h2><p><strong>定义（收敛）</strong>： $\displaystyle a_{n}\to a$ ，那么 $\displaystyle \forall \varepsilon &gt; 0,\exists N&gt;0$ ，当 $n&gt;N$ 时， $\displaystyle \left | a_{n}-a  \right | &lt; \varepsilon $ 。</p><p><strong>定义（依概率收敛）</strong>： $\displaystyle \forall \varepsilon &gt; 0,\exists N&gt;0$ ，使得 $n&gt;N$ 时， $\displaystyle \lim_{n \to \infty} P(\left | X_{n}-a  \right | &lt; \varepsilon )=1$ 。</p><p><strong>定理（伯努利大数定律）</strong>：一个 $n$ 重伯努律事件， $A$ 发生了 $\displaystyle m_{n} $ 次， $p $ 为发生的概率， $\displaystyle \frac{m_{n} }{n} $ 为频率，那么</p><script type="math/tex; mode=display">\begin{align}\displaystyle \lim_{n \to \infty} P(\left |\frac{m_{n} }{n} -p  \right | < \varepsilon ) & = 1\\\displaystyle \lim_{n \to \infty} P(\left |\frac{m_{n} }{n} -p  \right | \ge \varepsilon ) & = 0\end{align}</script><p><strong>定理（切比雪夫大数定律）</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是不相关的随机变量，并且 $\displaystyle EX_{i} , DX_{i}$ 都存在，并且方差是有界的，即 $\displaystyle DX_{i}\le M$ ，那么 $\displaystyle \forall \varepsilon &gt; 0$ ，有</p><script type="math/tex; mode=display">\displaystyle\lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\frac{1}{n} \sum_{i=1}^{n}X_{i} \right | < \varepsilon \right \} =1</script><p>如何理解呢？其实就是，当 $n \to \infty$ 时，我们<strong>求得的均值</strong>，无限接近<strong>期望的均值</strong>。</p><p><strong>推论</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu ,DX_{i} =\sigma ^{2} $ ，那么 $\displaystyle\forall \varepsilon &gt;0$ ，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\mu   \right |< \varepsilon   \right \} =1</script><p><strong>定理（辛钦）</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu$ ，方差无要求，那么 $\displaystyle\forall \varepsilon &gt;0$ ，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\mu   \right |< \varepsilon   \right \} =1</script><h1 id="二、中心极限定理"><a href="#二、中心极限定理" class="headerlink" title="二、中心极限定理"></a>二、中心极限定理</h1><p>现象有大量的相互独立的因素影响，<strong>大量独立同分布</strong>的随机变量和<strong>中心极限分布</strong>是<strong>正态分布</strong>。</p><p><strong>定理</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu ,DX_{i} =\sigma ^{2} $ ，如果 $\displaystyle 0&lt; \sigma ^{2} &lt; +\infty $ ，那么</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P \left ( \frac{\displaystyle \sum_{i=1}^{n} -n\mu }{\sqrt{n} \sigma } \le x \right ) =\Phi _{0} (x)</script><p><strong>定理（棣莫佛 － 拉普拉斯）</strong>：随机变量 $Y_{n}$ 是服从 $n,p$ 的二项分布，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P \left ( \frac{Y_{n}-np}{\sqrt{np(1-p)} }\le x  \right ) =\Phi _{0} (x)</script>]]></content>
+        <content type="html"><![CDATA[<h1 id="第三章-多维随机变量及其分布【概率论与数理统计】"><a href="#第三章-多维随机变量及其分布【概率论与数理统计】" class="headerlink" title="第三章 多维随机变量及其分布【概率论与数理统计】"></a>第三章 多维随机变量及其分布【概率论与数理统计】</h1><h1 id="一、二维随机变量及其分布"><a href="#一、二维随机变量及其分布" class="headerlink" title="一、二维随机变量及其分布"></a>一、二维随机变量及其分布</h1><h2 id="1-1-二维随机变量"><a href="#1-1-二维随机变量" class="headerlink" title="1.1 二维随机变量"></a>1.1 二维随机变量</h2><p>设 $E$ 是一次试验， $\Omega $ 是样本空间， $X,Y$ 是 $\Omega $ 的两个随机变量，那么分布函数</p><script type="math/tex; mode=display">F(x,y) = P\left \{ X\le x,Y\le y \right \}</script><p>为 $X,Y$ 的<strong>联合分布函数</strong>。</p><p><strong>性质</strong>：</p><ol><li>$F(x,y)$ 是一个不减函数；</li><li>$F(-\infty,y)=0,F(x,-\infty)=0$ ；</li><li>$F(-\infty,-\infty)=0,F(\infty,\infty)=1$ ；</li><li>$F(x,y)$ 分别关于 $x$ 和 $y$ 右连续；</li><li>$P\left \{ x_{1}&lt; X\le x_{2},y_{1}&lt; Y\le y_{2} \right \}=F(x_{2},y_{2}) -F(x_{2},y_{1})-F(x_{1},y_{2})+F(x_{1},y_{1})$ 。</li></ol><h2 id="1-2-边缘分布"><a href="#1-2-边缘分布" class="headerlink" title="1.2 边缘分布"></a>1.2 边缘分布</h2><p><strong>定义</strong>： $X,Y$ 的<strong>联合分布函数</strong>的分布函数为 $F(x,y)$ ，那么关于 $X$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{X}(x) & = P\left \{ X\le x \right \}  = F(x,+\infty )\\&=\int_{-\infty }^{x} \int_{-\infty }^{+\infty}f(t,y)\mathrm{d}y\mathrm{d}t\end{align}</script><p> 关于 $Y$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{Y}(y) & = P\left \{ Y\le y \right \}  = F(+\infty,y )\\&=\int_{-\infty }^{y} \int_{-\infty }^{+\infty}f(x,t)\mathrm{d}x\mathrm{d}t\end{align}</script><h1 id="二、二维离散型的联合概率分布及边缘分布"><a href="#二、二维离散型的联合概率分布及边缘分布" class="headerlink" title="二、二维离散型的联合概率分布及边缘分布"></a>二、二维离散型的联合概率分布及边缘分布</h1><h2 id="2-1-联合分布表"><a href="#2-1-联合分布表" class="headerlink" title="2.1 联合分布表"></a>2.1 联合分布表</h2><p>形如：</p><div class="table-container"><table><thead><tr><th style="text-align:center">X\Y</th><th style="text-align:center">1</th><th style="text-align:center">2</th><th style="text-align:center">3</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">$0$</td><td style="text-align:center">$\displaystyle \frac{1}{2} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr></tbody></table></div><p><strong>性质 </strong>：</p><ol><li>$p_{ij}\ge 0$ ；</li><li>$\sum_{i,j}p_{ij}=1$ ；</li><li>$\displaystyle F(x,y) = P\left \{ X\le x,Y\le y \right \} $ ；</li></ol><h2 id="2-2-边缘分布"><a href="#2-2-边缘分布" class="headerlink" title="2.2 边缘分布"></a>2.2 边缘分布</h2><ul><li>$X$ 的边缘分布，就是将每一行求和，并且将符合要求的行相加；</li><li>$Y$ 的边缘分布，就是将每一列求和，并且将符合要求的列相加；</li></ul><h1 id="三、二位连续性的联合概率密度和边缘分布函数"><a href="#三、二位连续性的联合概率密度和边缘分布函数" class="headerlink" title="三、二位连续性的联合概率密度和边缘分布函数"></a>三、二位连续性的联合概率密度和边缘分布函数</h1><p><strong>定义</strong>：分布函数</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x,y) & = P\left \{ X\le x,Y\le y \right \} \\&=\int_{-\infty }^{x}\int_{-\infty }^{y} f(s,t)\mathrm{d}s\mathrm{d}t \end{align}</script><p>并且称 $f(x,y)$ 为联合概率密度。</p><p><strong>性质</strong>：</p><ol><li>$f(x,y)\ge 0$ ；</li><li>$\displaystyle \int_{-\infty }^{+\infty}\int_{-\infty }^{+\infty} f(x,y)\mathrm{d}x\mathrm{d}y$ ；</li><li>$\displaystyle \frac{\partial^{2}  F(x,y)}{\partial x\partial y} =f(x,y)$ ；</li></ol><p><strong>边缘分布</strong>：</p><ol><li>$\displaystyle F_{X} (x)=F(x,+\infty )=\int_{- \infty }^{x} \int_{-\infty }^{+\infty } f(t,y)\mathrm{d}t\mathrm{d}y$ ；</li><li>$\displaystyle F_{Y} (x)=F(+\infty,y)=\int_{- \infty }^{y} \int_{-\infty }^{+\infty } f(x,t)\mathrm{d}x\mathrm{d}t$ ；</li></ol><p><strong>边缘概率密度</strong>：</p><ol><li>$\displaystyle f_{X}(x) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}y $ ；</li><li>$\displaystyle f_{Y}(y) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}x $ 。</li></ol><blockquote><ol><li>二维正态分布的边缘分布也是正态分布；</li><li>两个边缘分布是正态分布，二维并非正态分布。</li></ol></blockquote><h1 id="四、条件分布"><a href="#四、条件分布" class="headerlink" title="四、条件分布"></a>四、条件分布</h1><p><strong>定义</strong>：在事件 $A$ 发生的条件下，即</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x|A) & = P\left \{ X\le x|A \right \} \\&=\frac{P\left \{  X\le x|A \right \} }{P\left \{ A \right \} } \end{align}</script><h3 id="3-4-1-离散型"><a href="#3-4-1-离散型" class="headerlink" title="3.4.1 离散型"></a>3.4.1 离散型</h3><p>方法：</p><ol><li>列出联合概率分布表；</li><li>计算出对应的边缘概率分布表</li><li>然后根据公式进行计算</li></ol><h3 id="3-4-2-连续性"><a href="#3-4-2-连续性" class="headerlink" title="3.4.2 连续性"></a>3.4.2 连续性</h3><p><strong>定义</strong>：已知概率密度函数为 $f(x,y)$ ，且边缘分布函数为：$f_{X}(x),f_{Y}(y)$ ，如果 $f_{Y}(y)&gt;0$ ，那么在 $Y=y$ 的条件下</p><script type="math/tex; mode=display">F(x|y)=\int_{-\infty }^{x} \frac{f(t,y)}{f_{Y}(y)}\mathrm{d}t</script><h1 id="五、随机变量的独立性"><a href="#五、随机变量的独立性" class="headerlink" title="五、随机变量的独立性"></a>五、随机变量的独立性</h1><p><strong>定义</strong>：如果满足</p><script type="math/tex; mode=display">f(x,y) = f_{X}(x)f_{Y}(y)</script><p>那么称二维随机变量 $X,Y$ 是<strong>相互独立</strong>的。</p><h3 id="3-5-1-二维离散型"><a href="#3-5-1-二维离散型" class="headerlink" title="3.5.1 二维离散型"></a>3.5.1 二维离散型</h3><p><strong>定理</strong>：如果随机变量是独立的，那么由随机变量构造的函数之间也是独立的。</p><h3 id="3-5-2-二维连续型"><a href="#3-5-2-二维连续型" class="headerlink" title="3.5.2 二维连续型"></a>3.5.2 二维连续型</h3><h1 id="六、二维随机变量函数的分布"><a href="#六、二维随机变量函数的分布" class="headerlink" title="六、二维随机变量函数的分布"></a>六、二维随机变量函数的分布</h1><h3 id="3-6-1-二维离散型"><a href="#3-6-1-二维离散型" class="headerlink" title="3.6.1 二维离散型"></a>3.6.1 二维离散型</h3>]]></content>
       
       
       <categories>
@@ -442,6 +411,37 @@
       <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/4_%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%9A%84%E6%95%B0%E5%AD%97%E7%89%B9%E5%BE%81.html</url>
       
         <content type="html"><![CDATA[<h1 id="第四章-随机变量的数字特征【概率论与数理统计】"><a href="#第四章-随机变量的数字特征【概率论与数理统计】" class="headerlink" title="第四章 随机变量的数字特征【概率论与数理统计】"></a>第四章 随机变量的数字特征【概率论与数理统计】</h1><h1 id="一、数学期望"><a href="#一、数学期望" class="headerlink" title="一、数学期望"></a>一、数学期望</h1><h2 id="1-1-离散型的期望"><a href="#1-1-离散型的期望" class="headerlink" title="1.1 离散型的期望"></a>1.1 离散型的期望</h2><p><strong>定义</strong>：离散型随机变量的概率分布为：$P(X=x_{k} )=p_{k} $ ，如果级数 $\sum x_{k} p_{k} $ 绝对收敛，那么期望为：</p><script type="math/tex; mode=display">EX = \displaystyle  \sum_{k=1}^{\infty } x_{k} p_{k}</script><h2 id="1-2-连续性的期望"><a href="#1-2-连续性的期望" class="headerlink" title="1.2 连续性的期望"></a>1.2 连续性的期望</h2><p><strong>定义</strong>：连续型随机变量 $X$ ，对应的概率密度为 $f(x)$ ，如果 $\int_{-\infty }^{+\infty } xf(x)\mathrm{d}x$ 绝对收敛，那么期望为：</p><script type="math/tex; mode=display">EX=\int_{-\infty }^{+\infty } xf(x)\mathrm{d}x</script><blockquote><p>期望不一定存在。</p></blockquote><h2 id="1-3-随机变量函数的期望"><a href="#1-3-随机变量函数的期望" class="headerlink" title="1.3 随机变量函数的期望"></a>1.3 随机变量函数的期望</h2><p><strong>离散型</strong>：</p><script type="math/tex; mode=display">EY=\sum g(x_{i} )p_{i}</script><p>连续性随机变量 $Y=g(X)$ ，$X$ 的概率密度为 $f(x)$ ，那么</p><script type="math/tex; mode=display">EY=\int g(x)f(x)\mathrm{d}x</script><p>二维随机变量函数 $Z=(X,Y)$ 的期望：</p><ol><li>离散： $\displaystyle EZ =\sum_{i}\sum_{j}g(x_{i},y_{j})p_{ij}$ ；</li><li>连续性： $\displaystyle EZ =\int_{-\infty }^{+\infty }\int_{-\infty }^{+\infty }g(x_{i},y_{j})p_{ij}$ 。</li></ol><h2 id="1-4-数学期望的性质"><a href="#1-4-数学期望的性质" class="headerlink" title="1.4 数学期望的性质"></a>1.4 数学期望的性质</h2><ol><li>$EC=C$ ，即常数的期望等于常数；</li><li>$\displaystyle E(X+C)=EX+EC=EX+C$ ；</li><li>$\displaystyle E(CX)=C\cdot EX$ ；</li><li>$\displaystyle E(aX+b) = kEX+b$ ；</li><li>$\displaystyle E(X\pm Y) = EX\pm EY$ （任何时候都成立）；</li><li>如果 $X,Y$ 独立，那么 $\displaystyle E(XY) = EX\cdot EY$ ；</li></ol><h2 id="1-5-条件期望"><a href="#1-5-条件期望" class="headerlink" title="1.5 条件期望"></a>1.5 条件期望</h2><p>一个变量取了某个值的的前提下，另一个变量的期望。</p><p><strong>离散型</strong>：</p><script type="math/tex; mode=display">\displaystyle E(X|Y=y_{0} ) = \sum x_{i} p(X=x_{i}|Y=y_{0})</script><h1 id="二、方差"><a href="#二、方差" class="headerlink" title="二、方差"></a>二、方差</h1><h2 id="2-1-方差的定义"><a href="#2-1-方差的定义" class="headerlink" title="2.1 方差的定义"></a>2.1 方差的定义</h2><blockquote><p>期望是衡量数据的平均值；而期望是反映数据的集中程度。</p></blockquote><p><strong>定义（方差）</strong>： $\displaystyle DX=E(X-EX)^{2} $ ，这里注意数据的量纲</p><p><strong>标准差</strong>： $\displaystyle \sqrt{DX} $ 。</p><p><strong>离散型的方差</strong>：</p><script type="math/tex; mode=display">\displaystyle DX = \sum _{k}(x_{k}-EX)^{2}p_{k}</script><p><strong>连续型的方差</strong>：</p><script type="math/tex; mode=display">\displaystyle DX = \int_{-\infty }^{+\infty } (x_{k}-EX)^{2}f(x)\mathrm{d}x</script><p><strong>方差的计算</strong>： $\displaystyle DX = EX^{2} -(EX)^{2} $ 。</p><h2 id="2-2-方差的性质"><a href="#2-2-方差的性质" class="headerlink" title="2.2 方差的性质"></a>2.2 方差的性质</h2><ol><li>$DC=0$ ；</li><li>$\displaystyle D(X+C)=0$ ；</li><li>$\displaystyle D(CX)=C^{2} \cdot DX$ ；</li><li>$\displaystyle D(kX+b) = k^{2} DX$ ；</li><li>如果 $\displaystyle X,Y$ 独立，那么 $\displaystyle D(X\pm Y)=DX+DY$ ；</li></ol><h1 id="三、常见随机变量的期望与方差"><a href="#三、常见随机变量的期望与方差" class="headerlink" title="三、常见随机变量的期望与方差"></a>三、常见随机变量的期望与方差</h1><h2 id="3-1-离散型"><a href="#3-1-离散型" class="headerlink" title="3.1 离散型"></a>3.1 离散型</h2><div class="table-container"><table><thead><tr><th style="text-align:center">序号</th><th style="text-align:center">类型</th><th style="text-align:center">期望</th><th style="text-align:center">方差</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">0-1分布</td><td style="text-align:center">$EX=p$</td><td style="text-align:center">$DX=p(1-p)$</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">二项分布：$X\sim B(n,p)$</td><td style="text-align:center">$\displaystyle EX=np$</td><td style="text-align:center">$\displaystyle DX=np(1-p)$</td></tr><tr><td style="text-align:center">3</td><td style="text-align:center">几何分布 $X\sim G(p)$</td><td style="text-align:center">$\displaystyle EX = \frac{1}{p} $</td><td style="text-align:center">$\displaystyle DX=\frac{1-p}{p^{2} } $</td></tr><tr><td style="text-align:center">4</td><td style="text-align:center">泊松分布 $X\sim P(\lambda )$</td><td style="text-align:center">$\displaystyle EX=\lambda $</td><td style="text-align:center">$\displaystyle DX=\lambda $</td></tr></tbody></table></div><h2 id="3-2-连续型"><a href="#3-2-连续型" class="headerlink" title="3.2 连续型"></a>3.2 连续型</h2><div class="table-container"><table><thead><tr><th style="text-align:center">序号</th><th style="text-align:center">类型</th><th style="text-align:center">期望</th><th style="text-align:center">方差</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">均匀分布</td><td style="text-align:center">$\displaystyle EX=\frac{a+b}{2} $</td><td style="text-align:center">$\displaystyle EX=\frac{(b-a)^{2} }{12} $</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">指数分布</td><td style="text-align:center">$\displaystyle EX=\frac{1}{\lambda } $</td><td style="text-align:center">$\displaystyle DX = \frac{1}{\lambda^{2}  } $</td></tr><tr><td style="text-align:center">3</td><td style="text-align:center">正态分布</td><td style="text-align:center">$\displaystyle EX=\mu $</td><td style="text-align:center">$\displaystyle DX = \sigma ^{2} $</td></tr></tbody></table></div><h1 id="四、协方差"><a href="#四、协方差" class="headerlink" title="四、协方差"></a>四、协方差</h1><h2 id="4-1-协方差的定义"><a href="#4-1-协方差的定义" class="headerlink" title="4.1 协方差的定义"></a>4.1 协方差的定义</h2><p><strong>定义</strong>：随机变量 $X,Y$ 的协方差为</p><script type="math/tex; mode=display">\begin{align}\displaystyle \mathrm{Cov}(X,Y) & = E\left [ \left ( X-EY \right ) \left ( Y-EX \right )  \right ] \\&=E(XY)-EX\cdot EY\end{align}</script><p>并且有：</p><script type="math/tex; mode=display">\displaystyle D(X\pm Y)=DX+DY\pm \mathrm{Cov}(X,Y)</script><h2 id="4-2-协方差的性质"><a href="#4-2-协方差的性质" class="headerlink" title="4.2 协方差的性质"></a>4.2 协方差的性质</h2><ol><li>$\displaystyle \mathrm{Cov}(X,Y)=\mathrm{Cov}(Y,X)$ ；</li><li>$\displaystyle \mathrm{Cov}(aX,bY)=ab\cdot \mathrm{Cov}(Y,X)$ ；</li><li>$\displaystyle \mathrm{Cov}(X_{1}+X_{2},Y)=\mathrm{Cov}(X_{1},Y)+\mathrm{Cov}(X_{2},Y)$ ；</li><li>$\displaystyle \mathrm{Cov}(C,Y)=0$ ；</li><li>如果 $X,Y$ 独立，那么 $\displaystyle \mathrm{Cov}(X,Y)=0$ 。</li></ol><p>协方差的大小，跟计量单位有关系，因此，为了反应不同单位下的随机变量的关系，就需要对随机变量进行<strong>标准化</strong>：</p><script type="math/tex; mode=display">\displaystyle X^{\star } =\frac{X-EX}{\sqrt{DX} } ,Y^{\star } =\frac{Y-EY}{\sqrt{DY} }</script><p>所以，标准化后的协方差为：</p><script type="math/tex; mode=display">\displaystyle \mathrm{Cov}(X^{\star },Y^{\star }) =  \frac{\mathrm{Cov}(X,Y)}{\sqrt{DX\cdot DY} } =\rho</script><p>并且引入相关系数 $\rho $ 。</p><h1 id="五、相关系数"><a href="#五、相关系数" class="headerlink" title="五、相关系数"></a>五、相关系数</h1><p><strong>定义</strong>：相关系数为：</p><script type="math/tex; mode=display">\displaystyle \rho =  \frac{\mathrm{Cov}(X,Y)}{\sqrt{DX\cdot DY} }=\frac{E(XY)-EX\cdot EY}{\sqrt{DX\cdot DY} }</script><p><strong>性质</strong>：</p><ol><li>$\displaystyle \left | \rho  \right | \le 1$ ；</li></ol><p><strong>定理</strong>：$\displaystyle \left | \rho  \right | =1$  $\displaystyle \Longleftrightarrow $  $X,Y$ 成线性相关</p><ol><li>如果 $\displaystyle \rho =1$ ，那么 $X,Y$ 完全正相关；</li><li>如果 $\displaystyle \rho =-1$ ，那么 $X,Y$ 完全负相关；</li><li>$\displaystyle \left | \rho \right |$ 接近 0 ，那么 $X,Y$ 线性关系很弱；</li><li>如果 $\displaystyle \rho =0$ ，那么 $X,Y$ 不存在线性关系。</li></ol><blockquote><p>独立指的是没有任何关系，包括线性关系和非线性关系</p></blockquote><h1 id="六、中心距与原点矩"><a href="#六、中心距与原点矩" class="headerlink" title="六、中心距与原点矩"></a>六、中心距与原点矩</h1><p><strong>原点矩</strong>： $\displaystyle EX^{k} $ 为期望 $EX$ 的 $k$ 阶原点矩；</p><p><strong>中心距</strong>： $\displaystyle E(X-EX)^{k} $ ；</p><blockquote><p>一阶中心矩为 0 ；二阶中心矩为方差。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 大学学习 </category>
+          
+          <category> 概率论与数理统计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 大学学习 </tag>
+            
+            <tag> 数学 </tag>
+            
+            <tag> 概率论与数理统计 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第五章 大数定律及中心极限定理【概率论与数理统计】</title>
+      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/5_%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%E5%8F%8A%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86.html"/>
+      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/5_%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%E5%8F%8A%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第五章-大数定律及中心极限定理【概率论与数理统计】"><a href="#第五章-大数定律及中心极限定理【概率论与数理统计】" class="headerlink" title="第五章 大数定律及中心极限定理【概率论与数理统计】"></a>第五章 大数定律及中心极限定理【概率论与数理统计】</h1><h1 id="一、大数定律"><a href="#一、大数定律" class="headerlink" title="一、大数定律"></a>一、大数定律</h1><p>当量重复试验的平均结果的稳定性</p><h2 id="1-1-切比雪夫不等式"><a href="#1-1-切比雪夫不等式" class="headerlink" title="1.1 切比雪夫不等式"></a>1.1 切比雪夫不等式</h2><p><strong>定理</strong>：假设 $EX$ 和 $X$ 都存在，$\displaystyle \forall \varepsilon &gt;0$ ，那么</p><script type="math/tex; mode=display">\displaystyle P(\left | X-EX \right |\ge \varepsilon  )\le \frac{DX}{\varepsilon ^{2} }</script><h2 id="1-2-切比雪夫大数定律"><a href="#1-2-切比雪夫大数定律" class="headerlink" title="1.2 切比雪夫大数定律"></a>1.2 切比雪夫大数定律</h2><p><strong>定义（收敛）</strong>： $\displaystyle a_{n}\to a$ ，那么 $\displaystyle \forall \varepsilon &gt; 0,\exists N&gt;0$ ，当 $n&gt;N$ 时， $\displaystyle \left | a_{n}-a  \right | &lt; \varepsilon $ 。</p><p><strong>定义（依概率收敛）</strong>： $\displaystyle \forall \varepsilon &gt; 0,\exists N&gt;0$ ，使得 $n&gt;N$ 时， $\displaystyle \lim_{n \to \infty} P(\left | X_{n}-a  \right | &lt; \varepsilon )=1$ 。</p><p><strong>定理（伯努利大数定律）</strong>：一个 $n$ 重伯努律事件， $A$ 发生了 $\displaystyle m_{n} $ 次， $p $ 为发生的概率， $\displaystyle \frac{m_{n} }{n} $ 为频率，那么</p><script type="math/tex; mode=display">\begin{align}\displaystyle \lim_{n \to \infty} P(\left |\frac{m_{n} }{n} -p  \right | < \varepsilon ) & = 1\\\displaystyle \lim_{n \to \infty} P(\left |\frac{m_{n} }{n} -p  \right | \ge \varepsilon ) & = 0\end{align}</script><p><strong>定理（切比雪夫大数定律）</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是不相关的随机变量，并且 $\displaystyle EX_{i} , DX_{i}$ 都存在，并且方差是有界的，即 $\displaystyle DX_{i}\le M$ ，那么 $\displaystyle \forall \varepsilon &gt; 0$ ，有</p><script type="math/tex; mode=display">\displaystyle\lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\frac{1}{n} \sum_{i=1}^{n}X_{i} \right | < \varepsilon \right \} =1</script><p>如何理解呢？其实就是，当 $n \to \infty$ 时，我们<strong>求得的均值</strong>，无限接近<strong>期望的均值</strong>。</p><p><strong>推论</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu ,DX_{i} =\sigma ^{2} $ ，那么 $\displaystyle\forall \varepsilon &gt;0$ ，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\mu   \right |< \varepsilon   \right \} =1</script><p><strong>定理（辛钦）</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu$ ，方差无要求，那么 $\displaystyle\forall \varepsilon &gt;0$ ，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\mu   \right |< \varepsilon   \right \} =1</script><h1 id="二、中心极限定理"><a href="#二、中心极限定理" class="headerlink" title="二、中心极限定理"></a>二、中心极限定理</h1><p>现象有大量的相互独立的因素影响，<strong>大量独立同分布</strong>的随机变量和<strong>中心极限分布</strong>是<strong>正态分布</strong>。</p><p><strong>定理</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu ,DX_{i} =\sigma ^{2} $ ，如果 $\displaystyle 0&lt; \sigma ^{2} &lt; +\infty $ ，那么</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P \left ( \frac{\displaystyle \sum_{i=1}^{n} -n\mu }{\sqrt{n} \sigma } \le x \right ) =\Phi _{0} (x)</script><p><strong>定理（棣莫佛 － 拉普拉斯）</strong>：随机变量 $Y_{n}$ 是服从 $n,p$ 的二项分布，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P \left ( \frac{Y_{n}-np}{\sqrt{np(1-p)} }\le x  \right ) =\Phi _{0} (x)</script>]]></content>
       
       
       <categories>
@@ -614,11 +614,11 @@
     
     
     <entry>
-      <title>第三章 向量(Vector)【线性代数】</title>
-      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/02.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/3_%E5%90%91%E9%87%8F(Vector).html"/>
-      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/02.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/3_%E5%90%91%E9%87%8F(Vector).html</url>
+      <title>第四章 线性方程组【线性代数】</title>
+      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/02.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/4_%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.html"/>
+      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/02.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/4_%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.html</url>
       
-        <content type="html"><![CDATA[<h1 id="三、向量-Vector-【线性代数】"><a href="#三、向量-Vector-【线性代数】" class="headerlink" title="三、向量(Vector)【线性代数】"></a>三、向量(Vector)【线性代数】</h1><h1 id="一、向量的定义"><a href="#一、向量的定义" class="headerlink" title="一、向量的定义"></a>一、向量的定义</h1><p><a name="star" alt="none"> </a><a name="第三章向量" alt="none"> </a><strong>定义</strong>： $n$ 个数 $a_{1},a_{2},\dots ,a_{n}$ 组成的有序数组，称为<strong>向量</strong>。其中， $a_{i}$ 称为分量。 $n$ 称为向量的<strong>维数</strong>。</p><p><strong>行向量</strong>：形如 $\begin{bmatrix} a_{1} &amp; a_{2} &amp; \dots  &amp;a_{n}\end{bmatrix}$ 的向量，称为<strong>行向量</strong>。</p><p><strong>列向量</strong>：形如 $\displaystyle \begin{bmatrix} a_{1} \\ a_{2} \\ \dots  \\ a_{n}\end{bmatrix}$ 的向量，称为<strong>列向量</strong>。</p><blockquote><p>在没有特殊说明的情况下，提到向量一律按照列向量的对待</p></blockquote><p><strong>零向量</strong>：向量的各分量都为 0 ，记作 $\mathbf{0} $ 。</p><h1 id="二、向量的线性关系"><a href="#二、向量的线性关系" class="headerlink" title="二、向量的线性关系"></a>二、向量的线性关系</h1><p><strong>线性组合</strong>：设向量组 $\beta ,\alpha _{1},\alpha _{2},\dots ,\alpha _{s}$ 都是 $n$ 维向量，若存在 $k_{1},k_{2},\cdots ,k_{s} $ ，使得</p><script type="math/tex; mode=display">\beta =k_{1}\alpha_{1}+k_{2}\alpha_{2}+\cdots+k_{s}\alpha_{s}</script><p>称该向量组是一个线性组合，或者线性表示。</p><blockquote><ul><li>零向量可以由任意向量组来表示。</li><li>向量组中的任一向量，都以可有向量组其余的向量表示。</li><li>任意向量可由 $\varepsilon_{1}  =\left [1,0,\cdots ,0  \right ] ^{T} ,\varepsilon_{1}  =\left [0,1,\cdots ,0  \right ] ^{T},\dots ,\varepsilon_{n}  =\left [0,0,\cdots ,1  \right ] ^{T}$ 表示。</li><li>不管向量是行向量还是列向量，都<strong>左乘</strong>系数。</li></ul></blockquote><p>上述线性组合可以表示为：</p><script type="math/tex; mode=display">\begin{bmatrix} \alpha _{1}  &\alpha _{2}  & \dots  &\alpha _{s}\end{bmatrix}\begin{bmatrix}k_{1}  \\k_{2} \\ \vdots \\k_{s}\end{bmatrix} = \beta</script><p><strong>向量组的等价</strong>：给定两给向量组 $\alpha _{1} ,\alpha _{2},\cdots ,\alpha _{m}$ 和向量组 $\beta_{1} ,\beta_{2},\cdots ,\beta _{m}$ ，并且都是同维的，如果 $\alpha$ 向量组中的每个向量，都可以用 $\beta$ 向量组线性表示（或者 $\beta$ 向量组中的每个向量，都可以用 $\alpha$ 向量组线性表示）那么称<strong>这两个向量组是等价的</strong>，记作 $\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix}\cong\begin{bmatrix}\beta _{1}  &amp; \beta _{2} &amp;\cdots  &amp;\beta _{m}\end{bmatrix} $ 。</p><p>性质：</p><ol><li>反身性： $\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix}\cong\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix} $ ；</li><li>对称性：如果 $\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix}\cong\begin{bmatrix}\beta _{1}  &amp; \beta _{2} &amp;\cdots  &amp;\beta _{m}\end{bmatrix} $ ，那么 $\begin{bmatrix}\beta _{1}  &amp; \beta _{2} &amp;\cdots  &amp;\beta _{m}\end{bmatrix}\cong\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix} $ 。</li><li>传递性： 如果 $\begin{bmatrix}\alpha \end{bmatrix}\cong\begin{bmatrix} \beta\end{bmatrix} $ ，且 $\begin{bmatrix} \beta\end{bmatrix}\cong\begin{bmatrix}\gamma \end{bmatrix} $ ，那么 $\begin{bmatrix}\alpha \end{bmatrix}\cong\begin{bmatrix}\gamma \end{bmatrix} $ 。</li></ol><p><strong>线性无关</strong>：已知 $\alpha _{1},\alpha _{2},\dots ,\alpha _{n}$ 是 $n$ 个 $m$ 维向量，若存在一组不全为 0 的系数 $k_{1},k_{2},\cdots ,k_{n} $ 使得</p><script type="math/tex; mode=display">k_{1}\alpha_{1}+k_{2}\alpha_{2}+\cdots+k_{n}\alpha_{n}=0</script><p>成立，则称 $\alpha _{1},\alpha _{2},\dots ,\alpha _{n}$ 是<strong>线性相关</strong>的；反之，则称为<strong>线性无关</strong>。</p><blockquote><ol><li>向量组中的两两向量成比例，则是线性相关的。</li><li>含零向量的任意向量组必定是线性相关的。</li><li>一个零向量必定线性相关的。</li><li>任意一个非零向量必定线性无关。</li></ol></blockquote><p><strong>定理</strong>：如果 $\alpha _{1} ,\alpha _{2},\cdots ,\alpha _{r}$ 是线性相关的，那么 $\alpha _{1} ,\alpha _{2},\cdots ,\alpha _{r},\alpha _{r+1},\cdots ,\alpha _{s}$ 必定也是线性相关的。</p><p><strong>定理</strong> 1： $\alpha _{1} ,\alpha _{2} ,\cdots  ,\alpha _{s} $ 线性相关 $\Longleftrightarrow $ 至少一个向量可有其余向量线性表示。</p><p><strong>定理 2</strong>： $\alpha _{1} ,\alpha _{2} ,\cdots  ,\alpha _{s} $ 线性无关，且 $\alpha _{1} ,\alpha _{2} ,\cdots  ,\alpha _{s}, \beta$ 线性相关，那么 $\beta $ 可由 $\alpha _{1},\alpha _{2},\cdots ,\alpha _{n}$ <strong>唯一线性表示</strong>。</p><blockquote><p> $n+1$ 个 $n$ 维向量一定是线性相关的。（相当于 $n$ 个未知量和 $n+1$ 个方程）。</p></blockquote><h1 id="三、向量组的秩"><a href="#三、向量组的秩" class="headerlink" title="三、向量组的秩"></a>三、向量组的秩</h1><p><strong>定义（极大线性无关组）</strong>：向量组 $\alpha _{1},\alpha _{2},\cdots ,\alpha _{m}$ ， 而 $\alpha  _{1},\alpha  _{2},\cdots ,\alpha _{s} $ 是向量组的一部分，并且子向量组是线性无关的，同时任意的 $s+1$ 个向量是线性相关的，那么称 $\alpha  _{1},\alpha  _{2},\cdots ,\alpha _{s} $ 是一个<strong>极大线性无关组</strong>。</p><p><strong>定理</strong>： $\alpha  _{1},\alpha  _{2},\cdots ,\alpha _{s} $ 线性无关，任意 $s+1$ 个向量是线性相关的。</p><p><strong>定义（向量组的秩）</strong>：极大线性无关组所含向量的个数，即为<strong>向量组的秩</strong>。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="四、线性方程组【线性代数】"><a href="#四、线性方程组【线性代数】" class="headerlink" title="四、线性方程组【线性代数】"></a>四、线性方程组【线性代数】</h1><h1 id="一、线性方程组"><a href="#一、线性方程组" class="headerlink" title="一、线性方程组"></a>一、线性方程组</h1><p>引例：（鸡兔同笼），共8只，腿共20只。</p><p>解：设鸡兔的个数分别为 $x_{1},x_{2}$ ，那么得到：</p><script type="math/tex; mode=display">\left\{\begin{matrix}x_{1}   & + & x_{2} & =&8\\x_{1}  & + & 2x_{2} & =&20\end{matrix}\right.</script><p>那么，上述方程组可以使用矩阵来表示：</p><script type="math/tex; mode=display">\begin{bmatrix} 1 & 1\\ 1 &2\end{bmatrix}\cdot \begin{bmatrix} x_{1} \\ x_{2}\end{bmatrix}=\begin{bmatrix}8 \\20\end{bmatrix}</script><p>即 $AX=B$ ，矩阵 $A$ 称为系数矩阵，矩阵 $X$ 称为未知量矩阵（向量），矩阵 $B$ 称为结果矩阵（向量）。</p><h1 id="二、方程组有解的判定"><a href="#二、方程组有解的判定" class="headerlink" title="二、方程组有解的判定"></a>二、方程组有解的判定</h1><p>设方程组为：</p><script type="math/tex; mode=display">\left\{\begin{matrix} x_{1}  & + & x_{2}  & + & x_{3}  & = & 1\\ x_{1}  & - & x_{2}  & - & x_{3}  & = & -3\\ 2x_{1}  & + & 9x_{2}  & + & 10x_{3}  & = & 11\\\end{matrix}\right.</script><p>那么<strong>系数矩阵</strong>为：</p><script type="math/tex; mode=display">\begin{bmatrix} 1 & 1 & 1\\ 1 & -1 &-1 \\ 2 &  9&10\end{bmatrix}</script><p>增广矩阵为：</p><script type="math/tex; mode=display">\widetilde{A} =\begin{bmatrix} 1 & 1 & 1&1\\ 1 & -1 &-1 &-3\\ 2 &  9&10&11\end{bmatrix}</script><p>方程组用向量表示为：</p><script type="math/tex; mode=display">x_{1}\begin{bmatrix} 1\\ 1\\2\end{bmatrix} +x_{2}\begin{bmatrix} 1\\ -1\\9\end{bmatrix}+x_{3}\begin{bmatrix} 1\\ -1\\10\end{bmatrix} =\begin{bmatrix} 1\\ -3\\11\end{bmatrix}</script><p>方程组 $n$ 解的判定</p><ul><li>唯一解：$R(A)=R(\widetilde{A}) = \mathrm{min}\left \{ \text{行数},\text{列数}  \right \}  $ ，即<strong>矩阵为满秩</strong>。</li><li>无穷多解： $R(A)=R(\widetilde{A}) &lt; \mathrm{min}\left \{ \text{行数},\text{列数}  \right \}  $ ，即为<strong>非满秩</strong> ，其中 $n-r$ 称为自由量的个数；</li><li>无解： $R(A)&lt; R(\widetilde{A})$ 。</li></ul><p>解题的一般步骤：</p><ol><li>先写出方程组的系数矩阵 $A$ 以及增广矩阵 $\widetilde{A}$ ；</li><li>将上述矩阵化为<strong>行阶梯型矩阵</strong>；</li><li>观察系数矩阵以及增广矩阵的秩 $R(A)，R(\widetilde{A})$ 的关系</li><li>若 $R(A)=R(\widetilde{A})$ ，则方程有解<ol><li>如果矩阵为满秩（$r=n$），则有唯一解；</li><li>如果矩阵为非满秩（$r&lt;n$），则有无穷多解，并且有 $n-r$ 个自由量。</li></ol></li><li>若  $R(A)&lt; R(\widetilde{A})$ ，则方程无解。</li></ol><h1 id="三、齐次方程组的解"><a href="#三、齐次方程组的解" class="headerlink" title="三、齐次方程组的解"></a>三、齐次方程组的解</h1><p>结果矩阵为 0 的方程组，称为<strong>齐次方程组</strong>，即：</p><script type="math/tex; mode=display">Ax=0</script><p>此时， $R(A)\equiv R(\widetilde{A} )$ ，所以，<strong>齐次方程组必定是有解的（必定含零解）</strong>。</p><p>解的判定：</p><ol><li>齐次线性方程组有唯一零解 $\Longleftrightarrow $  $R(A)=n$ </li><li>齐次线性方程组有无穷多解 $\Longleftrightarrow$ $R(A)&lt;n$ ，且有 $n-r$ 个自由量。</li><li><strong>齐次线性方程组<font color="green">不存在</font>唯一非零解</strong>。</li><li>若方程组个数等于未知量个数（<a href="#克莱姆法则">克莱姆法则</a>）<ol><li>有非零解  $\Longleftrightarrow$  $|A|=0$ ；</li><li>只有零解  $\Longleftrightarrow$  $|A|\ne 0$ 。</li></ol></li></ol><h1 id="四、线性方程组解的结构"><a href="#四、线性方程组解的结构" class="headerlink" title="四、线性方程组解的结构"></a>四、线性方程组解的结构</h1><p>解的类型有：唯一解、无解、无穷解。其中，无穷多解描述是比较麻烦的，因此，使用解的结构来描述无穷多解的情况。</p><h2 id="4-1-齐次方程组"><a href="#4-1-齐次方程组" class="headerlink" title="4.1 齐次方程组"></a>4.1 齐次方程组</h2><p>设齐次方程组 $Ax=0$ 有无穷多解：</p><ul><li>假设 $\eta _{1} ,\eta _{2}$ 是方程组的解，那么 $\eta _{1}+\eta _{2}$ 也是方程组的解。</li><li>假设 $\eta$ 是方程组的解，那么 $c\eta$ 也是方程组的解（ $c$ 是常数 ）。</li></ul><p><strong>基础解系</strong>：解向量 $\eta _{1} ,\eta _{2},\cdots ,\eta _{s}$ 满足：</p><ol><li>$\eta _{1} ,\eta _{2},\cdots ,\eta _{s}$ <strong>线性无关</strong>；</li><li>任意解都能用  $\eta _{1} ,\eta _{2},\cdots ,\eta _{s}$ 线性表示。</li></ol><blockquote><p><strong>基础解系就是方程组所有解向量中的一组极大线性无关组（注意：可能有多个极大无关组，也就是说有多个基础解系），并且方程组有多少个自由量，就代表着极大无关组有多少个解向量</strong>。</p></blockquote><p>求解基础解系的过程：</p><p><img src="https://imageshack.yuilexi.cn/University/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-%E5%AE%8B%E6%B5%A9%E7%89%88/%E6%B1%82%E8%A7%A3%E5%9F%BA%E7%A1%80%E8%A7%A3%E7%B3%BB%E7%9A%84%E8%BF%87%E7%A8%8B.png" alt="求解基础解系的过程"></p><p><strong>性质</strong>： 如果矩阵 $AB=0$ ，那么 $R(A)+R(B)\le n$ </p><h2 id="4-2-非齐次线性方程组"><a href="#4-2-非齐次线性方程组" class="headerlink" title="4.2 非齐次线性方程组"></a>4.2 非齐次线性方程组</h2><p>形如 $Ax=b$ 的方程组，称为<strong>非齐次线性方程组</strong>。</p><ol><li>$\alpha _{1} ,\alpha _{1}$ 是方程组 $Ax=b$ 的解，那么 $\alpha _{1} -\alpha _{1}$ 是方程 $Ax=0$ 的解；</li><li>$\alpha _{0} $ 是方程组 $Ax=b$ 的解，  $\eta $ 是 $Ax=0$ 的解，那么 $\alpha _{0}+ \eta $ 也是 $Ax=b$ 的解</li></ol><p>非齐次解的结构：</p><p><strong>定理</strong>：如果 $\alpha _{0} $ 是方程组 $Ax=b$ 的一个解（特解）， $\eta $ 是 $Ax=0$ 的通解。其中：</p><script type="math/tex; mode=display">\eta =c_{1}\eta _{1}+c_{2}\eta _{2}+\cdots +c_{n-r}\eta _{n-r}</script><p>是 $Ax=0$ 的一个基础解系。那么：</p><script type="math/tex; mode=display">\alpha _{0} +c_{1}\eta _{1}+c_{2}\eta _{2}+\cdots +c_{n-r}\eta _{n-r}</script><p>就是非齐次线性方程组 $Ax=b$ 的通解。</p><hr><p><strong>非齐次线性方程组的通解求解步骤</strong>：</p><ol><li>写出增广矩阵 $\widetilde{A}$ ，只进行初等行变换，化为<strong>最简行阶梯型矩阵</strong>；</li><li>非零行的首非零元的 1 留在左边，其余元素移到等号右边；</li><li>令自由未知量均取 0 ，得 $Ax=b$ 的一个特解；</li><li>令方程组右边的 $b=0$ ，得到 $Ax=0$ 的方程组，并且解出对应的一个基础解系</li><li>将齐次方程组的通解与非齐次方程组的特解相加，得到非齐次线性方程组的<strong>通解</strong>。</li></ol>]]></content>
       
       
       <categories>
@@ -649,11 +649,11 @@
     
     
     <entry>
-      <title>第四章 线性方程组【线性代数】</title>
-      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/02.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/4_%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.html"/>
-      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/02.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/4_%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.html</url>
+      <title>第三章 向量(Vector)【线性代数】</title>
+      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/02.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/3_%E5%90%91%E9%87%8F(Vector).html"/>
+      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/02.%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/3_%E5%90%91%E9%87%8F(Vector).html</url>
       
-        <content type="html"><![CDATA[<h1 id="四、线性方程组【线性代数】"><a href="#四、线性方程组【线性代数】" class="headerlink" title="四、线性方程组【线性代数】"></a>四、线性方程组【线性代数】</h1><h1 id="一、线性方程组"><a href="#一、线性方程组" class="headerlink" title="一、线性方程组"></a>一、线性方程组</h1><p>引例：（鸡兔同笼），共8只，腿共20只。</p><p>解：设鸡兔的个数分别为 $x_{1},x_{2}$ ，那么得到：</p><script type="math/tex; mode=display">\left\{\begin{matrix}x_{1}   & + & x_{2} & =&8\\x_{1}  & + & 2x_{2} & =&20\end{matrix}\right.</script><p>那么，上述方程组可以使用矩阵来表示：</p><script type="math/tex; mode=display">\begin{bmatrix} 1 & 1\\ 1 &2\end{bmatrix}\cdot \begin{bmatrix} x_{1} \\ x_{2}\end{bmatrix}=\begin{bmatrix}8 \\20\end{bmatrix}</script><p>即 $AX=B$ ，矩阵 $A$ 称为系数矩阵，矩阵 $X$ 称为未知量矩阵（向量），矩阵 $B$ 称为结果矩阵（向量）。</p><h1 id="二、方程组有解的判定"><a href="#二、方程组有解的判定" class="headerlink" title="二、方程组有解的判定"></a>二、方程组有解的判定</h1><p>设方程组为：</p><script type="math/tex; mode=display">\left\{\begin{matrix} x_{1}  & + & x_{2}  & + & x_{3}  & = & 1\\ x_{1}  & - & x_{2}  & - & x_{3}  & = & -3\\ 2x_{1}  & + & 9x_{2}  & + & 10x_{3}  & = & 11\\\end{matrix}\right.</script><p>那么<strong>系数矩阵</strong>为：</p><script type="math/tex; mode=display">\begin{bmatrix} 1 & 1 & 1\\ 1 & -1 &-1 \\ 2 &  9&10\end{bmatrix}</script><p>增广矩阵为：</p><script type="math/tex; mode=display">\widetilde{A} =\begin{bmatrix} 1 & 1 & 1&1\\ 1 & -1 &-1 &-3\\ 2 &  9&10&11\end{bmatrix}</script><p>方程组用向量表示为：</p><script type="math/tex; mode=display">x_{1}\begin{bmatrix} 1\\ 1\\2\end{bmatrix} +x_{2}\begin{bmatrix} 1\\ -1\\9\end{bmatrix}+x_{3}\begin{bmatrix} 1\\ -1\\10\end{bmatrix} =\begin{bmatrix} 1\\ -3\\11\end{bmatrix}</script><p>方程组 $n$ 解的判定</p><ul><li>唯一解：$R(A)=R(\widetilde{A}) = \mathrm{min}\left \{ \text{行数},\text{列数}  \right \}  $ ，即<strong>矩阵为满秩</strong>。</li><li>无穷多解： $R(A)=R(\widetilde{A}) &lt; \mathrm{min}\left \{ \text{行数},\text{列数}  \right \}  $ ，即为<strong>非满秩</strong> ，其中 $n-r$ 称为自由量的个数；</li><li>无解： $R(A)&lt; R(\widetilde{A})$ 。</li></ul><p>解题的一般步骤：</p><ol><li>先写出方程组的系数矩阵 $A$ 以及增广矩阵 $\widetilde{A}$ ；</li><li>将上述矩阵化为<strong>行阶梯型矩阵</strong>；</li><li>观察系数矩阵以及增广矩阵的秩 $R(A)，R(\widetilde{A})$ 的关系</li><li>若 $R(A)=R(\widetilde{A})$ ，则方程有解<ol><li>如果矩阵为满秩（$r=n$），则有唯一解；</li><li>如果矩阵为非满秩（$r&lt;n$），则有无穷多解，并且有 $n-r$ 个自由量。</li></ol></li><li>若  $R(A)&lt; R(\widetilde{A})$ ，则方程无解。</li></ol><h1 id="三、齐次方程组的解"><a href="#三、齐次方程组的解" class="headerlink" title="三、齐次方程组的解"></a>三、齐次方程组的解</h1><p>结果矩阵为 0 的方程组，称为<strong>齐次方程组</strong>，即：</p><script type="math/tex; mode=display">Ax=0</script><p>此时， $R(A)\equiv R(\widetilde{A} )$ ，所以，<strong>齐次方程组必定是有解的（必定含零解）</strong>。</p><p>解的判定：</p><ol><li>齐次线性方程组有唯一零解 $\Longleftrightarrow $  $R(A)=n$ </li><li>齐次线性方程组有无穷多解 $\Longleftrightarrow$ $R(A)&lt;n$ ，且有 $n-r$ 个自由量。</li><li><strong>齐次线性方程组<font color="green">不存在</font>唯一非零解</strong>。</li><li>若方程组个数等于未知量个数（<a href="#克莱姆法则">克莱姆法则</a>）<ol><li>有非零解  $\Longleftrightarrow$  $|A|=0$ ；</li><li>只有零解  $\Longleftrightarrow$  $|A|\ne 0$ 。</li></ol></li></ol><h1 id="四、线性方程组解的结构"><a href="#四、线性方程组解的结构" class="headerlink" title="四、线性方程组解的结构"></a>四、线性方程组解的结构</h1><p>解的类型有：唯一解、无解、无穷解。其中，无穷多解描述是比较麻烦的，因此，使用解的结构来描述无穷多解的情况。</p><h2 id="4-1-齐次方程组"><a href="#4-1-齐次方程组" class="headerlink" title="4.1 齐次方程组"></a>4.1 齐次方程组</h2><p>设齐次方程组 $Ax=0$ 有无穷多解：</p><ul><li>假设 $\eta _{1} ,\eta _{2}$ 是方程组的解，那么 $\eta _{1}+\eta _{2}$ 也是方程组的解。</li><li>假设 $\eta$ 是方程组的解，那么 $c\eta$ 也是方程组的解（ $c$ 是常数 ）。</li></ul><p><strong>基础解系</strong>：解向量 $\eta _{1} ,\eta _{2},\cdots ,\eta _{s}$ 满足：</p><ol><li>$\eta _{1} ,\eta _{2},\cdots ,\eta _{s}$ <strong>线性无关</strong>；</li><li>任意解都能用  $\eta _{1} ,\eta _{2},\cdots ,\eta _{s}$ 线性表示。</li></ol><blockquote><p><strong>基础解系就是方程组所有解向量中的一组极大线性无关组（注意：可能有多个极大无关组，也就是说有多个基础解系），并且方程组有多少个自由量，就代表着极大无关组有多少个解向量</strong>。</p></blockquote><p>求解基础解系的过程：</p><p><img src="https://imageshack.yuilexi.cn/University/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-%E5%AE%8B%E6%B5%A9%E7%89%88/%E6%B1%82%E8%A7%A3%E5%9F%BA%E7%A1%80%E8%A7%A3%E7%B3%BB%E7%9A%84%E8%BF%87%E7%A8%8B.png" alt="求解基础解系的过程"></p><p><strong>性质</strong>： 如果矩阵 $AB=0$ ，那么 $R(A)+R(B)\le n$ </p><h2 id="4-2-非齐次线性方程组"><a href="#4-2-非齐次线性方程组" class="headerlink" title="4.2 非齐次线性方程组"></a>4.2 非齐次线性方程组</h2><p>形如 $Ax=b$ 的方程组，称为<strong>非齐次线性方程组</strong>。</p><ol><li>$\alpha _{1} ,\alpha _{1}$ 是方程组 $Ax=b$ 的解，那么 $\alpha _{1} -\alpha _{1}$ 是方程 $Ax=0$ 的解；</li><li>$\alpha _{0} $ 是方程组 $Ax=b$ 的解，  $\eta $ 是 $Ax=0$ 的解，那么 $\alpha _{0}+ \eta $ 也是 $Ax=b$ 的解</li></ol><p>非齐次解的结构：</p><p><strong>定理</strong>：如果 $\alpha _{0} $ 是方程组 $Ax=b$ 的一个解（特解）， $\eta $ 是 $Ax=0$ 的通解。其中：</p><script type="math/tex; mode=display">\eta =c_{1}\eta _{1}+c_{2}\eta _{2}+\cdots +c_{n-r}\eta _{n-r}</script><p>是 $Ax=0$ 的一个基础解系。那么：</p><script type="math/tex; mode=display">\alpha _{0} +c_{1}\eta _{1}+c_{2}\eta _{2}+\cdots +c_{n-r}\eta _{n-r}</script><p>就是非齐次线性方程组 $Ax=b$ 的通解。</p><hr><p><strong>非齐次线性方程组的通解求解步骤</strong>：</p><ol><li>写出增广矩阵 $\widetilde{A}$ ，只进行初等行变换，化为<strong>最简行阶梯型矩阵</strong>；</li><li>非零行的首非零元的 1 留在左边，其余元素移到等号右边；</li><li>令自由未知量均取 0 ，得 $Ax=b$ 的一个特解；</li><li>令方程组右边的 $b=0$ ，得到 $Ax=0$ 的方程组，并且解出对应的一个基础解系</li><li>将齐次方程组的通解与非齐次方程组的特解相加，得到非齐次线性方程组的<strong>通解</strong>。</li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="三、向量-Vector-【线性代数】"><a href="#三、向量-Vector-【线性代数】" class="headerlink" title="三、向量(Vector)【线性代数】"></a>三、向量(Vector)【线性代数】</h1><h1 id="一、向量的定义"><a href="#一、向量的定义" class="headerlink" title="一、向量的定义"></a>一、向量的定义</h1><p><a name="star" alt="none"> </a><a name="第三章向量" alt="none"> </a><strong>定义</strong>： $n$ 个数 $a_{1},a_{2},\dots ,a_{n}$ 组成的有序数组，称为<strong>向量</strong>。其中， $a_{i}$ 称为分量。 $n$ 称为向量的<strong>维数</strong>。</p><p><strong>行向量</strong>：形如 $\begin{bmatrix} a_{1} &amp; a_{2} &amp; \dots  &amp;a_{n}\end{bmatrix}$ 的向量，称为<strong>行向量</strong>。</p><p><strong>列向量</strong>：形如 $\displaystyle \begin{bmatrix} a_{1} \\ a_{2} \\ \dots  \\ a_{n}\end{bmatrix}$ 的向量，称为<strong>列向量</strong>。</p><blockquote><p>在没有特殊说明的情况下，提到向量一律按照列向量的对待</p></blockquote><p><strong>零向量</strong>：向量的各分量都为 0 ，记作 $\mathbf{0} $ 。</p><h1 id="二、向量的线性关系"><a href="#二、向量的线性关系" class="headerlink" title="二、向量的线性关系"></a>二、向量的线性关系</h1><p><strong>线性组合</strong>：设向量组 $\beta ,\alpha _{1},\alpha _{2},\dots ,\alpha _{s}$ 都是 $n$ 维向量，若存在 $k_{1},k_{2},\cdots ,k_{s} $ ，使得</p><script type="math/tex; mode=display">\beta =k_{1}\alpha_{1}+k_{2}\alpha_{2}+\cdots+k_{s}\alpha_{s}</script><p>称该向量组是一个线性组合，或者线性表示。</p><blockquote><ul><li>零向量可以由任意向量组来表示。</li><li>向量组中的任一向量，都以可有向量组其余的向量表示。</li><li>任意向量可由 $\varepsilon_{1}  =\left [1,0,\cdots ,0  \right ] ^{T} ,\varepsilon_{1}  =\left [0,1,\cdots ,0  \right ] ^{T},\dots ,\varepsilon_{n}  =\left [0,0,\cdots ,1  \right ] ^{T}$ 表示。</li><li>不管向量是行向量还是列向量，都<strong>左乘</strong>系数。</li></ul></blockquote><p>上述线性组合可以表示为：</p><script type="math/tex; mode=display">\begin{bmatrix} \alpha _{1}  &\alpha _{2}  & \dots  &\alpha _{s}\end{bmatrix}\begin{bmatrix}k_{1}  \\k_{2} \\ \vdots \\k_{s}\end{bmatrix} = \beta</script><p><strong>向量组的等价</strong>：给定两给向量组 $\alpha _{1} ,\alpha _{2},\cdots ,\alpha _{m}$ 和向量组 $\beta_{1} ,\beta_{2},\cdots ,\beta _{m}$ ，并且都是同维的，如果 $\alpha$ 向量组中的每个向量，都可以用 $\beta$ 向量组线性表示（或者 $\beta$ 向量组中的每个向量，都可以用 $\alpha$ 向量组线性表示）那么称<strong>这两个向量组是等价的</strong>，记作 $\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix}\cong\begin{bmatrix}\beta _{1}  &amp; \beta _{2} &amp;\cdots  &amp;\beta _{m}\end{bmatrix} $ 。</p><p>性质：</p><ol><li>反身性： $\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix}\cong\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix} $ ；</li><li>对称性：如果 $\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix}\cong\begin{bmatrix}\beta _{1}  &amp; \beta _{2} &amp;\cdots  &amp;\beta _{m}\end{bmatrix} $ ，那么 $\begin{bmatrix}\beta _{1}  &amp; \beta _{2} &amp;\cdots  &amp;\beta _{m}\end{bmatrix}\cong\begin{bmatrix}\alpha _{1}  &amp; \alpha _{2} &amp;\cdots  &amp;\alpha _{m}\end{bmatrix} $ 。</li><li>传递性： 如果 $\begin{bmatrix}\alpha \end{bmatrix}\cong\begin{bmatrix} \beta\end{bmatrix} $ ，且 $\begin{bmatrix} \beta\end{bmatrix}\cong\begin{bmatrix}\gamma \end{bmatrix} $ ，那么 $\begin{bmatrix}\alpha \end{bmatrix}\cong\begin{bmatrix}\gamma \end{bmatrix} $ 。</li></ol><p><strong>线性无关</strong>：已知 $\alpha _{1},\alpha _{2},\dots ,\alpha _{n}$ 是 $n$ 个 $m$ 维向量，若存在一组不全为 0 的系数 $k_{1},k_{2},\cdots ,k_{n} $ 使得</p><script type="math/tex; mode=display">k_{1}\alpha_{1}+k_{2}\alpha_{2}+\cdots+k_{n}\alpha_{n}=0</script><p>成立，则称 $\alpha _{1},\alpha _{2},\dots ,\alpha _{n}$ 是<strong>线性相关</strong>的；反之，则称为<strong>线性无关</strong>。</p><blockquote><ol><li>向量组中的两两向量成比例，则是线性相关的。</li><li>含零向量的任意向量组必定是线性相关的。</li><li>一个零向量必定线性相关的。</li><li>任意一个非零向量必定线性无关。</li></ol></blockquote><p><strong>定理</strong>：如果 $\alpha _{1} ,\alpha _{2},\cdots ,\alpha _{r}$ 是线性相关的，那么 $\alpha _{1} ,\alpha _{2},\cdots ,\alpha _{r},\alpha _{r+1},\cdots ,\alpha _{s}$ 必定也是线性相关的。</p><p><strong>定理</strong> 1： $\alpha _{1} ,\alpha _{2} ,\cdots  ,\alpha _{s} $ 线性相关 $\Longleftrightarrow $ 至少一个向量可有其余向量线性表示。</p><p><strong>定理 2</strong>： $\alpha _{1} ,\alpha _{2} ,\cdots  ,\alpha _{s} $ 线性无关，且 $\alpha _{1} ,\alpha _{2} ,\cdots  ,\alpha _{s}, \beta$ 线性相关，那么 $\beta $ 可由 $\alpha _{1},\alpha _{2},\cdots ,\alpha _{n}$ <strong>唯一线性表示</strong>。</p><blockquote><p> $n+1$ 个 $n$ 维向量一定是线性相关的。（相当于 $n$ 个未知量和 $n+1$ 个方程）。</p></blockquote><h1 id="三、向量组的秩"><a href="#三、向量组的秩" class="headerlink" title="三、向量组的秩"></a>三、向量组的秩</h1><p><strong>定义（极大线性无关组）</strong>：向量组 $\alpha _{1},\alpha _{2},\cdots ,\alpha _{m}$ ， 而 $\alpha  _{1},\alpha  _{2},\cdots ,\alpha _{s} $ 是向量组的一部分，并且子向量组是线性无关的，同时任意的 $s+1$ 个向量是线性相关的，那么称 $\alpha  _{1},\alpha  _{2},\cdots ,\alpha _{s} $ 是一个<strong>极大线性无关组</strong>。</p><p><strong>定理</strong>： $\alpha  _{1},\alpha  _{2},\cdots ,\alpha _{s} $ 线性无关，任意 $s+1$ 个向量是线性相关的。</p><p><strong>定义（向量组的秩）</strong>：极大线性无关组所含向量的个数，即为<strong>向量组的秩</strong>。</p>]]></content>
       
       
       <categories>
@@ -819,11 +819,11 @@
             
             <tag> 经典功能实现 </tag>
             
+            <tag> 最短路径 </tag>
+            
             <tag> 广度优先算法 </tag>
             
             <tag> BFS </tag>
-            
-            <tag> 最短路径 </tag>
             
         </tags>
       
@@ -914,11 +914,11 @@
             
             <tag> 版本控制 </tag>
             
+            <tag> Github </tag>
+            
             <tag> Git </tag>
             
             <tag> 团队协作 </tag>
-            
-            <tag> Github </tag>
             
         </tags>
       
@@ -982,50 +982,11 @@
             
             <tag> Git </tag>
             
+            <tag> 团队协作 </tag>
+            
             <tag> 分布式版本控制 </tag>
             
             <tag> GitHub </tag>
-            
-            <tag> 团队协作 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>C#中数组、ArrayList和List三者的区别</title>
-      <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/%E6%95%B0%E7%BB%84-ArrayList-List.html"/>
-      <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/%E6%95%B0%E7%BB%84-ArrayList-List.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>此文章主要讲解，C#中数组、ArrayList 和 List 三者的区别。</p><p>&gt;</p><h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><p>在这三者之中，数组最早出现的。数组在<strong>内存中是连续存储的</strong>，所以它的索引速度非常快，而且赋值与修改元素也很简单。</p><p>创建数组的方法如下：</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//数组</span></span><br><span class="line"><span class="built_in">string</span>[] str = <span class="keyword">new</span> <span class="built_in">string</span>[<span class="number">10</span>];</span><br><span class="line"><span class="built_in">int</span>[] number = &#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;</span><br></pre></td></tr></table></figure><p>但是数组存在一些不足的地方。数组在声明的时候，必须指定数组的长度，数组创建后在增加长度是十分困难的。并且，在数组的两个数据间插入数据也是很麻烦的。</p><p>数组的长度过长，会造成内存浪费；数组的长度过短，无法添加更多的数据</p><p>如果在声明数组时我们不清楚数组的长度，就会变得很麻烦。</p><h1 id="ArrayList（动态列表）"><a href="#ArrayList（动态列表）" class="headerlink" title="ArrayList（动态列表）"></a>ArrayList（动态列表）</h1><p>动态列表的使用，请参考<a href="https://blog.yuilexi.cn/2023/04/30/Programming/Csharp知识库/Csharp基础/Csharp高级语法/#动态数组（ArrayList）">C#高级语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></p><p><code>ArrayList</code>是属于命名空间<code>System.Collections</code>下，在使用该类时必须进行引用，同时继承了<code>IList</code>的接口，提供了数据存储和检索。</p><p><code>ArrayList</code>对象的大小是按照其中存储的数据来动态扩充与收缩的。所以，在声明<code>ArrayList</code>对象时并不需要指定它的长度。</p><p>例如：</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//ArrayList</span></span><br><span class="line">ArrayList list = <span class="keyword">new</span> ArrayList();</span><br><span class="line"></span><br><span class="line"><span class="comment">//新增数据</span></span><br><span class="line">list1.Add(<span class="string">&quot;Hello world!&quot;</span>);</span><br><span class="line">list1.Add(<span class="number">1314</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//修改数据</span></span><br><span class="line">list[<span class="number">2</span>] = <span class="number">1000</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//移除数据</span></span><br><span class="line">list.Remove(<span class="string">&quot;Hello world!&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//插入数据</span></span><br><span class="line">list.Insert(<span class="number">0</span>, <span class="string">&quot;Hello&quot;</span>);</span><br></pre></td></tr></table></figure><p>在<code>ArrayList</code>中，可以插入不同类型的数据。因为<code>ArrayList</code>会把所有插入其中的数据，装箱为<code>Object</code>类型来处理，在我们使用<code>ArrayList</code>处理数据时，很可能会报类型不匹配的错误，也就是<code>ArrayList</code>不是类型安全的，因此，为了正确使用数据，我们还需要进行拆箱操作。在存储或检索值类型时通常发生装箱和取消装箱操作，带来很大的性能耗损。</p><h1 id="泛型-List"><a href="#泛型-List" class="headerlink" title="泛型 List"></a>泛型 List</h1><p>因为 <code>ArrayList</code> 存在不安全类型与装箱拆箱的缺点，所以出现了泛型的概念。<code>List</code> 类是 <code>ArrayList</code> 类的<strong>泛型等效类</strong>，它的大部分用法都与 <code>ArrayList</code> 相似，因为 <code>List</code> 类也继承了 <code>IList</code> 接口。最关键的区别在于，在声明 <code>List</code> 集合时，我们同时需要为其声明 <code>List</code> 集合内数据的对象类型。</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">List&lt;<span class="built_in">int</span>&gt; list = <span class="keyword">new</span> List&lt;<span class="built_in">int</span>&gt;();</span><br><span class="line"></span><br><span class="line"><span class="comment">//新增数据</span></span><br><span class="line">list.Add(<span class="number">4</span>);</span><br><span class="line">list.Add(<span class="number">7</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//修改数据</span></span><br><span class="line">list[<span class="number">1</span>] = <span class="number">6</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//移除数据</span></span><br><span class="line">list.RemoveAt(<span class="number">0</span>);</span><br></pre></td></tr></table></figure><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ol><li>数组：</li></ol><ul><li>数组是一种含有相同类型元素的集合，长度固定且不可更改。</li><li>数组直接存储在内存中，可以快速访问。</li><li>数组的元素可以通过索引访问，索引从 0 开始。</li><li>数组可以是多维的，例如二维数组，三维数组等。</li></ul><ol><li>ArrayList：</li></ol><ul><li>ArrayList 是 C#中的一个类，可以用来存储任意类型的元素。</li><li>ArrayList 的长度是可变的，可以动态地添加、删除或修改元素。</li><li><strong>ArrayList 不直接存储在内存中，而是存储对元素的引用，因此访问元素比数组慢</strong>。</li><li>ArrayList 的元素可以通过索引访问。</li></ul><ol><li>List：</li></ol><ul><li>List 是 C#中的一个泛型类，与 ArrayList 类似，也可以存储任意类型的元素。</li><li>List 的长度是可变的，可以动态地添加、删除或修改元素。</li><li>List 与 ArrayList 不同的是，List 直接存储在内存中，可以快速访问元素。</li><li>List 的元素可以通过索引访问。</li></ul><p>综上所述，数组、<code>ArrayList</code> 和 <code>List</code> 都有自己的优缺点和适用场景，具体使用时需要根据实际情况来选择。</p><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><details class="folding-tag" ><summary> 更新日志 </summary>              <div class='content'>              <div class="timeline orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-30</p></div></div><div class='timeline-item-content'><ol><li>更新文档中的 List 部分</li></ol></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-19</p></div></div><div class='timeline-item-content'><ol><li>创建文档</li></ol></div></div></div>              </div>            </details>]]></content>
-      
-      
-      <categories>
-          
-          <category> Csharp </category>
-          
-          <category> Csharp提升 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Csharp </tag>
-            
-            <tag> Csharp提升 </tag>
-            
-            <tag> 数组 </tag>
-            
-            <tag> 动态列表 </tag>
-            
-            <tag> 列表 </tag>
-            
-            <tag> ArrayList </tag>
-            
-            <tag> List </tag>
             
         </tags>
       
@@ -1065,6 +1026,45 @@
             <tag> Unity3D基础 </tag>
             
             <tag> Csharp规范 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C#中数组、ArrayList和List三者的区别</title>
+      <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/%E6%95%B0%E7%BB%84-ArrayList-List.html"/>
+      <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/%E6%95%B0%E7%BB%84-ArrayList-List.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>此文章主要讲解，C#中数组、ArrayList 和 List 三者的区别。</p><p>&gt;</p><h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><p>在这三者之中，数组最早出现的。数组在<strong>内存中是连续存储的</strong>，所以它的索引速度非常快，而且赋值与修改元素也很简单。</p><p>创建数组的方法如下：</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//数组</span></span><br><span class="line"><span class="built_in">string</span>[] str = <span class="keyword">new</span> <span class="built_in">string</span>[<span class="number">10</span>];</span><br><span class="line"><span class="built_in">int</span>[] number = &#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;</span><br></pre></td></tr></table></figure><p>但是数组存在一些不足的地方。数组在声明的时候，必须指定数组的长度，数组创建后在增加长度是十分困难的。并且，在数组的两个数据间插入数据也是很麻烦的。</p><p>数组的长度过长，会造成内存浪费；数组的长度过短，无法添加更多的数据</p><p>如果在声明数组时我们不清楚数组的长度，就会变得很麻烦。</p><h1 id="ArrayList（动态列表）"><a href="#ArrayList（动态列表）" class="headerlink" title="ArrayList（动态列表）"></a>ArrayList（动态列表）</h1><p>动态列表的使用，请参考<a href="https://blog.yuilexi.cn/2023/04/30/Programming/Csharp知识库/Csharp基础/Csharp高级语法/#动态数组（ArrayList）">C#高级语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></p><p><code>ArrayList</code>是属于命名空间<code>System.Collections</code>下，在使用该类时必须进行引用，同时继承了<code>IList</code>的接口，提供了数据存储和检索。</p><p><code>ArrayList</code>对象的大小是按照其中存储的数据来动态扩充与收缩的。所以，在声明<code>ArrayList</code>对象时并不需要指定它的长度。</p><p>例如：</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//ArrayList</span></span><br><span class="line">ArrayList list = <span class="keyword">new</span> ArrayList();</span><br><span class="line"></span><br><span class="line"><span class="comment">//新增数据</span></span><br><span class="line">list1.Add(<span class="string">&quot;Hello world!&quot;</span>);</span><br><span class="line">list1.Add(<span class="number">1314</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//修改数据</span></span><br><span class="line">list[<span class="number">2</span>] = <span class="number">1000</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//移除数据</span></span><br><span class="line">list.Remove(<span class="string">&quot;Hello world!&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//插入数据</span></span><br><span class="line">list.Insert(<span class="number">0</span>, <span class="string">&quot;Hello&quot;</span>);</span><br></pre></td></tr></table></figure><p>在<code>ArrayList</code>中，可以插入不同类型的数据。因为<code>ArrayList</code>会把所有插入其中的数据，装箱为<code>Object</code>类型来处理，在我们使用<code>ArrayList</code>处理数据时，很可能会报类型不匹配的错误，也就是<code>ArrayList</code>不是类型安全的，因此，为了正确使用数据，我们还需要进行拆箱操作。在存储或检索值类型时通常发生装箱和取消装箱操作，带来很大的性能耗损。</p><h1 id="泛型-List"><a href="#泛型-List" class="headerlink" title="泛型 List"></a>泛型 List</h1><p>因为 <code>ArrayList</code> 存在不安全类型与装箱拆箱的缺点，所以出现了泛型的概念。<code>List</code> 类是 <code>ArrayList</code> 类的<strong>泛型等效类</strong>，它的大部分用法都与 <code>ArrayList</code> 相似，因为 <code>List</code> 类也继承了 <code>IList</code> 接口。最关键的区别在于，在声明 <code>List</code> 集合时，我们同时需要为其声明 <code>List</code> 集合内数据的对象类型。</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">List&lt;<span class="built_in">int</span>&gt; list = <span class="keyword">new</span> List&lt;<span class="built_in">int</span>&gt;();</span><br><span class="line"></span><br><span class="line"><span class="comment">//新增数据</span></span><br><span class="line">list.Add(<span class="number">4</span>);</span><br><span class="line">list.Add(<span class="number">7</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//修改数据</span></span><br><span class="line">list[<span class="number">1</span>] = <span class="number">6</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//移除数据</span></span><br><span class="line">list.RemoveAt(<span class="number">0</span>);</span><br></pre></td></tr></table></figure><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ol><li>数组：</li></ol><ul><li>数组是一种含有相同类型元素的集合，长度固定且不可更改。</li><li>数组直接存储在内存中，可以快速访问。</li><li>数组的元素可以通过索引访问，索引从 0 开始。</li><li>数组可以是多维的，例如二维数组，三维数组等。</li></ul><ol><li>ArrayList：</li></ol><ul><li>ArrayList 是 C#中的一个类，可以用来存储任意类型的元素。</li><li>ArrayList 的长度是可变的，可以动态地添加、删除或修改元素。</li><li><strong>ArrayList 不直接存储在内存中，而是存储对元素的引用，因此访问元素比数组慢</strong>。</li><li>ArrayList 的元素可以通过索引访问。</li></ul><ol><li>List：</li></ol><ul><li>List 是 C#中的一个泛型类，与 ArrayList 类似，也可以存储任意类型的元素。</li><li>List 的长度是可变的，可以动态地添加、删除或修改元素。</li><li>List 与 ArrayList 不同的是，List 直接存储在内存中，可以快速访问元素。</li><li>List 的元素可以通过索引访问。</li></ul><p>综上所述，数组、<code>ArrayList</code> 和 <code>List</code> 都有自己的优缺点和适用场景，具体使用时需要根据实际情况来选择。</p><h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><details class="folding-tag" ><summary> 更新日志 </summary>              <div class='content'>              <div class="timeline orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-30</p></div></div><div class='timeline-item-content'><ol><li>更新文档中的 List 部分</li></ol></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-19</p></div></div><div class='timeline-item-content'><ol><li>创建文档</li></ol></div></div></div>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> Csharp </category>
+          
+          <category> Csharp提升 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Csharp </tag>
+            
+            <tag> Csharp提升 </tag>
+            
+            <tag> 数组 </tag>
+            
+            <tag> 动态列表 </tag>
+            
+            <tag> 列表 </tag>
+            
+            <tag> ArrayList </tag>
+            
+            <tag> List </tag>
             
         </tags>
       
@@ -1298,52 +1298,9 @@
             
             <tag> 经典功能实现 </tag>
             
-            <tag> 最短路径 </tag>
-            
             <tag> A星寻路算法 </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>进程-线程-协程</title>
-      <link href="/02.Unity%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91_%E5%85%A8%E6%A0%88%E5%AD%A6%E4%B9%A0/Csharp%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B.html"/>
-      <url>/02.Unity%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91_%E5%85%A8%E6%A0%88%E5%AD%A6%E4%B9%A0/Csharp%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="一、进程"><a href="#一、进程" class="headerlink" title="一、进程"></a>一、进程</h1><h2 id="1-1-进程的概念和特征"><a href="#1-1-进程的概念和特征" class="headerlink" title="1.1 进程的概念和特征"></a>1.1 进程的概念和特征</h2><h3 id="1-1-1-进程的定义"><a href="#1-1-1-进程的定义" class="headerlink" title="1.1.1 进程的定义"></a>1.1.1 进程的定义</h3><p>进程是程序的一次执行过程。进程是一个程序及其数据在处理机上顺序执行时所发生的活动。</p><p>进程是具有独立功能的程序在一个数据集合上运行的过程，它是系统进行资源分配和调度的一个独立单元。<strong>每个进程都有自己的独立内存空间</strong>，<strong>不同进程间可以进行进程间通信</strong>。进程<strong>重量级比较大</strong>，占据独立内存，上下文进程间的切换开销（栈寄存器、虚拟内存、文件句柄）比较大，但相对稳定安全。进程的上级为操作系统，有自己固定的堆栈。</p><h3 id="1-1-2-进程的特征"><a href="#1-1-2-进程的特征" class="headerlink" title="1.1.2 进程的特征"></a>1.1.2 进程的特征</h3><p><strong>动态性</strong>：进程是程序的一次执行，它有着创建、活动、暂停、终止等过程，具有一定的生命周期，是动态地产生、变化和消亡的。<strong>动态性是进程最基本的特征</strong>。</p><p><strong>并发性</strong>：指多个进程实体同时存于内存中，能在一段时间内同时运行。并发性是进程的重要特征，同时也是操作系统的重要特征。引入进程的目的就是为了使程序能与其他进程的程序并发执行，以提高资源利用率。</p><p><strong>独立性</strong>：指进程实体是一个能独立运行、独立获得资源和独立接受调度的基本单元。凡未建立 PCB 的程序都不能作为一个独立的单元参与运行。</p><p><strong>异步性</strong>：由于进程的相互制约，使得进程具有执行的间断性，即进程按各自独立的、不可预知的速度向前推进。异步性会导致执行结果的不可再现性，为此在操作系统中必须配置相应的进程同步机制。</p><p><strong>结构性</strong>：每个进程都配置一个 PCB 对其进行描述。从结构上看，进程实体是由程序段、数据段和进程控制块三部分组成的。</p><h2 id="1-2-进程的状态和转换"><a href="#1-2-进程的状态和转换" class="headerlink" title="1.2 进程的状态和转换"></a>1.2 进程的状态和转换</h2><p><strong>运行态</strong>：进程正在处理机上运行。在单机处理机环境下，每个时刻最多只有一个进程处于运行态。</p><p><strong>就绪态</strong>：进程获得了除处理机外的一切所需资源，一旦得到处理机，便可立即运行。系统中处于就绪状态的进程可能有多个，通常将他们排成一个队列，成为<strong>就绪队列</strong>。</p><p><strong>阻塞态</strong>：又称等待态。进程正在等待某一事件而暂定运行，如等待某资源为可用或等待输入/输出完成。<strong>即使处理机空闲，该进程也不能运行</strong>。</p><p><strong>创建态</strong>：进程正在被创建，尚未转到就绪态。创建进程通常需要多个步骤：首先申请一个空白的 PCB，并向 PCB 中填写一些控制和管理进程的信息，然后由系统为该进程分配运行时所必须的资源，最后把该进程转入就绪态。</p><p><strong>结束态</strong>：进程正从系统中消失，可能是进程正常结束或其他原因中断退出运行。进程需要结束运行时，系统首先必须置该进程为结束态，然后再进一步处理资源释放和回收等工作。</p><p><img src="https://imageshack.yuilexi.cn/Unity3D/Csharp-Unity脚本开发/进程-线程-协程/进程的状态转换.svg" alt="进程的状态转换"></p><h3 id="1-3-进程的通信"><a href="#1-3-进程的通信" class="headerlink" title="1.3 进程的通信"></a>1.3 进程的通信</h3><p>进程间通信通常有以下几种方式：</p><p><strong>管道（Pipe）</strong>：管道是 Unix 中最古老的进程间通信的形式，我们把从一个进程连接到另一个进程的一个数据流称为一个“管道”。其本质是内核中固定大小的缓冲区。</p><p><strong>命名管道（Named Pipes）</strong>：“命名管道”又名“命名管线”（Named Pipes），命名管道支持可靠的、单向或双向的数据通信。不同于匿名管道的是：命名管道可以在不相关的进程之间和不同计算机之间使用，服务器建立命名管道时给它指定一个名字，任何进程都可以通过该名字打开管道的另一端，根据给定的权限和服务器进程通信。</p><p><strong>消息队列（MQ，Message Quene）</strong>：消息队列用于在进程间通信的过程中将消息按照队列存储起来，常见的 MQ 有 ActiveMQ、RocketMQ、RabbitMQ、Kafka 等。</p><p><strong>信号量（Semaphore）</strong>：有时被称为信号灯，是在多线程环境下使用的一种设施，是可以用来保证两个或多个关键代码段不被并发调用。在进入一个关键代码段之前,线程必须获取一个信号量。</p><p><strong>共享内存（Share Memory）</strong>：共享内存是三个 IPC 机制中的一个。它允许两个不相关的进程访问同一个逻辑内存。共享内存是在两个正在进行的进程之间传递数据的一种非常有效的方式。</p><p><strong>套接字（Socket）</strong>：就是对网络中不同主机上的应用进程之间进行双向通信的端点的抽象。一个套接字就是网络上进程通信的一端，提供了应用层进程利用网络协议交换数据的机制。</p><p>对于游戏开发者来说，最为常用的是 Socket，这是长连接网络游戏的核心。</p><h1 id="二、线程"><a href="#二、线程" class="headerlink" title="二、线程"></a>二、线程</h1><h2 id="2-1-线程的概念"><a href="#2-1-线程的概念" class="headerlink" title="2.1 线程的概念"></a>2.1 线程的概念</h2><p><img src="https://imageshack.yuilexi.cn/Unity3D/Csharp-Unity脚本开发/进程-线程-协程/进程与线程的关系.svg" alt="进程与线程的关系"></p><p>线程也被称为轻量级进程，是操作系统调度（CPU 调度）执行的最小单位，是进程的子集，是进程中实际运作单位。一个线程指的是进程中一个单一顺序的控制流，一个进程中可以并发多个线程，每个线程并行执行不同的任务。</p><p>线程本身基本不拥有资源，而是访问隶属于进程的资源，一个进程拥有至少一个或多个线程，线程间共享进程的地址空间。</p><p>由于线程是阻塞式的，如果想要同步执行 IO，每个 IO 都必须开启一个新线程，多线程开销较大，适合多任务处理，进程崩溃不影响其他进程，而线程只是一个进程的不同执行路线。</p><p>线程有自己的堆栈，却没有单独的地址空间，进程死就等于所有线程死，所以多进程要比多线程健壮。但在进程切换时，消耗资源较大，效率较差。</p><p>线程是并发的，且是阻塞式同步的，一旦资源死锁，线程将陷入混乱。在同步线程的执行过程中，线程的执行切换是由 CPU 轮转时间片的分配来决定的。</p><p><img src="https://imageshack.yuilexi.cn/Unity3D/Csharp-Unity脚本开发/进程-线程-协程/线程的运行状态.svg" alt="线程的运行状态"></p><h1 id="三、协程"><a href="#三、协程" class="headerlink" title="三、协程"></a>三、协程</h1><h2 id="3-1-协程的概念"><a href="#3-1-协程的概念" class="headerlink" title="3.1 协程的概念"></a>3.1 协程的概念</h2><p>协程是比线程更轻量级的存在，协程不由操作系统内核所管理，而是完全由程序所控制（也就是在用户态执行）。</p><p><strong>协程的好处是性能大幅提升，不会像线程切换那样消耗资源</strong>。同一时间只能执行某个协程，开辟多个协程开销不大。适合对任务进行分时处理。</p><p>协程有自己的寄存器和上下文栈。协程调度切换时，将寄存器和上下文栈保存到其他地方，并在协程切换回来时恢复之前保存的寄存器和上下文栈。由于直接对栈进行操作，基本没有内核切换的开销，可以不加锁的访问全局变量，所以上下文切换非常快。</p><p>一个线程可以有多个协程，一个进程也可以单独拥有多个协程。线程和进程都是同步机制，而协程是异步机制，无需阻塞。协程能保留上一次调用时的状态，每次过程重入时，就相当于进入上一次调用时的状态。多协程间对 CPU 的使用是依次进行的，每次只有一个协程工作，而其他协程处于休眠状态。</p><p><strong>实际上多个协程是在一个线程中的，只不过每个协程对 CPU 进行分时</strong>。协程可以访问和使用 Unity 的所有方法和 <code>Component</code>。</p><p>函数（子程序）的调用是通过栈实现的，一个线程就是执行一个函数，函数调用总是一个入口，一个返回，调用顺序是明确的，而协程在函数内部是可以中断的，然后转而执行其他函数，在适当的时候再返回来继续执行。</p><p>函数（子程序）的切换不是由线程切换，而是程序自身控制，因此没有线程切换开销。和多线程相比，线程越多，协程的性能优势就越明显，并且协程因为依次执行，不存在线程安全问题，变量访问不会冲突，共享资源也无需加锁，只需要判断状态即可，所以执行效率比线程高很多。</p><h2 id="3-2-协程的原理和作用"><a href="#3-2-协程的原理和作用" class="headerlink" title="3.2 协程的原理和作用"></a>3.2 协程的原理和作用</h2><p><strong>协程</strong>在<code>Unity</code>中是一个很重要的概念，我们知道，在使用<code>Unity</code>进行游戏开发时，一般（注意是一般）不考虑<strong>多线程</strong>，那么如何处理一些在主任务之外的需求呢，<code>Unity</code>给我们提供了协程这种方式。</p><blockquote><p><strong>在 Unity 中一般不考虑多线程的原因是</strong>：因为在<code>Unity</code>中，只能在主线程中获取物体的组件、方法、对象，如果脱离这些，<code>Unity</code>的很多功能无法实现，那么多线程的存在与否意义就不大了</p></blockquote><p>线程与协程有什么区别呢：</p><ul><li>对于协程而言，同一时间只能执行一个协程，而线程则是并发的，可以同时有多个线程在运行</li><li>两者在内存的使用上是相同的，共享堆，不共享栈</li></ul><p>其实对于两者最关键，最简单的区别是微观上线程是并行（对于多核 CPU）的，而协程是串行的</p><h3 id="3-2-1-关于协程"><a href="#3-2-1-关于协程" class="headerlink" title="3.2.1 关于协程"></a>3.2.1 关于协程</h3><p>从字面意义上理解就是协助程序的意思，我们在主任务进行的同时，需要一些分支任务配合工作来达到最终的效果。例如，在进行主任务的过程中我们需要一个对资源消耗极大的操作（比如存档）时候，如果在一帧中实现这样的操作，游戏就会变得十分卡顿，这个时候，我们就可以通过协程，在一定的帧内完成该工作的处理，同时不影响主任务的进行</p><h3 id="3-2-2-协程的原理"><a href="#3-2-2-协程的原理" class="headerlink" title="3.2.2 协程的原理"></a>3.2.2 协程的原理</h3><p>首先需要了解协程不是线程，协程依旧是在主线程中进行。其次是，协程是通过迭代器来实现功能的，通过关键字<code>IEnumerator</code> 来定义一个迭代方法</p><blockquote><ul><li><code>IEnumerator</code>：是一个实现迭代器功能的接口</li><li><code>IEnumerable</code>：是在<code>IEnumerator</code>基础上的一个封装接口，有一个<code>GetEnumerator()</code>方法返回<code>IEnumerator</code></li></ul></blockquote><p>在迭代器中呢，最关键的是 yield 的使用，这是实现我们协程功能的主要途径，通过该关键方法，可以使得协程的运行暂停、记录下一次启动的时间与位置等。</p><h3 id="3-2-3-协程的使用"><a href="#3-2-3-协程的使用" class="headerlink" title="3.2.3 协程的使用"></a>3.2.3 协程的使用</h3><p>首先通过一个迭代器定义一个返回值为 <code>IEnumerator</code> 的方法，然后在程序中通过 <code>StartCoroutine</code> 来开启一个协程即可：</p><p><code>StartCoroutine</code> 的两种重载方式：</p><ol><li><code>StartCoroutine(string methodName)</code>：这种是没有参数的情况，直接通过方法名（字符串形式，不加括号）来开启协程</li><li><code>StartCoroutine(string methodName，object values)</code>：带参数的通过方法名和参数进行调用</li><li><code>StartCoroutine(IEnumerator routine)</code>：通过<strong>调用方法</strong>的形式开启协程</li></ol><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//通过迭代器定义一个方法</span></span><br><span class="line"><span class="function">IEnumerator <span class="title">First</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//代码块</span></span><br><span class="line">    <span class="keyword">yield</span> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="comment">//代码块</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">IEnumerator <span class="title">Second</span>(<span class="params"><span class="built_in">int</span> number</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//代码块</span></span><br><span class="line">    <span class="keyword">yield</span> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="comment">//代码块</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//在程序种调用协程</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Test</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//方法一</span></span><br><span class="line">    StartCoroutine(<span class="string">&quot;First&quot;</span>);</span><br><span class="line">    <span class="comment">//方法二</span></span><br><span class="line">    StartCoroutine(<span class="string">&quot;Second&quot;</span>,<span class="number">1</span>);</span><br><span class="line">    <span class="comment">//方法三</span></span><br><span class="line">    StartCoroutine(First());</span><br><span class="line">    StartCoroutine(Second(<span class="number">1</span>));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在一个协程开始后，同样会对应一个结束协程的方法<code>StopCoroutine</code>与<code>StopAllCoroutines</code>两种方式，但是需要注意的是，两者的使用需要遵循一定的规则，在介绍规则之前，同样介绍一下关于<code>StopCoroutine</code>重载：</p><ul><li><code>StopCoroutine（string methodName）</code>：通过方法名（字符串）来进行</li><li><code>StopCoroutine（IEnumerator routine）</code>:通过方法形式来调用</li><li><code>StopCoroutine(Coroutine routine)</code>：通过指定的协程来关闭</li></ul><p>如果我们是使用<code>StartCoroutine（string methodName）</code>来开启一个协程的，那么结束协程就只能使用<code>StopCoroutine（string methodName）</code>和<code>StopCoroutine(Coroutine routine)</code>来结束协程，</p><h3 id="3-2-4-yield-关键字-🧠🧠"><a href="#3-2-4-yield-关键字-🧠🧠" class="headerlink" title="3.2.4 yield 关键字 🧠🧠"></a>3.2.4 yield 关键字 🧠🧠</h3><p>要想理解协程，就要理解<code>yield</code>。在<code>Unity</code>的脚本的生命周期，<code>yield</code> 也是脚本生命周期的一些执行方法，不同的<code>yield</code> 的方法处于生命周期的不同位置。</p><p>在协程函数中，<code>yield</code> 之前的代码会在协程开启后一次运行完毕，而<code>yield</code> 之后的代码，需要满足特定的条件才会运行。</p><ul><li><code>yield return null</code>; 暂停协程等待下一帧继续执行</li><li><code>yield return 0或其他数字</code>; 暂停协程等待下一帧继续执行</li><li><code>yield return new WairForSeconds(时间)</code>; 等待规定时间后继续执行</li><li><code>yield return StartCoroutine(&quot;协程方法名&quot;)</code>;开启一个协程（嵌套协程）</li></ul><p>接下来看几个特殊的<code>yield</code>，他们是用在一些特殊的区域，一般不会有机会去使用，但是对于某些特殊情况的应对会很方便</p><ul><li><code>yield return GameObject</code>：当游戏对象被获取到之后执行</li><li><code>yield return new WaitForFixedUpdate()</code>：等到下一个固定帧数更新</li><li><code>yield return new WaitForEndOfFrame()</code>：等到所有相机画面被渲染完毕后更新</li><li><code>yield break</code>; 跳出协程对应方法，其后面的代码不会被执行</li></ul><p>通过上面的一些<code>yield</code>一些用法以及其在脚本生命周期中的位置，我们也可以看到关于协程不是线程的概念的具体的解释，所有的这些方法都是在主线程中进行的，只是有别于我们正常使用的<code>Update</code>与<code>LateUpdate</code>这些可视的方法</p><h3 id="3-2-5-协程的内核：迭代器-🧠🧠"><a href="#3-2-5-协程的内核：迭代器-🧠🧠" class="headerlink" title="3.2.5 协程的内核：迭代器 🧠🧠"></a>3.2.5 协程的内核：迭代器 🧠🧠</h3><p>从程序的角度讲，协程的核心就是迭代器。</p><p>想要定义一个协程方法有两个因素，</p><ol><li>方法的返回值为 <code>IEnumerator</code></li><li>方法中有 yield 关键字。</li></ol><p>当代码满足以上两个条件时，此方法的执行就具有了迭代器的特质，其核心就是 <code>MoveNext</code> 方法。方法内的内容将会被分成两部分：yield 之前的代码和 yield 之后的代码。yield 之前的代码会在第一次执行<code>MoveNext</code>时执行， yield 之后的代码会在第二次执行<code>MoveNext</code>时执行。</p><p>在 Unity 中，<code>MoveNext</code>的执行时机是以帧为单位的，无论你是设置了延迟时间，还是通过按钮调用<code>MoveNext</code>，亦或是根本没有设置执行条件，Unity 都会在每一帧的生命周期中判断当前帧是否满足协程所定义的条件，一旦满足，当前帧就会抽出 CPU 时间执行你所定义的协程迭代器的<code>MoveNext</code>（即 yield 后面部分）。注意，只要方法中有 yield 语句，那么方法的返回值就必须是 <code>IEnumerator</code> ，不然无法通过编译。</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System.Collections;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> UnityEngine.Windows;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Test</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> IEnumerator _objects;</span><br><span class="line">    <span class="comment">// Start is called before the first frame update</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        _objects = Function();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// Update is called once per frame</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Update</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (UnityEngine.Input.GetKeyDown(KeyCode.Space))</span><br><span class="line">        &#123;</span><br><span class="line">            _objects.MoveNext();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> IEnumerator <span class="title">Function</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; <span class="number">3</span>; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            Debug.Log(<span class="string">$&quot;我是<span class="subst">&#123;i&#125;</span>&quot;</span>);</span><br><span class="line">            <span class="function"><span class="keyword">yield</span> <span class="keyword">return</span> <span class="keyword">new</span> <span class="title">WaitForSeconds</span>(<span class="params"><span class="number">3</span></span>)</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>每执行一次 <code>MoveNext()</code>方法，就会使对应的协程<strong>往下执行一步</strong>。而使用 <code>StartCoroutine()</code>函数，相当于把 <code>MoveNext()</code>的使用权，交给 <code>Unity</code>编辑器，通过 <code>yield</code> 后面的条件，来确定何时往下执行。</p><h1 id="配置说明"><a href="#配置说明" class="headerlink" title="配置说明"></a>配置说明</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unity3D </category>
-          
-          <category> Csharp脚本基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 游戏开发 </tag>
-            
-            <tag> Csharp </tag>
-            
-            <tag> Unity3D </tag>
-            
-            <tag> 进程 </tag>
-            
-            <tag> 线程 </tag>
-            
-            <tag> 协程 </tag>
-            
-            <tag> 脚本开发 </tag>
-            
-            <tag> 游戏引擎 </tag>
-            
-            <tag> 游戏优化 </tag>
+            <tag> 最短路径 </tag>
             
         </tags>
       
@@ -1376,11 +1333,54 @@
             
             <tag> Unity3D </tag>
             
-            <tag> 脚本开发 </tag>
-            
             <tag> 设计模式 </tag>
             
             <tag> 单列模式 </tag>
+            
+            <tag> 脚本开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>进程-线程-协程</title>
+      <link href="/02.Unity%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91_%E5%85%A8%E6%A0%88%E5%AD%A6%E4%B9%A0/Csharp%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B.html"/>
+      <url>/02.Unity%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91_%E5%85%A8%E6%A0%88%E5%AD%A6%E4%B9%A0/Csharp%E8%84%9A%E6%9C%AC%E5%9F%BA%E7%A1%80/%E8%BF%9B%E7%A8%8B-%E7%BA%BF%E7%A8%8B-%E5%8D%8F%E7%A8%8B.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、进程"><a href="#一、进程" class="headerlink" title="一、进程"></a>一、进程</h1><h2 id="1-1-进程的概念和特征"><a href="#1-1-进程的概念和特征" class="headerlink" title="1.1 进程的概念和特征"></a>1.1 进程的概念和特征</h2><h3 id="1-1-1-进程的定义"><a href="#1-1-1-进程的定义" class="headerlink" title="1.1.1 进程的定义"></a>1.1.1 进程的定义</h3><p>进程是程序的一次执行过程。进程是一个程序及其数据在处理机上顺序执行时所发生的活动。</p><p>进程是具有独立功能的程序在一个数据集合上运行的过程，它是系统进行资源分配和调度的一个独立单元。<strong>每个进程都有自己的独立内存空间</strong>，<strong>不同进程间可以进行进程间通信</strong>。进程<strong>重量级比较大</strong>，占据独立内存，上下文进程间的切换开销（栈寄存器、虚拟内存、文件句柄）比较大，但相对稳定安全。进程的上级为操作系统，有自己固定的堆栈。</p><h3 id="1-1-2-进程的特征"><a href="#1-1-2-进程的特征" class="headerlink" title="1.1.2 进程的特征"></a>1.1.2 进程的特征</h3><p><strong>动态性</strong>：进程是程序的一次执行，它有着创建、活动、暂停、终止等过程，具有一定的生命周期，是动态地产生、变化和消亡的。<strong>动态性是进程最基本的特征</strong>。</p><p><strong>并发性</strong>：指多个进程实体同时存于内存中，能在一段时间内同时运行。并发性是进程的重要特征，同时也是操作系统的重要特征。引入进程的目的就是为了使程序能与其他进程的程序并发执行，以提高资源利用率。</p><p><strong>独立性</strong>：指进程实体是一个能独立运行、独立获得资源和独立接受调度的基本单元。凡未建立 PCB 的程序都不能作为一个独立的单元参与运行。</p><p><strong>异步性</strong>：由于进程的相互制约，使得进程具有执行的间断性，即进程按各自独立的、不可预知的速度向前推进。异步性会导致执行结果的不可再现性，为此在操作系统中必须配置相应的进程同步机制。</p><p><strong>结构性</strong>：每个进程都配置一个 PCB 对其进行描述。从结构上看，进程实体是由程序段、数据段和进程控制块三部分组成的。</p><h2 id="1-2-进程的状态和转换"><a href="#1-2-进程的状态和转换" class="headerlink" title="1.2 进程的状态和转换"></a>1.2 进程的状态和转换</h2><p><strong>运行态</strong>：进程正在处理机上运行。在单机处理机环境下，每个时刻最多只有一个进程处于运行态。</p><p><strong>就绪态</strong>：进程获得了除处理机外的一切所需资源，一旦得到处理机，便可立即运行。系统中处于就绪状态的进程可能有多个，通常将他们排成一个队列，成为<strong>就绪队列</strong>。</p><p><strong>阻塞态</strong>：又称等待态。进程正在等待某一事件而暂定运行，如等待某资源为可用或等待输入/输出完成。<strong>即使处理机空闲，该进程也不能运行</strong>。</p><p><strong>创建态</strong>：进程正在被创建，尚未转到就绪态。创建进程通常需要多个步骤：首先申请一个空白的 PCB，并向 PCB 中填写一些控制和管理进程的信息，然后由系统为该进程分配运行时所必须的资源，最后把该进程转入就绪态。</p><p><strong>结束态</strong>：进程正从系统中消失，可能是进程正常结束或其他原因中断退出运行。进程需要结束运行时，系统首先必须置该进程为结束态，然后再进一步处理资源释放和回收等工作。</p><p><img src="https://imageshack.yuilexi.cn/Unity3D/Csharp-Unity脚本开发/进程-线程-协程/进程的状态转换.svg" alt="进程的状态转换"></p><h3 id="1-3-进程的通信"><a href="#1-3-进程的通信" class="headerlink" title="1.3 进程的通信"></a>1.3 进程的通信</h3><p>进程间通信通常有以下几种方式：</p><p><strong>管道（Pipe）</strong>：管道是 Unix 中最古老的进程间通信的形式，我们把从一个进程连接到另一个进程的一个数据流称为一个“管道”。其本质是内核中固定大小的缓冲区。</p><p><strong>命名管道（Named Pipes）</strong>：“命名管道”又名“命名管线”（Named Pipes），命名管道支持可靠的、单向或双向的数据通信。不同于匿名管道的是：命名管道可以在不相关的进程之间和不同计算机之间使用，服务器建立命名管道时给它指定一个名字，任何进程都可以通过该名字打开管道的另一端，根据给定的权限和服务器进程通信。</p><p><strong>消息队列（MQ，Message Quene）</strong>：消息队列用于在进程间通信的过程中将消息按照队列存储起来，常见的 MQ 有 ActiveMQ、RocketMQ、RabbitMQ、Kafka 等。</p><p><strong>信号量（Semaphore）</strong>：有时被称为信号灯，是在多线程环境下使用的一种设施，是可以用来保证两个或多个关键代码段不被并发调用。在进入一个关键代码段之前,线程必须获取一个信号量。</p><p><strong>共享内存（Share Memory）</strong>：共享内存是三个 IPC 机制中的一个。它允许两个不相关的进程访问同一个逻辑内存。共享内存是在两个正在进行的进程之间传递数据的一种非常有效的方式。</p><p><strong>套接字（Socket）</strong>：就是对网络中不同主机上的应用进程之间进行双向通信的端点的抽象。一个套接字就是网络上进程通信的一端，提供了应用层进程利用网络协议交换数据的机制。</p><p>对于游戏开发者来说，最为常用的是 Socket，这是长连接网络游戏的核心。</p><h1 id="二、线程"><a href="#二、线程" class="headerlink" title="二、线程"></a>二、线程</h1><h2 id="2-1-线程的概念"><a href="#2-1-线程的概念" class="headerlink" title="2.1 线程的概念"></a>2.1 线程的概念</h2><p><img src="https://imageshack.yuilexi.cn/Unity3D/Csharp-Unity脚本开发/进程-线程-协程/进程与线程的关系.svg" alt="进程与线程的关系"></p><p>线程也被称为轻量级进程，是操作系统调度（CPU 调度）执行的最小单位，是进程的子集，是进程中实际运作单位。一个线程指的是进程中一个单一顺序的控制流，一个进程中可以并发多个线程，每个线程并行执行不同的任务。</p><p>线程本身基本不拥有资源，而是访问隶属于进程的资源，一个进程拥有至少一个或多个线程，线程间共享进程的地址空间。</p><p>由于线程是阻塞式的，如果想要同步执行 IO，每个 IO 都必须开启一个新线程，多线程开销较大，适合多任务处理，进程崩溃不影响其他进程，而线程只是一个进程的不同执行路线。</p><p>线程有自己的堆栈，却没有单独的地址空间，进程死就等于所有线程死，所以多进程要比多线程健壮。但在进程切换时，消耗资源较大，效率较差。</p><p>线程是并发的，且是阻塞式同步的，一旦资源死锁，线程将陷入混乱。在同步线程的执行过程中，线程的执行切换是由 CPU 轮转时间片的分配来决定的。</p><p><img src="https://imageshack.yuilexi.cn/Unity3D/Csharp-Unity脚本开发/进程-线程-协程/线程的运行状态.svg" alt="线程的运行状态"></p><h1 id="三、协程"><a href="#三、协程" class="headerlink" title="三、协程"></a>三、协程</h1><h2 id="3-1-协程的概念"><a href="#3-1-协程的概念" class="headerlink" title="3.1 协程的概念"></a>3.1 协程的概念</h2><p>协程是比线程更轻量级的存在，协程不由操作系统内核所管理，而是完全由程序所控制（也就是在用户态执行）。</p><p><strong>协程的好处是性能大幅提升，不会像线程切换那样消耗资源</strong>。同一时间只能执行某个协程，开辟多个协程开销不大。适合对任务进行分时处理。</p><p>协程有自己的寄存器和上下文栈。协程调度切换时，将寄存器和上下文栈保存到其他地方，并在协程切换回来时恢复之前保存的寄存器和上下文栈。由于直接对栈进行操作，基本没有内核切换的开销，可以不加锁的访问全局变量，所以上下文切换非常快。</p><p>一个线程可以有多个协程，一个进程也可以单独拥有多个协程。线程和进程都是同步机制，而协程是异步机制，无需阻塞。协程能保留上一次调用时的状态，每次过程重入时，就相当于进入上一次调用时的状态。多协程间对 CPU 的使用是依次进行的，每次只有一个协程工作，而其他协程处于休眠状态。</p><p><strong>实际上多个协程是在一个线程中的，只不过每个协程对 CPU 进行分时</strong>。协程可以访问和使用 Unity 的所有方法和 <code>Component</code>。</p><p>函数（子程序）的调用是通过栈实现的，一个线程就是执行一个函数，函数调用总是一个入口，一个返回，调用顺序是明确的，而协程在函数内部是可以中断的，然后转而执行其他函数，在适当的时候再返回来继续执行。</p><p>函数（子程序）的切换不是由线程切换，而是程序自身控制，因此没有线程切换开销。和多线程相比，线程越多，协程的性能优势就越明显，并且协程因为依次执行，不存在线程安全问题，变量访问不会冲突，共享资源也无需加锁，只需要判断状态即可，所以执行效率比线程高很多。</p><h2 id="3-2-协程的原理和作用"><a href="#3-2-协程的原理和作用" class="headerlink" title="3.2 协程的原理和作用"></a>3.2 协程的原理和作用</h2><p><strong>协程</strong>在<code>Unity</code>中是一个很重要的概念，我们知道，在使用<code>Unity</code>进行游戏开发时，一般（注意是一般）不考虑<strong>多线程</strong>，那么如何处理一些在主任务之外的需求呢，<code>Unity</code>给我们提供了协程这种方式。</p><blockquote><p><strong>在 Unity 中一般不考虑多线程的原因是</strong>：因为在<code>Unity</code>中，只能在主线程中获取物体的组件、方法、对象，如果脱离这些，<code>Unity</code>的很多功能无法实现，那么多线程的存在与否意义就不大了</p></blockquote><p>线程与协程有什么区别呢：</p><ul><li>对于协程而言，同一时间只能执行一个协程，而线程则是并发的，可以同时有多个线程在运行</li><li>两者在内存的使用上是相同的，共享堆，不共享栈</li></ul><p>其实对于两者最关键，最简单的区别是微观上线程是并行（对于多核 CPU）的，而协程是串行的</p><h3 id="3-2-1-关于协程"><a href="#3-2-1-关于协程" class="headerlink" title="3.2.1 关于协程"></a>3.2.1 关于协程</h3><p>从字面意义上理解就是协助程序的意思，我们在主任务进行的同时，需要一些分支任务配合工作来达到最终的效果。例如，在进行主任务的过程中我们需要一个对资源消耗极大的操作（比如存档）时候，如果在一帧中实现这样的操作，游戏就会变得十分卡顿，这个时候，我们就可以通过协程，在一定的帧内完成该工作的处理，同时不影响主任务的进行</p><h3 id="3-2-2-协程的原理"><a href="#3-2-2-协程的原理" class="headerlink" title="3.2.2 协程的原理"></a>3.2.2 协程的原理</h3><p>首先需要了解协程不是线程，协程依旧是在主线程中进行。其次是，协程是通过迭代器来实现功能的，通过关键字<code>IEnumerator</code> 来定义一个迭代方法</p><blockquote><ul><li><code>IEnumerator</code>：是一个实现迭代器功能的接口</li><li><code>IEnumerable</code>：是在<code>IEnumerator</code>基础上的一个封装接口，有一个<code>GetEnumerator()</code>方法返回<code>IEnumerator</code></li></ul></blockquote><p>在迭代器中呢，最关键的是 yield 的使用，这是实现我们协程功能的主要途径，通过该关键方法，可以使得协程的运行暂停、记录下一次启动的时间与位置等。</p><h3 id="3-2-3-协程的使用"><a href="#3-2-3-协程的使用" class="headerlink" title="3.2.3 协程的使用"></a>3.2.3 协程的使用</h3><p>首先通过一个迭代器定义一个返回值为 <code>IEnumerator</code> 的方法，然后在程序中通过 <code>StartCoroutine</code> 来开启一个协程即可：</p><p><code>StartCoroutine</code> 的两种重载方式：</p><ol><li><code>StartCoroutine(string methodName)</code>：这种是没有参数的情况，直接通过方法名（字符串形式，不加括号）来开启协程</li><li><code>StartCoroutine(string methodName，object values)</code>：带参数的通过方法名和参数进行调用</li><li><code>StartCoroutine(IEnumerator routine)</code>：通过<strong>调用方法</strong>的形式开启协程</li></ol><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//通过迭代器定义一个方法</span></span><br><span class="line"><span class="function">IEnumerator <span class="title">First</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//代码块</span></span><br><span class="line">    <span class="keyword">yield</span> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="comment">//代码块</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">IEnumerator <span class="title">Second</span>(<span class="params"><span class="built_in">int</span> number</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//代码块</span></span><br><span class="line">    <span class="keyword">yield</span> <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="comment">//代码块</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//在程序种调用协程</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Test</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//方法一</span></span><br><span class="line">    StartCoroutine(<span class="string">&quot;First&quot;</span>);</span><br><span class="line">    <span class="comment">//方法二</span></span><br><span class="line">    StartCoroutine(<span class="string">&quot;Second&quot;</span>,<span class="number">1</span>);</span><br><span class="line">    <span class="comment">//方法三</span></span><br><span class="line">    StartCoroutine(First());</span><br><span class="line">    StartCoroutine(Second(<span class="number">1</span>));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在一个协程开始后，同样会对应一个结束协程的方法<code>StopCoroutine</code>与<code>StopAllCoroutines</code>两种方式，但是需要注意的是，两者的使用需要遵循一定的规则，在介绍规则之前，同样介绍一下关于<code>StopCoroutine</code>重载：</p><ul><li><code>StopCoroutine（string methodName）</code>：通过方法名（字符串）来进行</li><li><code>StopCoroutine（IEnumerator routine）</code>:通过方法形式来调用</li><li><code>StopCoroutine(Coroutine routine)</code>：通过指定的协程来关闭</li></ul><p>如果我们是使用<code>StartCoroutine（string methodName）</code>来开启一个协程的，那么结束协程就只能使用<code>StopCoroutine（string methodName）</code>和<code>StopCoroutine(Coroutine routine)</code>来结束协程，</p><h3 id="3-2-4-yield-关键字-🧠🧠"><a href="#3-2-4-yield-关键字-🧠🧠" class="headerlink" title="3.2.4 yield 关键字 🧠🧠"></a>3.2.4 yield 关键字 🧠🧠</h3><p>要想理解协程，就要理解<code>yield</code>。在<code>Unity</code>的脚本的生命周期，<code>yield</code> 也是脚本生命周期的一些执行方法，不同的<code>yield</code> 的方法处于生命周期的不同位置。</p><p>在协程函数中，<code>yield</code> 之前的代码会在协程开启后一次运行完毕，而<code>yield</code> 之后的代码，需要满足特定的条件才会运行。</p><ul><li><code>yield return null</code>; 暂停协程等待下一帧继续执行</li><li><code>yield return 0或其他数字</code>; 暂停协程等待下一帧继续执行</li><li><code>yield return new WairForSeconds(时间)</code>; 等待规定时间后继续执行</li><li><code>yield return StartCoroutine(&quot;协程方法名&quot;)</code>;开启一个协程（嵌套协程）</li></ul><p>接下来看几个特殊的<code>yield</code>，他们是用在一些特殊的区域，一般不会有机会去使用，但是对于某些特殊情况的应对会很方便</p><ul><li><code>yield return GameObject</code>：当游戏对象被获取到之后执行</li><li><code>yield return new WaitForFixedUpdate()</code>：等到下一个固定帧数更新</li><li><code>yield return new WaitForEndOfFrame()</code>：等到所有相机画面被渲染完毕后更新</li><li><code>yield break</code>; 跳出协程对应方法，其后面的代码不会被执行</li></ul><p>通过上面的一些<code>yield</code>一些用法以及其在脚本生命周期中的位置，我们也可以看到关于协程不是线程的概念的具体的解释，所有的这些方法都是在主线程中进行的，只是有别于我们正常使用的<code>Update</code>与<code>LateUpdate</code>这些可视的方法</p><h3 id="3-2-5-协程的内核：迭代器-🧠🧠"><a href="#3-2-5-协程的内核：迭代器-🧠🧠" class="headerlink" title="3.2.5 协程的内核：迭代器 🧠🧠"></a>3.2.5 协程的内核：迭代器 🧠🧠</h3><p>从程序的角度讲，协程的核心就是迭代器。</p><p>想要定义一个协程方法有两个因素，</p><ol><li>方法的返回值为 <code>IEnumerator</code></li><li>方法中有 yield 关键字。</li></ol><p>当代码满足以上两个条件时，此方法的执行就具有了迭代器的特质，其核心就是 <code>MoveNext</code> 方法。方法内的内容将会被分成两部分：yield 之前的代码和 yield 之后的代码。yield 之前的代码会在第一次执行<code>MoveNext</code>时执行， yield 之后的代码会在第二次执行<code>MoveNext</code>时执行。</p><p>在 Unity 中，<code>MoveNext</code>的执行时机是以帧为单位的，无论你是设置了延迟时间，还是通过按钮调用<code>MoveNext</code>，亦或是根本没有设置执行条件，Unity 都会在每一帧的生命周期中判断当前帧是否满足协程所定义的条件，一旦满足，当前帧就会抽出 CPU 时间执行你所定义的协程迭代器的<code>MoveNext</code>（即 yield 后面部分）。注意，只要方法中有 yield 语句，那么方法的返回值就必须是 <code>IEnumerator</code> ，不然无法通过编译。</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System.Collections;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> UnityEngine.Windows;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Test</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> IEnumerator _objects;</span><br><span class="line">    <span class="comment">// Start is called before the first frame update</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        _objects = Function();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// Update is called once per frame</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Update</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (UnityEngine.Input.GetKeyDown(KeyCode.Space))</span><br><span class="line">        &#123;</span><br><span class="line">            _objects.MoveNext();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">private</span> IEnumerator <span class="title">Function</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; <span class="number">3</span>; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            Debug.Log(<span class="string">$&quot;我是<span class="subst">&#123;i&#125;</span>&quot;</span>);</span><br><span class="line">            <span class="function"><span class="keyword">yield</span> <span class="keyword">return</span> <span class="keyword">new</span> <span class="title">WaitForSeconds</span>(<span class="params"><span class="number">3</span></span>)</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>每执行一次 <code>MoveNext()</code>方法，就会使对应的协程<strong>往下执行一步</strong>。而使用 <code>StartCoroutine()</code>函数，相当于把 <code>MoveNext()</code>的使用权，交给 <code>Unity</code>编辑器，通过 <code>yield</code> 后面的条件，来确定何时往下执行。</p><h1 id="配置说明"><a href="#配置说明" class="headerlink" title="配置说明"></a>配置说明</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity3D </category>
+          
+          <category> Csharp脚本基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 游戏开发 </tag>
+            
+            <tag> Csharp </tag>
+            
+            <tag> Unity3D </tag>
+            
+            <tag> 脚本开发 </tag>
+            
+            <tag> 进程 </tag>
+            
+            <tag> 线程 </tag>
+            
+            <tag> 协程 </tag>
+            
+            <tag> 游戏引擎 </tag>
+            
+            <tag> 游戏优化 </tag>
             
         </tags>
       
@@ -1419,9 +1419,9 @@
             
             <tag> Csharp基础 </tag>
             
-            <tag> Csharp高级语法 </tag>
-            
             <tag> Unity3D基础 </tag>
+            
+            <tag> Csharp高级语法 </tag>
             
             <tag> 面型对象 </tag>
             
@@ -1489,11 +1489,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
         </tags>
       
@@ -1526,11 +1526,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
         </tags>
       
@@ -1563,11 +1563,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
         </tags>
       
@@ -1600,11 +1600,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
         </tags>
       
@@ -1637,11 +1637,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
         </tags>
       
@@ -1674,11 +1674,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
         </tags>
       
@@ -1711,11 +1711,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
         </tags>
       
@@ -1748,11 +1748,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
         </tags>
       
