@@ -152,11 +152,11 @@
       
         <tags>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -189,11 +189,11 @@
       
         <tags>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -226,11 +226,11 @@
       
         <tags>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -263,11 +263,11 @@
       
         <tags>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -344,11 +344,11 @@
     
     
     <entry>
-      <title>第二章 随机变量及其分布【概率论与数理统计】</title>
-      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/2_%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
-      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/2_%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
+      <title>第三章 多维随机变量及其分布【概率论与数理统计】</title>
+      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
+      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
       
-        <content type="html"><![CDATA[<h1 id="第二章-随机变量及其分布【概率论与数理统计】"><a href="#第二章-随机变量及其分布【概率论与数理统计】" class="headerlink" title="第二章 随机变量及其分布【概率论与数理统计】"></a>第二章 随机变量及其分布【概率论与数理统计】</h1><h1 id="一、随机变量及其概率分布"><a href="#一、随机变量及其概率分布" class="headerlink" title="一、随机变量及其概率分布"></a>一、随机变量及其概率分布</h1><h2 id="1-1-随机变量的定义"><a href="#1-1-随机变量的定义" class="headerlink" title="1.1 随机变量的定义"></a>1.1 随机变量的定义</h2><p>随机变量表示随机试验各种结果的<strong>实值单值函数</strong>。随机事件不论与数量是否直接有关，都可以数量化，即都能用数量化的方式表达。</p><p><strong>定义（<font color="red">随机变量</font>）</strong>：定义在样本空间上 $\Omega $ 上的函数 $X=X(\omega )$ 称为随机变量。这种函数的取值是不能预先确定的，是随机的。</p><p>从随机变量数量的角度，还能将随机变量划分为<strong>离散型随机变量</strong>与<strong>连续型随机变量</strong>，前者试验结果可取的值为<strong>有限</strong>或<strong>无限可列</strong>，后者试验结果的事件域可以与某区间 $\left [ a,b \right ] $ 或者 $\left ( -\infty,+\infty  \right ) $ 构成双射。</p><h2 id="1-2-离散型随机变量及其概率分布"><a href="#1-2-离散型随机变量及其概率分布" class="headerlink" title="1.2 离散型随机变量及其概率分布"></a>1.2 离散型随机变量及其概率分布</h2><p>假设抛骰子，那么随机变量的所有可能的取值是： $1,2,3,4,5,6$ 。</p><p><strong>定义</strong>：随机变量 $X$ 的所有可能的取值 $x_{k}(k=1,2,\cdots ,)$ ，那么对应的概率就是</p><script type="math/tex; mode=display">P(X=x_{k})=p_{k}</script><p>上述概率称为<strong>概率函数或者概率分布</strong>。</p><p><strong>性质</strong>：</p><ol><li>$p_{k} \ge 0$ ；</li><li>$\sum p_{k}=1$ 。</li></ol><p>概率分布的表示方法：</p><ul><li>表格；</li><li>数据函数；</li><li>图像。</li></ul><h2 id="1-3-连续性随机变量及其概率密度函数"><a href="#1-3-连续性随机变量及其概率密度函数" class="headerlink" title="1.3 连续性随机变量及其概率密度函数"></a>1.3 连续性随机变量及其概率密度函数</h2><p>连续性的随机变量，例如：长度等，取到某点的概率为 0 ，因此，没有办法类比离散型的方法。</p><p>方法：</p><ol><li>频数直方图</li><li>频率密度直方图</li></ol><p><strong>定义</strong>：存在非负可积函数 $f(x)\ge 0$ ，且 $a\le b$ ，那么</p><script type="math/tex; mode=display">P(a\le X\le b)=\int_{a}^{b} f(x)\mathrm{d}x</script><p><strong>性质</strong>：</p><ol><li>$f(x)\ge 0$ ；</li><li>$\displaystyle \int_{-\infty }^{+\infty } f(x)\mathrm{d}x =1$ ；</li><li>连续性随机变量，取个别值的概率为 0 ，即 $\displaystyle P(X=x_{0} )=\int_{x_{0}^{-}}^{x_{0}^{+}} f(x)\mathrm{d}x $ ；</li><li>$\displaystyle P(a\le x\le b)=\int_{-\infty }^{b} f(x)\mathrm{d}x -\int_{-\infty }^{a} f(x)\mathrm{d}x=\int_{a }^{b} f(x)\mathrm{d}x  $ 。</li></ol><blockquote><ul><li>概率为 0 的事件，未必是不可能事件；</li><li>概率为 1 的事件，未必是必然事件。</li></ul></blockquote><p><strong>概率密度反映了概率的分布密度，它反映的是某一点的邻域的概率总和，侧面反映概率的分布，并且每一点的概率是 0 </strong>。</p><hr><p><strong>例题</strong>：已知 $\displaystyle f(x) = \left\{\begin{matrix} kx+1 &amp;  &amp; 0\le x \le 2\\ 0 &amp;  &amp; \text{其他} \end{matrix}\right.$ ，求 $k$ 。</p><p>解：</p><script type="math/tex; mode=display">\int_{-\infty }^{+\infty} f(x)\mathrm{d}x =\int_{0 }^{2} (kx+1)\mathrm{d}x=1</script><p> 解得：</p><script type="math/tex; mode=display">k=-\frac{1}{2}</script><h1 id="二、分布函数"><a href="#二、分布函数" class="headerlink" title="二、分布函数"></a>二、分布函数</h1><h2 id="2-1-分布函数的定义"><a href="#2-1-分布函数的定义" class="headerlink" title="2.1 分布函数的定义"></a>2.1 分布函数的定义</h2><p><strong>定义（<font color="red">分布函数</font>）</strong>：定义函数 $F(x)=P(X\le x)$ 为<strong>分布函数</strong>，其含义为 $X$ 取值不超过 $x$ 的<strong>概率</strong>。</p><ol><li>$x\in \left ( -\infty ,+\infty \right ) $ ；</li><li>$F(x)\in \left [ 0,1 \right ] $ ；</li><li>$\displaystyle F(x) = P(X\le x)=\int_{-\infty }^{x} f(t)\mathrm{d}t $ 。</li></ol><p><strong>性质 1</strong>：$F(x)\in \left [ 0,1 \right ] ,x\in \left ( -\infty ,+\infty \right )  $ 。</p><p><strong>性质 2</strong>： $F(x)$ 是一个不减函数，即 $\forall x_{1} &lt; x_{2} ,\quad F(x_{1} )\le F(x_{2} )$ 。</p><ul><li>$\displaystyle \lim_{x \to +\infty} F(x)=F(+\infty)=1$  ；</li><li>$\displaystyle \lim_{x \to -\infty} F(x)=F(-\infty)=0$ 。</li></ul><p><strong>性质 3</strong>：分布函数 $F(x)$ 是<strong>右连续的</strong>，且连续性随机变量的分布函数是<strong>连续的</strong>。</p><ul><li>证明（右连续，即 $\displaystyle \lim_{x \to a^{+} } F(x)=F(a)$ ）：</li></ul><p>公式：</p><ol><li>$P(X\le a)=F(a)$ ；</li><li>$P(X&gt; a)=1-P(X\le a)=1-F(a)$ ；</li><li>$\displaystyle P(a&lt; x\le b)=P(X\le b)-P(X\le a)=F(b)-F(a)$ ；</li><li>$\displaystyle P(X=a)=F(a)-F(a^{-} )$ ；</li><li>$\displaystyle P(a\le X\le b)=F(b)-F(a^{-} )$ ；</li><li>$\displaystyle P( X\le a)=F(a^{-} )$ ；</li><li>$\displaystyle P( X\ge  a)=1-F(a^{-} )$ 。</li></ol><h2 id="2-2-离散型随机变量的分布函数"><a href="#2-2-离散型随机变量的分布函数" class="headerlink" title="2.2 离散型随机变量的分布函数"></a>2.2 离散型随机变量的分布函数</h2><p><strong>例题</strong>： </p><div class="table-container"><table><thead><tr><th style="text-align:center">X</th><th style="text-align:center">-1</th><th style="text-align:center">2</th><th style="text-align:center">3</th></tr></thead><tbody><tr><td style="text-align:center">p</td><td style="text-align:center">$\displaystyle \frac{1}{2} $</td><td style="text-align:center">$\displaystyle \frac{1}{3} $</td><td style="text-align:center">$\displaystyle \frac{1}{6} $</td></tr></tbody></table></div><p>解：</p><p>当 $\displaystyle x\in \left (- \infty ,-1 \right ) $ ， $\displaystyle F(x)=P(X\le x)=0$ ；</p><p>当 $\displaystyle x\in \left [- 1,2 \right ) $ ，$\displaystyle F(x)=P(X\le x)=\frac{1}{2} $ ；</p><p>当 $\displaystyle x\in \left [2,3 \right ) $ ， $\displaystyle F(x)=P(X\le x)=\frac{5}{6} $ ；</p><p>当 $\displaystyle x\in \left [3,+\infty  \right ) $ ， $\displaystyle F(x)=P(X\le x)=1 $ 。</p><p>所以，分布函数为：</p><script type="math/tex; mode=display">\displaystyle F(x)\left\{\begin{matrix} 0 &  & x<-1\\ \frac{1}{2}  &  & -1\le x< 2\\ \frac{5}{6}  &  & 2\le x<3\\ 1 &  &3\le x\end{matrix}\right.</script><p><img src="https://imageshack.yuilexi.cn/University/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-%E5%AE%8B%E6%B5%A9%E7%89%88/%E7%A6%BB%E6%95%A3%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%9A%84%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0.png" alt="离散型随机变量的分布函数" style="zoom:50%" /></p><hr><p>由分布函数求得概率：间断点 $x_{k}$ 就是随机变量 $X$ 的所有取值。</p><h2 id="2-3-连续性随机变量的分布函数"><a href="#2-3-连续性随机变量的分布函数" class="headerlink" title="2.3 连续性随机变量的分布函数"></a>2.3 连续性随机变量的分布函数</h2><p>已知 $\displaystyle F(x) = P(X\le x)=\int_{-\infty }^{x} f(t)\mathrm{d}t $ ，可以得到：</p><script type="math/tex; mode=display">{F}' (x)=f(x)</script><h1 id="三、常见随机变量的分布"><a href="#三、常见随机变量的分布" class="headerlink" title="三、常见随机变量的分布"></a>三、常见随机变量的分布</h1><h2 id="3-1-0-1分布"><a href="#3-1-0-1分布" class="headerlink" title="3.1 0-1分布"></a>3.1 0-1分布</h2><p>形如</p><div class="table-container"><table><thead><tr><th style="text-align:center">X</th><th style="text-align:center">1</th><th style="text-align:center">0</th></tr></thead><tbody><tr><td style="text-align:center">P</td><td style="text-align:center">p</td><td style="text-align:center">1-p</td></tr></tbody></table></div><p>的分布形式，称为<strong>0-1分布</strong>。</p><p><strong>定义（<font color="red">0-1分布</font>）</strong>： $P(X=k)=p^{k} (1-p)^{1-k} \quad (k=1,2)$ 。</p><ul><li>只有两个试验结果；</li><li>试验只进行一次</li></ul><p>数学特征：</p><ul><li>期望： $\displaystyle EX=p$ ；</li><li>方差： $\displaystyle DX=2p(1-p)$ 。</li></ul><h2 id="3-2-几何分布"><a href="#3-2-几何分布" class="headerlink" title="3.2 几何分布"></a>3.2 几何分布</h2><p><strong>定义（几何分布）</strong>：在一次试验中，事件 $A$ 发生的概率是 $p$ ，那么在 $n$ 次独立重复试验中，第 $k$ 次试验中，事件 $A$ 第一次发生的概率为</p><script type="math/tex; mode=display">P(X=k)=(1-p)^{k-1} p</script><p>上述分布称为<strong>几何分布</strong>，记作 $X\sim G(p)$ 。</p><ul><li>期望： $\displaystyle E(X)=\frac{1}{p} $ ；</li><li>方差： $\displaystyle DX=\frac{1-p}{p^{2} } $ 。</li></ul><h2 id="3-3-二项分布"><a href="#3-3-二项分布" class="headerlink" title="3.3 二项分布"></a>3.3 二项分布</h2><p><strong>定义（二项分布）</strong>：在一次试验中，事件 $A$ 发生的概率是 $P(A)=p$ ，那么，在 $n$ 次独立重复实验中，事件 $A$ 发生了 $k$ 次，其发生的次数与其概率的关系为：</p><script type="math/tex; mode=display">\displaystyle P(X=k)=C_{n} ^{k} p^{k} (1-p)^{n-k} \quad (k =0, 1,2,\cdots ,n)</script><p>上述分布称为<strong>二项分布</strong>，记作 $X\sim B(n,p)$ 。</p><ul><li>期望： $\displaystyle EX=np$ ；</li><li>方差： $\displaystyle DX=np(1-p)$ 。</li></ul><h2 id="3-4-泊松分布"><a href="#3-4-泊松分布" class="headerlink" title="3.4 泊松分布"></a>3.4 泊松分布</h2><p><strong>定义（泊松分布）</strong>：形如</p><script type="math/tex; mode=display">\displaystyle P(X=k)=\frac{\lambda ^{k} }{k!} e^{-\lambda }</script><p>的分布律称为<strong>泊松分布</strong>，记作 $X\sim P(\lambda )$ 。</p><ul><li>期望： $EX=\lambda$ ；</li><li>方差： $DX=\lambda$ 。</li></ul><p>为什么需要泊松分布？或者它的意义是什么？</p><p>泊松分布源于二项分布，二项分布的性质是 $μ = np$ 。可以这么理解：现实中虽然只进行了一回 n 次试验，但是假想平行时间线上进行了无数回 n 次试验（直接多做几回 n 次试验），将这无数时间线上的成功次数 k 做算术平均，得到的均值就是μ。</p><p>泊松分布的一个作用就是近似：</p><p>当二项分布 $X\sim B(n,p)$ 中的 $n$ 很大，$p$ 很小，并且 $np$ 的大小适中，就能用<strong>泊松分布来近似计算</strong>，即 $X\sim P(np)$ 。</p><h2 id="3-5-超几何分布"><a href="#3-5-超几何分布" class="headerlink" title="3.5 超几何分布"></a>3.5 超几何分布</h2><p><strong>定义（超几何分布）</strong>：假设 $N$ 个元素分成两类，第一类有 $M(M\le N)$ 个，第二类有 $N-M$ 个，那么取出 $n$ 个元素，随机变量 $X$ 为取出的第一类元素的个数，那么其概率为：</p><script type="math/tex; mode=display">\displaystyle P(X=k)=\frac{C_{M}^{k} C_{N-M}^{n-k}  }{C_{N}^{n}  }</script><p>上述随机变量的分布称为<strong>超几何分布</strong>，记作 $X\sim H(N,n,M)$ 。</p><p>当 $N\to \infty $ 时，超几何分布近似为二项分布， $\displaystyle \frac{M }{N} \to p$ 。</p><h2 id="3-6-均匀分布"><a href="#3-6-均匀分布" class="headerlink" title="3.6 均匀分布"></a>3.6 均匀分布</h2><p><strong>定义（均匀分布）</strong>：满足概率密度函数</p><script type="math/tex; mode=display">\displaystyle f(x)=\left\{\begin{matrix} \frac{1}{b-a}  &  &a\le x\le b \\  0&  &\mathrm{else} \end{matrix}\right.</script><p>称为<strong>均匀分布</strong>，记作 $X\sim U(a,b)$ 。</p><p>其分布函数为：</p><script type="math/tex; mode=display">\displaystyle F(x) = \left\{\begin{matrix} 0 &  & x< a\\ \displaystyle \frac{x-a}{b-a}  &  & a\le x<b\\ 1 &  &b\le a\end{matrix}\right.</script><h2 id="3-7-指数分布"><a href="#3-7-指数分布" class="headerlink" title="3.7 指数分布"></a>3.7 指数分布</h2><p><strong>定义（指数分布）</strong>：满足概率密度函数：</p><script type="math/tex; mode=display">\displaystyle f(x)=\left\{\begin{matrix} \lambda e^{-\lambda x}  & x>0\\  0&x\le 0\end{matrix}\right.</script><p>称为<strong>指数分布</strong>，记作 $X\sim \mathrm{Exp}(\lambda ) $ 。</p><p>其分布函数为：</p><script type="math/tex; mode=display">\displaystyle F(x)=\left\{\begin{matrix} 1-e^{-\lambda x}  & x>0\\ 0 &x\le 0\end{matrix}\right.</script><h2 id="3-8-正态分布"><a href="#3-8-正态分布" class="headerlink" title="3.8 正态分布"></a>3.8 正态分布</h2><p><strong>定义（正态分布）</strong>：满足概率密度函数：</p><script type="math/tex; mode=display">\displaystyle \Phi (x)=\frac{1}{\sqrt{2\pi }\sigma} e^{-\frac{(x-\mu )^{2} }{2\sigma ^{2} } } ,x\in \left ( -\infty, +\infty  \right )</script><p>称为<strong>正态分布</strong>，记作 $X\sim N(\mu ,\sigma ^{2} )$ 。</p><p>其分布函数为：</p><script type="math/tex; mode=display">F(x) = \int_{-\infty }^{x} \frac{1}{\sqrt{2\pi }\sigma} e^{-\frac{(t-\mu )^{2} }{2\sigma ^{2} }}\mathrm{d}t</script><p><strong>性质 1</strong>：密度函数以 $x=\mu $ 为对称轴，并且在 $x=\mu $ 时， $\Phi (x)$ 取得最大值。</p><p><strong>性质 2</strong>：密度函数以 $y$ 轴为渐近线，并且 $x=\mu \pm \sigma $ 是函数的<strong>拐点</strong>。</p><p><strong>性质 3</strong>：当 $\sigma $ 固定， $\mu $ 越大，函数图像越靠右；反之，函数越靠左。当 $\mu $ 固定， $\sigma $ 越大，图像越低； $\sigma $ 越小，图像越高</p><hr><p><strong>标准正态</strong>：当正态分布的 $\mu =0,\sigma =0$ 时，称为标准正态分布</p><script type="math/tex; mode=display">\Phi _{0} (x)=\frac{1}{\sqrt{2\pi } } e^{-\frac{x^{2} }{2} } ,x\in \left ( -\infty,+ \infty  \right )</script><p>分布函数为：</p><script type="math/tex; mode=display">F(x) = \int_{-\infty }^{x} \frac{1}{\sqrt{2\pi }} e^{-\frac{t^{2} }{2}}\mathrm{d}t</script><p><strong>性质</strong>：</p><div class="table-container"><table><thead><tr><th style="text-align:center">序号</th><th style="text-align:center">公式</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">$\Phi _{0} (x)=\Phi _{0} (-x)$</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">$\Phi _{0} (-x)=1-\Phi _{0} (x)$</td></tr><tr><td style="text-align:center">3</td><td style="text-align:center">$\displaystyle \Phi (x)=\frac{1}{\sigma } \Phi _{0}(\frac{x-\mu }{\sigma } )$</td></tr></tbody></table></div><h1 id="四、随机变量及其分布"><a href="#四、随机变量及其分布" class="headerlink" title="四、随机变量及其分布"></a>四、随机变量及其分布</h1><blockquote><p>已知 $X$ 是某种分布，然后有 $Y=f(X)$ ，求 $Y$ 的分布，就是这一节内容</p></blockquote><h2 id="4-1-离散型"><a href="#4-1-离散型" class="headerlink" title="4.1 离散型"></a>4.1 离散型</h2><p><strong>方法一</strong>：离散型随机变量，直接将分布律罗列出来。</p><h2 id="4-2-连续型随机变量"><a href="#4-2-连续型随机变量" class="headerlink" title="4.2 连续型随机变量"></a>4.2 连续型随机变量</h2><p>设 $X$ 的密度函数 $f_{x} (x)$ ，并且 $Y=g(X)$ 。</p><ol><li>首先用 $F_{X}(x)$ 来表示 $F_{Y}(x)$ ；</li><li>接着两边求导，用 $f_{X}(x)$ 来表示 $f_{Y}(x)$ 。</li></ol><hr><p><strong>示例</strong>： $X$ 的密度函数 $f_{X}(x)$ ，并且 $Y=3X+2$ 。</p><p>解：由题可得：</p><script type="math/tex; mode=display">\begin{align}F_{Y}(x) & = P\left \{ Y\le x \right \} \\&=P\left \{ 3X+2\le x \right \}\\&=P\left \{ X\le \frac{x-2}{3}\right \}\\&=F_{X}(\frac{x-2}{3})\end{align}</script><p>两边求导，得：</p><script type="math/tex; mode=display">\begin{align}f_{Y}(x) = \frac{1}{3} f_{X}(\frac{x-2}{3} )\end{align}</script><p><strong>定理</strong>：$X$ 的密度函数 $f_{X}(x)$ ，并且 $Y=kX+b$ ，那么 $\displaystyle f_{Y}(x)=\frac{1}{\left | k \right | } f_{x}(\frac{x-b}{k} )$ 。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="第三章-多维随机变量及其分布【概率论与数理统计】"><a href="#第三章-多维随机变量及其分布【概率论与数理统计】" class="headerlink" title="第三章 多维随机变量及其分布【概率论与数理统计】"></a>第三章 多维随机变量及其分布【概率论与数理统计】</h1><h1 id="一、二维随机变量及其分布"><a href="#一、二维随机变量及其分布" class="headerlink" title="一、二维随机变量及其分布"></a>一、二维随机变量及其分布</h1><h2 id="1-1-二维随机变量"><a href="#1-1-二维随机变量" class="headerlink" title="1.1 二维随机变量"></a>1.1 二维随机变量</h2><p>设 $E$ 是一次试验， $\Omega $ 是样本空间， $X,Y$ 是 $\Omega $ 的两个随机变量，那么分布函数</p><script type="math/tex; mode=display">F(x,y) = P\left \{ X\le x,Y\le y \right \}</script><p>为 $X,Y$ 的<strong>联合分布函数</strong>。</p><p><strong>性质</strong>：</p><ol><li>$F(x,y)$ 是一个不减函数；</li><li>$F(-\infty,y)=0,F(x,-\infty)=0$ ；</li><li>$F(-\infty,-\infty)=0,F(\infty,\infty)=1$ ；</li><li>$F(x,y)$ 分别关于 $x$ 和 $y$ 右连续；</li><li>$P\left \{ x_{1}&lt; X\le x_{2},y_{1}&lt; Y\le y_{2} \right \}=F(x_{2},y_{2}) -F(x_{2},y_{1})-F(x_{1},y_{2})+F(x_{1},y_{1})$ 。</li></ol><h2 id="1-2-边缘分布"><a href="#1-2-边缘分布" class="headerlink" title="1.2 边缘分布"></a>1.2 边缘分布</h2><p><strong>定义</strong>： $X,Y$ 的<strong>联合分布函数</strong>的分布函数为 $F(x,y)$ ，那么关于 $X$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{X}(x) & = P\left \{ X\le x \right \}  = F(x,+\infty )\\&=\int_{-\infty }^{x} \int_{-\infty }^{+\infty}f(t,y)\mathrm{d}y\mathrm{d}t\end{align}</script><p> 关于 $Y$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{Y}(y) & = P\left \{ Y\le y \right \}  = F(+\infty,y )\\&=\int_{-\infty }^{y} \int_{-\infty }^{+\infty}f(x,t)\mathrm{d}x\mathrm{d}t\end{align}</script><h1 id="二、二维离散型的联合概率分布及边缘分布"><a href="#二、二维离散型的联合概率分布及边缘分布" class="headerlink" title="二、二维离散型的联合概率分布及边缘分布"></a>二、二维离散型的联合概率分布及边缘分布</h1><h2 id="2-1-联合分布表"><a href="#2-1-联合分布表" class="headerlink" title="2.1 联合分布表"></a>2.1 联合分布表</h2><p>形如：</p><div class="table-container"><table><thead><tr><th style="text-align:center">X\Y</th><th style="text-align:center">1</th><th style="text-align:center">2</th><th style="text-align:center">3</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">$0$</td><td style="text-align:center">$\displaystyle \frac{1}{2} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr></tbody></table></div><p><strong>性质 </strong>：</p><ol><li>$p_{ij}\ge 0$ ；</li><li>$\sum_{i,j}p_{ij}=1$ ；</li><li>$\displaystyle F(x,y) = P\left \{ X\le x,Y\le y \right \} $ ；</li></ol><h2 id="2-2-边缘分布"><a href="#2-2-边缘分布" class="headerlink" title="2.2 边缘分布"></a>2.2 边缘分布</h2><ul><li>$X$ 的边缘分布，就是将每一行求和，并且将符合要求的行相加；</li><li>$Y$ 的边缘分布，就是将每一列求和，并且将符合要求的列相加；</li></ul><h1 id="三、二位连续性的联合概率密度和边缘分布函数"><a href="#三、二位连续性的联合概率密度和边缘分布函数" class="headerlink" title="三、二位连续性的联合概率密度和边缘分布函数"></a>三、二位连续性的联合概率密度和边缘分布函数</h1><p><strong>定义</strong>：分布函数</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x,y) & = P\left \{ X\le x,Y\le y \right \} \\&=\int_{-\infty }^{x}\int_{-\infty }^{y} f(s,t)\mathrm{d}s\mathrm{d}t \end{align}</script><p>并且称 $f(x,y)$ 为联合概率密度。</p><p><strong>性质</strong>：</p><ol><li>$f(x,y)\ge 0$ ；</li><li>$\displaystyle \int_{-\infty }^{+\infty}\int_{-\infty }^{+\infty} f(x,y)\mathrm{d}x\mathrm{d}y$ ；</li><li>$\displaystyle \frac{\partial^{2}  F(x,y)}{\partial x\partial y} =f(x,y)$ ；</li></ol><p><strong>边缘分布</strong>：</p><ol><li>$\displaystyle F_{X} (x)=F(x,+\infty )=\int_{- \infty }^{x} \int_{-\infty }^{+\infty } f(t,y)\mathrm{d}t\mathrm{d}y$ ；</li><li>$\displaystyle F_{Y} (x)=F(+\infty,y)=\int_{- \infty }^{y} \int_{-\infty }^{+\infty } f(x,t)\mathrm{d}x\mathrm{d}t$ ；</li></ol><p><strong>边缘概率密度</strong>：</p><ol><li>$\displaystyle f_{X}(x) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}y $ ；</li><li>$\displaystyle f_{Y}(y) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}x $ 。</li></ol><blockquote><ol><li>二维正态分布的边缘分布也是正态分布；</li><li>两个边缘分布是正态分布，二维并非正态分布。</li></ol></blockquote><h1 id="四、条件分布"><a href="#四、条件分布" class="headerlink" title="四、条件分布"></a>四、条件分布</h1><p><strong>定义</strong>：在事件 $A$ 发生的条件下，即</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x|A) & = P\left \{ X\le x|A \right \} \\&=\frac{P\left \{  X\le x|A \right \} }{P\left \{ A \right \} } \end{align}</script><h3 id="3-4-1-离散型"><a href="#3-4-1-离散型" class="headerlink" title="3.4.1 离散型"></a>3.4.1 离散型</h3><p>方法：</p><ol><li>列出联合概率分布表；</li><li>计算出对应的边缘概率分布表</li><li>然后根据公式进行计算</li></ol><h3 id="3-4-2-连续性"><a href="#3-4-2-连续性" class="headerlink" title="3.4.2 连续性"></a>3.4.2 连续性</h3><p><strong>定义</strong>：已知概率密度函数为 $f(x,y)$ ，且边缘分布函数为：$f_{X}(x),f_{Y}(y)$ ，如果 $f_{Y}(y)&gt;0$ ，那么在 $Y=y$ 的条件下</p><script type="math/tex; mode=display">F(x|y)=\int_{-\infty }^{x} \frac{f(t,y)}{f_{Y}(y)}\mathrm{d}t</script><h1 id="五、随机变量的独立性"><a href="#五、随机变量的独立性" class="headerlink" title="五、随机变量的独立性"></a>五、随机变量的独立性</h1><p><strong>定义</strong>：如果满足</p><script type="math/tex; mode=display">f(x,y) = f_{X}(x)f_{Y}(y)</script><p>那么称二维随机变量 $X,Y$ 是<strong>相互独立</strong>的。</p><h3 id="3-5-1-二维离散型"><a href="#3-5-1-二维离散型" class="headerlink" title="3.5.1 二维离散型"></a>3.5.1 二维离散型</h3><p><strong>定理</strong>：如果随机变量是独立的，那么由随机变量构造的函数之间也是独立的。</p><h3 id="3-5-2-二维连续型"><a href="#3-5-2-二维连续型" class="headerlink" title="3.5.2 二维连续型"></a>3.5.2 二维连续型</h3><h1 id="六、二维随机变量函数的分布"><a href="#六、二维随机变量函数的分布" class="headerlink" title="六、二维随机变量函数的分布"></a>六、二维随机变量函数的分布</h1><h3 id="3-6-1-二维离散型"><a href="#3-6-1-二维离散型" class="headerlink" title="3.6.1 二维离散型"></a>3.6.1 二维离散型</h3>]]></content>
       
       
       <categories>
@@ -375,11 +375,11 @@
     
     
     <entry>
-      <title>第三章 多维随机变量及其分布【概率论与数理统计】</title>
-      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
-      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
+      <title>第二章 随机变量及其分布【概率论与数理统计】</title>
+      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/2_%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
+      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/2_%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
       
-        <content type="html"><![CDATA[<h1 id="第三章-多维随机变量及其分布【概率论与数理统计】"><a href="#第三章-多维随机变量及其分布【概率论与数理统计】" class="headerlink" title="第三章 多维随机变量及其分布【概率论与数理统计】"></a>第三章 多维随机变量及其分布【概率论与数理统计】</h1><h1 id="一、二维随机变量及其分布"><a href="#一、二维随机变量及其分布" class="headerlink" title="一、二维随机变量及其分布"></a>一、二维随机变量及其分布</h1><h2 id="1-1-二维随机变量"><a href="#1-1-二维随机变量" class="headerlink" title="1.1 二维随机变量"></a>1.1 二维随机变量</h2><p>设 $E$ 是一次试验， $\Omega $ 是样本空间， $X,Y$ 是 $\Omega $ 的两个随机变量，那么分布函数</p><script type="math/tex; mode=display">F(x,y) = P\left \{ X\le x,Y\le y \right \}</script><p>为 $X,Y$ 的<strong>联合分布函数</strong>。</p><p><strong>性质</strong>：</p><ol><li>$F(x,y)$ 是一个不减函数；</li><li>$F(-\infty,y)=0,F(x,-\infty)=0$ ；</li><li>$F(-\infty,-\infty)=0,F(\infty,\infty)=1$ ；</li><li>$F(x,y)$ 分别关于 $x$ 和 $y$ 右连续；</li><li>$P\left \{ x_{1}&lt; X\le x_{2},y_{1}&lt; Y\le y_{2} \right \}=F(x_{2},y_{2}) -F(x_{2},y_{1})-F(x_{1},y_{2})+F(x_{1},y_{1})$ 。</li></ol><h2 id="1-2-边缘分布"><a href="#1-2-边缘分布" class="headerlink" title="1.2 边缘分布"></a>1.2 边缘分布</h2><p><strong>定义</strong>： $X,Y$ 的<strong>联合分布函数</strong>的分布函数为 $F(x,y)$ ，那么关于 $X$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{X}(x) & = P\left \{ X\le x \right \}  = F(x,+\infty )\\&=\int_{-\infty }^{x} \int_{-\infty }^{+\infty}f(t,y)\mathrm{d}y\mathrm{d}t\end{align}</script><p> 关于 $Y$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{Y}(y) & = P\left \{ Y\le y \right \}  = F(+\infty,y )\\&=\int_{-\infty }^{y} \int_{-\infty }^{+\infty}f(x,t)\mathrm{d}x\mathrm{d}t\end{align}</script><h1 id="二、二维离散型的联合概率分布及边缘分布"><a href="#二、二维离散型的联合概率分布及边缘分布" class="headerlink" title="二、二维离散型的联合概率分布及边缘分布"></a>二、二维离散型的联合概率分布及边缘分布</h1><h2 id="2-1-联合分布表"><a href="#2-1-联合分布表" class="headerlink" title="2.1 联合分布表"></a>2.1 联合分布表</h2><p>形如：</p><div class="table-container"><table><thead><tr><th style="text-align:center">X\Y</th><th style="text-align:center">1</th><th style="text-align:center">2</th><th style="text-align:center">3</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">$0$</td><td style="text-align:center">$\displaystyle \frac{1}{2} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr></tbody></table></div><p><strong>性质 </strong>：</p><ol><li>$p_{ij}\ge 0$ ；</li><li>$\sum_{i,j}p_{ij}=1$ ；</li><li>$\displaystyle F(x,y) = P\left \{ X\le x,Y\le y \right \} $ ；</li></ol><h2 id="2-2-边缘分布"><a href="#2-2-边缘分布" class="headerlink" title="2.2 边缘分布"></a>2.2 边缘分布</h2><ul><li>$X$ 的边缘分布，就是将每一行求和，并且将符合要求的行相加；</li><li>$Y$ 的边缘分布，就是将每一列求和，并且将符合要求的列相加；</li></ul><h1 id="三、二位连续性的联合概率密度和边缘分布函数"><a href="#三、二位连续性的联合概率密度和边缘分布函数" class="headerlink" title="三、二位连续性的联合概率密度和边缘分布函数"></a>三、二位连续性的联合概率密度和边缘分布函数</h1><p><strong>定义</strong>：分布函数</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x,y) & = P\left \{ X\le x,Y\le y \right \} \\&=\int_{-\infty }^{x}\int_{-\infty }^{y} f(s,t)\mathrm{d}s\mathrm{d}t \end{align}</script><p>并且称 $f(x,y)$ 为联合概率密度。</p><p><strong>性质</strong>：</p><ol><li>$f(x,y)\ge 0$ ；</li><li>$\displaystyle \int_{-\infty }^{+\infty}\int_{-\infty }^{+\infty} f(x,y)\mathrm{d}x\mathrm{d}y$ ；</li><li>$\displaystyle \frac{\partial^{2}  F(x,y)}{\partial x\partial y} =f(x,y)$ ；</li></ol><p><strong>边缘分布</strong>：</p><ol><li>$\displaystyle F_{X} (x)=F(x,+\infty )=\int_{- \infty }^{x} \int_{-\infty }^{+\infty } f(t,y)\mathrm{d}t\mathrm{d}y$ ；</li><li>$\displaystyle F_{Y} (x)=F(+\infty,y)=\int_{- \infty }^{y} \int_{-\infty }^{+\infty } f(x,t)\mathrm{d}x\mathrm{d}t$ ；</li></ol><p><strong>边缘概率密度</strong>：</p><ol><li>$\displaystyle f_{X}(x) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}y $ ；</li><li>$\displaystyle f_{Y}(y) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}x $ 。</li></ol><blockquote><ol><li>二维正态分布的边缘分布也是正态分布；</li><li>两个边缘分布是正态分布，二维并非正态分布。</li></ol></blockquote><h1 id="四、条件分布"><a href="#四、条件分布" class="headerlink" title="四、条件分布"></a>四、条件分布</h1><p><strong>定义</strong>：在事件 $A$ 发生的条件下，即</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x|A) & = P\left \{ X\le x|A \right \} \\&=\frac{P\left \{  X\le x|A \right \} }{P\left \{ A \right \} } \end{align}</script><h3 id="3-4-1-离散型"><a href="#3-4-1-离散型" class="headerlink" title="3.4.1 离散型"></a>3.4.1 离散型</h3><p>方法：</p><ol><li>列出联合概率分布表；</li><li>计算出对应的边缘概率分布表</li><li>然后根据公式进行计算</li></ol><h3 id="3-4-2-连续性"><a href="#3-4-2-连续性" class="headerlink" title="3.4.2 连续性"></a>3.4.2 连续性</h3><p><strong>定义</strong>：已知概率密度函数为 $f(x,y)$ ，且边缘分布函数为：$f_{X}(x),f_{Y}(y)$ ，如果 $f_{Y}(y)&gt;0$ ，那么在 $Y=y$ 的条件下</p><script type="math/tex; mode=display">F(x|y)=\int_{-\infty }^{x} \frac{f(t,y)}{f_{Y}(y)}\mathrm{d}t</script><h1 id="五、随机变量的独立性"><a href="#五、随机变量的独立性" class="headerlink" title="五、随机变量的独立性"></a>五、随机变量的独立性</h1><p><strong>定义</strong>：如果满足</p><script type="math/tex; mode=display">f(x,y) = f_{X}(x)f_{Y}(y)</script><p>那么称二维随机变量 $X,Y$ 是<strong>相互独立</strong>的。</p><h3 id="3-5-1-二维离散型"><a href="#3-5-1-二维离散型" class="headerlink" title="3.5.1 二维离散型"></a>3.5.1 二维离散型</h3><p><strong>定理</strong>：如果随机变量是独立的，那么由随机变量构造的函数之间也是独立的。</p><h3 id="3-5-2-二维连续型"><a href="#3-5-2-二维连续型" class="headerlink" title="3.5.2 二维连续型"></a>3.5.2 二维连续型</h3><h1 id="六、二维随机变量函数的分布"><a href="#六、二维随机变量函数的分布" class="headerlink" title="六、二维随机变量函数的分布"></a>六、二维随机变量函数的分布</h1><h3 id="3-6-1-二维离散型"><a href="#3-6-1-二维离散型" class="headerlink" title="3.6.1 二维离散型"></a>3.6.1 二维离散型</h3>]]></content>
+        <content type="html"><![CDATA[<h1 id="第二章-随机变量及其分布【概率论与数理统计】"><a href="#第二章-随机变量及其分布【概率论与数理统计】" class="headerlink" title="第二章 随机变量及其分布【概率论与数理统计】"></a>第二章 随机变量及其分布【概率论与数理统计】</h1><h1 id="一、随机变量及其概率分布"><a href="#一、随机变量及其概率分布" class="headerlink" title="一、随机变量及其概率分布"></a>一、随机变量及其概率分布</h1><h2 id="1-1-随机变量的定义"><a href="#1-1-随机变量的定义" class="headerlink" title="1.1 随机变量的定义"></a>1.1 随机变量的定义</h2><p>随机变量表示随机试验各种结果的<strong>实值单值函数</strong>。随机事件不论与数量是否直接有关，都可以数量化，即都能用数量化的方式表达。</p><p><strong>定义（<font color="red">随机变量</font>）</strong>：定义在样本空间上 $\Omega $ 上的函数 $X=X(\omega )$ 称为随机变量。这种函数的取值是不能预先确定的，是随机的。</p><p>从随机变量数量的角度，还能将随机变量划分为<strong>离散型随机变量</strong>与<strong>连续型随机变量</strong>，前者试验结果可取的值为<strong>有限</strong>或<strong>无限可列</strong>，后者试验结果的事件域可以与某区间 $\left [ a,b \right ] $ 或者 $\left ( -\infty,+\infty  \right ) $ 构成双射。</p><h2 id="1-2-离散型随机变量及其概率分布"><a href="#1-2-离散型随机变量及其概率分布" class="headerlink" title="1.2 离散型随机变量及其概率分布"></a>1.2 离散型随机变量及其概率分布</h2><p>假设抛骰子，那么随机变量的所有可能的取值是： $1,2,3,4,5,6$ 。</p><p><strong>定义</strong>：随机变量 $X$ 的所有可能的取值 $x_{k}(k=1,2,\cdots ,)$ ，那么对应的概率就是</p><script type="math/tex; mode=display">P(X=x_{k})=p_{k}</script><p>上述概率称为<strong>概率函数或者概率分布</strong>。</p><p><strong>性质</strong>：</p><ol><li>$p_{k} \ge 0$ ；</li><li>$\sum p_{k}=1$ 。</li></ol><p>概率分布的表示方法：</p><ul><li>表格；</li><li>数据函数；</li><li>图像。</li></ul><h2 id="1-3-连续性随机变量及其概率密度函数"><a href="#1-3-连续性随机变量及其概率密度函数" class="headerlink" title="1.3 连续性随机变量及其概率密度函数"></a>1.3 连续性随机变量及其概率密度函数</h2><p>连续性的随机变量，例如：长度等，取到某点的概率为 0 ，因此，没有办法类比离散型的方法。</p><p>方法：</p><ol><li>频数直方图</li><li>频率密度直方图</li></ol><p><strong>定义</strong>：存在非负可积函数 $f(x)\ge 0$ ，且 $a\le b$ ，那么</p><script type="math/tex; mode=display">P(a\le X\le b)=\int_{a}^{b} f(x)\mathrm{d}x</script><p><strong>性质</strong>：</p><ol><li>$f(x)\ge 0$ ；</li><li>$\displaystyle \int_{-\infty }^{+\infty } f(x)\mathrm{d}x =1$ ；</li><li>连续性随机变量，取个别值的概率为 0 ，即 $\displaystyle P(X=x_{0} )=\int_{x_{0}^{-}}^{x_{0}^{+}} f(x)\mathrm{d}x $ ；</li><li>$\displaystyle P(a\le x\le b)=\int_{-\infty }^{b} f(x)\mathrm{d}x -\int_{-\infty }^{a} f(x)\mathrm{d}x=\int_{a }^{b} f(x)\mathrm{d}x  $ 。</li></ol><blockquote><ul><li>概率为 0 的事件，未必是不可能事件；</li><li>概率为 1 的事件，未必是必然事件。</li></ul></blockquote><p><strong>概率密度反映了概率的分布密度，它反映的是某一点的邻域的概率总和，侧面反映概率的分布，并且每一点的概率是 0 </strong>。</p><hr><p><strong>例题</strong>：已知 $\displaystyle f(x) = \left\{\begin{matrix} kx+1 &amp;  &amp; 0\le x \le 2\\ 0 &amp;  &amp; \text{其他} \end{matrix}\right.$ ，求 $k$ 。</p><p>解：</p><script type="math/tex; mode=display">\int_{-\infty }^{+\infty} f(x)\mathrm{d}x =\int_{0 }^{2} (kx+1)\mathrm{d}x=1</script><p> 解得：</p><script type="math/tex; mode=display">k=-\frac{1}{2}</script><h1 id="二、分布函数"><a href="#二、分布函数" class="headerlink" title="二、分布函数"></a>二、分布函数</h1><h2 id="2-1-分布函数的定义"><a href="#2-1-分布函数的定义" class="headerlink" title="2.1 分布函数的定义"></a>2.1 分布函数的定义</h2><p><strong>定义（<font color="red">分布函数</font>）</strong>：定义函数 $F(x)=P(X\le x)$ 为<strong>分布函数</strong>，其含义为 $X$ 取值不超过 $x$ 的<strong>概率</strong>。</p><ol><li>$x\in \left ( -\infty ,+\infty \right ) $ ；</li><li>$F(x)\in \left [ 0,1 \right ] $ ；</li><li>$\displaystyle F(x) = P(X\le x)=\int_{-\infty }^{x} f(t)\mathrm{d}t $ 。</li></ol><p><strong>性质 1</strong>：$F(x)\in \left [ 0,1 \right ] ,x\in \left ( -\infty ,+\infty \right )  $ 。</p><p><strong>性质 2</strong>： $F(x)$ 是一个不减函数，即 $\forall x_{1} &lt; x_{2} ,\quad F(x_{1} )\le F(x_{2} )$ 。</p><ul><li>$\displaystyle \lim_{x \to +\infty} F(x)=F(+\infty)=1$  ；</li><li>$\displaystyle \lim_{x \to -\infty} F(x)=F(-\infty)=0$ 。</li></ul><p><strong>性质 3</strong>：分布函数 $F(x)$ 是<strong>右连续的</strong>，且连续性随机变量的分布函数是<strong>连续的</strong>。</p><ul><li>证明（右连续，即 $\displaystyle \lim_{x \to a^{+} } F(x)=F(a)$ ）：</li></ul><p>公式：</p><ol><li>$P(X\le a)=F(a)$ ；</li><li>$P(X&gt; a)=1-P(X\le a)=1-F(a)$ ；</li><li>$\displaystyle P(a&lt; x\le b)=P(X\le b)-P(X\le a)=F(b)-F(a)$ ；</li><li>$\displaystyle P(X=a)=F(a)-F(a^{-} )$ ；</li><li>$\displaystyle P(a\le X\le b)=F(b)-F(a^{-} )$ ；</li><li>$\displaystyle P( X\le a)=F(a^{-} )$ ；</li><li>$\displaystyle P( X\ge  a)=1-F(a^{-} )$ 。</li></ol><h2 id="2-2-离散型随机变量的分布函数"><a href="#2-2-离散型随机变量的分布函数" class="headerlink" title="2.2 离散型随机变量的分布函数"></a>2.2 离散型随机变量的分布函数</h2><p><strong>例题</strong>： </p><div class="table-container"><table><thead><tr><th style="text-align:center">X</th><th style="text-align:center">-1</th><th style="text-align:center">2</th><th style="text-align:center">3</th></tr></thead><tbody><tr><td style="text-align:center">p</td><td style="text-align:center">$\displaystyle \frac{1}{2} $</td><td style="text-align:center">$\displaystyle \frac{1}{3} $</td><td style="text-align:center">$\displaystyle \frac{1}{6} $</td></tr></tbody></table></div><p>解：</p><p>当 $\displaystyle x\in \left (- \infty ,-1 \right ) $ ， $\displaystyle F(x)=P(X\le x)=0$ ；</p><p>当 $\displaystyle x\in \left [- 1,2 \right ) $ ，$\displaystyle F(x)=P(X\le x)=\frac{1}{2} $ ；</p><p>当 $\displaystyle x\in \left [2,3 \right ) $ ， $\displaystyle F(x)=P(X\le x)=\frac{5}{6} $ ；</p><p>当 $\displaystyle x\in \left [3,+\infty  \right ) $ ， $\displaystyle F(x)=P(X\le x)=1 $ 。</p><p>所以，分布函数为：</p><script type="math/tex; mode=display">\displaystyle F(x)\left\{\begin{matrix} 0 &  & x<-1\\ \frac{1}{2}  &  & -1\le x< 2\\ \frac{5}{6}  &  & 2\le x<3\\ 1 &  &3\le x\end{matrix}\right.</script><p><img src="https://imageshack.yuilexi.cn/University/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1-%E5%AE%8B%E6%B5%A9%E7%89%88/%E7%A6%BB%E6%95%A3%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%9A%84%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0.png" alt="离散型随机变量的分布函数" style="zoom:50%" /></p><hr><p>由分布函数求得概率：间断点 $x_{k}$ 就是随机变量 $X$ 的所有取值。</p><h2 id="2-3-连续性随机变量的分布函数"><a href="#2-3-连续性随机变量的分布函数" class="headerlink" title="2.3 连续性随机变量的分布函数"></a>2.3 连续性随机变量的分布函数</h2><p>已知 $\displaystyle F(x) = P(X\le x)=\int_{-\infty }^{x} f(t)\mathrm{d}t $ ，可以得到：</p><script type="math/tex; mode=display">{F}' (x)=f(x)</script><h1 id="三、常见随机变量的分布"><a href="#三、常见随机变量的分布" class="headerlink" title="三、常见随机变量的分布"></a>三、常见随机变量的分布</h1><h2 id="3-1-0-1分布"><a href="#3-1-0-1分布" class="headerlink" title="3.1 0-1分布"></a>3.1 0-1分布</h2><p>形如</p><div class="table-container"><table><thead><tr><th style="text-align:center">X</th><th style="text-align:center">1</th><th style="text-align:center">0</th></tr></thead><tbody><tr><td style="text-align:center">P</td><td style="text-align:center">p</td><td style="text-align:center">1-p</td></tr></tbody></table></div><p>的分布形式，称为<strong>0-1分布</strong>。</p><p><strong>定义（<font color="red">0-1分布</font>）</strong>： $P(X=k)=p^{k} (1-p)^{1-k} \quad (k=1,2)$ 。</p><ul><li>只有两个试验结果；</li><li>试验只进行一次</li></ul><p>数学特征：</p><ul><li>期望： $\displaystyle EX=p$ ；</li><li>方差： $\displaystyle DX=2p(1-p)$ 。</li></ul><h2 id="3-2-几何分布"><a href="#3-2-几何分布" class="headerlink" title="3.2 几何分布"></a>3.2 几何分布</h2><p><strong>定义（几何分布）</strong>：在一次试验中，事件 $A$ 发生的概率是 $p$ ，那么在 $n$ 次独立重复试验中，第 $k$ 次试验中，事件 $A$ 第一次发生的概率为</p><script type="math/tex; mode=display">P(X=k)=(1-p)^{k-1} p</script><p>上述分布称为<strong>几何分布</strong>，记作 $X\sim G(p)$ 。</p><ul><li>期望： $\displaystyle E(X)=\frac{1}{p} $ ；</li><li>方差： $\displaystyle DX=\frac{1-p}{p^{2} } $ 。</li></ul><h2 id="3-3-二项分布"><a href="#3-3-二项分布" class="headerlink" title="3.3 二项分布"></a>3.3 二项分布</h2><p><strong>定义（二项分布）</strong>：在一次试验中，事件 $A$ 发生的概率是 $P(A)=p$ ，那么，在 $n$ 次独立重复实验中，事件 $A$ 发生了 $k$ 次，其发生的次数与其概率的关系为：</p><script type="math/tex; mode=display">\displaystyle P(X=k)=C_{n} ^{k} p^{k} (1-p)^{n-k} \quad (k =0, 1,2,\cdots ,n)</script><p>上述分布称为<strong>二项分布</strong>，记作 $X\sim B(n,p)$ 。</p><ul><li>期望： $\displaystyle EX=np$ ；</li><li>方差： $\displaystyle DX=np(1-p)$ 。</li></ul><h2 id="3-4-泊松分布"><a href="#3-4-泊松分布" class="headerlink" title="3.4 泊松分布"></a>3.4 泊松分布</h2><p><strong>定义（泊松分布）</strong>：形如</p><script type="math/tex; mode=display">\displaystyle P(X=k)=\frac{\lambda ^{k} }{k!} e^{-\lambda }</script><p>的分布律称为<strong>泊松分布</strong>，记作 $X\sim P(\lambda )$ 。</p><ul><li>期望： $EX=\lambda$ ；</li><li>方差： $DX=\lambda$ 。</li></ul><p>为什么需要泊松分布？或者它的意义是什么？</p><p>泊松分布源于二项分布，二项分布的性质是 $μ = np$ 。可以这么理解：现实中虽然只进行了一回 n 次试验，但是假想平行时间线上进行了无数回 n 次试验（直接多做几回 n 次试验），将这无数时间线上的成功次数 k 做算术平均，得到的均值就是μ。</p><p>泊松分布的一个作用就是近似：</p><p>当二项分布 $X\sim B(n,p)$ 中的 $n$ 很大，$p$ 很小，并且 $np$ 的大小适中，就能用<strong>泊松分布来近似计算</strong>，即 $X\sim P(np)$ 。</p><h2 id="3-5-超几何分布"><a href="#3-5-超几何分布" class="headerlink" title="3.5 超几何分布"></a>3.5 超几何分布</h2><p><strong>定义（超几何分布）</strong>：假设 $N$ 个元素分成两类，第一类有 $M(M\le N)$ 个，第二类有 $N-M$ 个，那么取出 $n$ 个元素，随机变量 $X$ 为取出的第一类元素的个数，那么其概率为：</p><script type="math/tex; mode=display">\displaystyle P(X=k)=\frac{C_{M}^{k} C_{N-M}^{n-k}  }{C_{N}^{n}  }</script><p>上述随机变量的分布称为<strong>超几何分布</strong>，记作 $X\sim H(N,n,M)$ 。</p><p>当 $N\to \infty $ 时，超几何分布近似为二项分布， $\displaystyle \frac{M }{N} \to p$ 。</p><h2 id="3-6-均匀分布"><a href="#3-6-均匀分布" class="headerlink" title="3.6 均匀分布"></a>3.6 均匀分布</h2><p><strong>定义（均匀分布）</strong>：满足概率密度函数</p><script type="math/tex; mode=display">\displaystyle f(x)=\left\{\begin{matrix} \frac{1}{b-a}  &  &a\le x\le b \\  0&  &\mathrm{else} \end{matrix}\right.</script><p>称为<strong>均匀分布</strong>，记作 $X\sim U(a,b)$ 。</p><p>其分布函数为：</p><script type="math/tex; mode=display">\displaystyle F(x) = \left\{\begin{matrix} 0 &  & x< a\\ \displaystyle \frac{x-a}{b-a}  &  & a\le x<b\\ 1 &  &b\le a\end{matrix}\right.</script><h2 id="3-7-指数分布"><a href="#3-7-指数分布" class="headerlink" title="3.7 指数分布"></a>3.7 指数分布</h2><p><strong>定义（指数分布）</strong>：满足概率密度函数：</p><script type="math/tex; mode=display">\displaystyle f(x)=\left\{\begin{matrix} \lambda e^{-\lambda x}  & x>0\\  0&x\le 0\end{matrix}\right.</script><p>称为<strong>指数分布</strong>，记作 $X\sim \mathrm{Exp}(\lambda ) $ 。</p><p>其分布函数为：</p><script type="math/tex; mode=display">\displaystyle F(x)=\left\{\begin{matrix} 1-e^{-\lambda x}  & x>0\\ 0 &x\le 0\end{matrix}\right.</script><h2 id="3-8-正态分布"><a href="#3-8-正态分布" class="headerlink" title="3.8 正态分布"></a>3.8 正态分布</h2><p><strong>定义（正态分布）</strong>：满足概率密度函数：</p><script type="math/tex; mode=display">\displaystyle \Phi (x)=\frac{1}{\sqrt{2\pi }\sigma} e^{-\frac{(x-\mu )^{2} }{2\sigma ^{2} } } ,x\in \left ( -\infty, +\infty  \right )</script><p>称为<strong>正态分布</strong>，记作 $X\sim N(\mu ,\sigma ^{2} )$ 。</p><p>其分布函数为：</p><script type="math/tex; mode=display">F(x) = \int_{-\infty }^{x} \frac{1}{\sqrt{2\pi }\sigma} e^{-\frac{(t-\mu )^{2} }{2\sigma ^{2} }}\mathrm{d}t</script><p><strong>性质 1</strong>：密度函数以 $x=\mu $ 为对称轴，并且在 $x=\mu $ 时， $\Phi (x)$ 取得最大值。</p><p><strong>性质 2</strong>：密度函数以 $y$ 轴为渐近线，并且 $x=\mu \pm \sigma $ 是函数的<strong>拐点</strong>。</p><p><strong>性质 3</strong>：当 $\sigma $ 固定， $\mu $ 越大，函数图像越靠右；反之，函数越靠左。当 $\mu $ 固定， $\sigma $ 越大，图像越低； $\sigma $ 越小，图像越高</p><hr><p><strong>标准正态</strong>：当正态分布的 $\mu =0,\sigma =0$ 时，称为标准正态分布</p><script type="math/tex; mode=display">\Phi _{0} (x)=\frac{1}{\sqrt{2\pi } } e^{-\frac{x^{2} }{2} } ,x\in \left ( -\infty,+ \infty  \right )</script><p>分布函数为：</p><script type="math/tex; mode=display">F(x) = \int_{-\infty }^{x} \frac{1}{\sqrt{2\pi }} e^{-\frac{t^{2} }{2}}\mathrm{d}t</script><p><strong>性质</strong>：</p><div class="table-container"><table><thead><tr><th style="text-align:center">序号</th><th style="text-align:center">公式</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">$\Phi _{0} (x)=\Phi _{0} (-x)$</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">$\Phi _{0} (-x)=1-\Phi _{0} (x)$</td></tr><tr><td style="text-align:center">3</td><td style="text-align:center">$\displaystyle \Phi (x)=\frac{1}{\sigma } \Phi _{0}(\frac{x-\mu }{\sigma } )$</td></tr></tbody></table></div><h1 id="四、随机变量及其分布"><a href="#四、随机变量及其分布" class="headerlink" title="四、随机变量及其分布"></a>四、随机变量及其分布</h1><blockquote><p>已知 $X$ 是某种分布，然后有 $Y=f(X)$ ，求 $Y$ 的分布，就是这一节内容</p></blockquote><h2 id="4-1-离散型"><a href="#4-1-离散型" class="headerlink" title="4.1 离散型"></a>4.1 离散型</h2><p><strong>方法一</strong>：离散型随机变量，直接将分布律罗列出来。</p><h2 id="4-2-连续型随机变量"><a href="#4-2-连续型随机变量" class="headerlink" title="4.2 连续型随机变量"></a>4.2 连续型随机变量</h2><p>设 $X$ 的密度函数 $f_{x} (x)$ ，并且 $Y=g(X)$ 。</p><ol><li>首先用 $F_{X}(x)$ 来表示 $F_{Y}(x)$ ；</li><li>接着两边求导，用 $f_{X}(x)$ 来表示 $f_{Y}(x)$ 。</li></ol><hr><p><strong>示例</strong>： $X$ 的密度函数 $f_{X}(x)$ ，并且 $Y=3X+2$ 。</p><p>解：由题可得：</p><script type="math/tex; mode=display">\begin{align}F_{Y}(x) & = P\left \{ Y\le x \right \} \\&=P\left \{ 3X+2\le x \right \}\\&=P\left \{ X\le \frac{x-2}{3}\right \}\\&=F_{X}(\frac{x-2}{3})\end{align}</script><p>两边求导，得：</p><script type="math/tex; mode=display">\begin{align}f_{Y}(x) = \frac{1}{3} f_{X}(\frac{x-2}{3} )\end{align}</script><p><strong>定理</strong>：$X$ 的密度函数 $f_{X}(x)$ ，并且 $Y=kX+b$ ，那么 $\displaystyle f_{Y}(x)=\frac{1}{\left | k \right | } f_{x}(\frac{x-b}{k} )$ 。</p>]]></content>
       
       
       <categories>
@@ -819,11 +819,11 @@
             
             <tag> 经典功能实现 </tag>
             
-            <tag> 最短路径 </tag>
-            
             <tag> 广度优先算法 </tag>
             
             <tag> BFS </tag>
+            
+            <tag> 最短路径 </tag>
             
         </tags>
       
@@ -914,11 +914,11 @@
             
             <tag> 版本控制 </tag>
             
-            <tag> Github </tag>
-            
             <tag> Git </tag>
             
             <tag> 团队协作 </tag>
+            
+            <tag> Github </tag>
             
         </tags>
       
@@ -982,50 +982,11 @@
             
             <tag> Git </tag>
             
-            <tag> 团队协作 </tag>
-            
             <tag> 分布式版本控制 </tag>
             
             <tag> GitHub </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>C#代码规范</title>
-      <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/02.Csharp%E8%A7%84%E8%8C%83.html"/>
-      <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/02.Csharp%E8%A7%84%E8%8C%83.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>我们在实际的代码开发中，经常会遇到代码的命名以及规范问题。而不同的人有不同的风格，因此，这篇文章主要讲述<strong>本人 C#代码的规范</strong>，仅作个人以及愿意参与本人项目中人使用。</p><blockquote><p>注意：大可不必争论，代码的命名是否合理，选择一套自己最喜欢的风格，并将其养成习惯，才是最重要的。</p><p>C#系列教程：</p><ol><li><a href="https://blog.yuilexi.cn/2023/04/26/编程/Csharp知识库/Csharp基础/Csharp基础语法/">C#基础语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></li><li><a href="https://blog.yuilexi.cn/2023/04/30/编程/Csharp知识库/Csharp基础/Csharp高级语法/">C#高级语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></li><li><a href="https://blog.yuilexi.cn/2023/05/19/编程/Csharp知识库/Csharp基础/Csharp规范/">C#代码规范 | 🪐 星空鸟 🪐 (yuilexi.cn)</a>⬅️ 当前的位置 °꒰๑’ꀾ’๑꒱°</li></ol></blockquote><h1 id="一、标识符规则"><a href="#一、标识符规则" class="headerlink" title="一、标识符规则"></a>一、标识符规则</h1><ul><li><code>Pascal</code>命名规范：标志符中，所有单词的首字母均大写，其余字母小写。</li><li><code>camel</code>命名规范：标志符中，<strong>首字母小写</strong>，其余<strong>单词的首字母</strong>大写，<strong>其余字母</strong>小写。</li><li>标识符命名的字符选择：<code>[a-zA-Z0-9_]</code>中的字符任意搭配，并且不能<strong>以数字作为开头</strong></li></ul><div class="table-container"><table><thead><tr><th style="text-align:center">类型</th><th style="text-align:center">命名规范</th><th style="text-align:center">举例</th></tr></thead><tbody><tr><td style="text-align:center">类： <code>class</code></td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PlayerControl</code></td></tr><tr><td style="text-align:center">私有非静态字段</td><td style="text-align:center"><code>camel</code>，并且必须以<strong>单下划线</strong><code>_</code>开头</td><td style="text-align:center"><code>_workerQueue</code></td></tr><tr><td style="text-align:center">私有静态字段</td><td style="text-align:center"><code>camel</code>，并且必须以<code>s_</code>开头</td><td style="text-align:center"><code>s_workerQueue</code></td></tr><tr><td style="text-align:center">属性和公共字段</td><td style="text-align:center"><code>Pascal</code>，不能以<strong>下划线</strong>或者<code>s_</code>开头</td><td style="text-align:center"><code>WorkerQueue</code></td></tr><tr><td style="text-align:center">方法</td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PascalCasing()</code></td></tr><tr><td style="text-align:center">局部变量</td><td style="text-align:center"><code>camel</code>，并且不能以<strong>下划线</strong>或者<code>s_</code>开头</td><td style="text-align:center"><code>workerQueue</code></td></tr><tr><td style="text-align:center">结构体：<code>struct</code></td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PascalCasing</code></td></tr><tr><td style="text-align:center">接口<code>interface</code></td><td style="text-align:center"><code>Pascal</code>，并在开头加上<code>I</code></td><td style="text-align:center"><code>IWorkerQueue</code></td></tr></tbody></table></div><h1 id="C-语言命名空间"><a href="#C-语言命名空间" class="headerlink" title="C#语言命名空间"></a>C#语言命名空间</h1><ol><li>命名空间名称采用<code>Pascal</code>规则，且首字符大写。</li><li>命名空间名称尽量反映其内容所提供的整体功能。</li></ol><p>对于引用的命名空间：</p><ul><li>每一条命名空间的引用，独占一行</li><li>按照：<code>系统的命名空间 -&gt; 第三方库的命名空间 -&gt; 自定义的命名空间</code> 进行排序</li><li>每一大类的命名空间，<strong>按照字母排序</strong></li></ul><h1 id="三、类"><a href="#三、类" class="headerlink" title="三、类"></a>三、类</h1><ol><li>使用<code>Pascal</code>规则命名类名，即首字母要大写。</li><li>使用能够反映类功能的名词或名词短语命名类。</li><li><strong>不要使用 “I”、“C”、“_” 等特定含义前缀</strong>。</li><li>自定义异常类应以 Exception 结尾。</li><li>文件名要能反映类的内容，最好是和类同名。</li></ol><h1 id="四、字段"><a href="#四、字段" class="headerlink" title="四、字段"></a>四、字段</h1><ol><li>用<code>camel</code>规则来命名类成员变量名称，即首单词（或单词缩写）小写。</li><li>类字段变量名前加 “_” 前缀，静态字段变量名前加 “s_” 前缀。</li><li>坚决禁止在普通变量前加“m_”（这是 VC 老命名规则）。</li><li>公共的字段采用<code>Pascal</code>规则</li></ol><h1 id="五、属性"><a href="#五、属性" class="headerlink" title="五、属性"></a>五、属性</h1><ol><li>使用名词定义属性</li><li>属性使用<code>Pascal</code>规则，首字符大写。</li><li><strong>属性和相应字段名称要关联</strong>，可以使用“重构”菜单来生成属性。</li></ol><h1 id="六、方法"><a href="#六、方法" class="headerlink" title="六、方法"></a>六、方法</h1><ol><li>方法名采用<code>Pascal</code>规则，第一个字符要大写。</li><li>方法名应使用动词或动词短语。</li><li>类中访问修饰符或功能相同的方法应该放在一起</li><li>通常情况下，类中方法的排序为：实现接口的方法 -&gt; 私有方法 -&gt; 公共方法</li></ol><h1 id="七、参数（局部变量）"><a href="#七、参数（局部变量）" class="headerlink" title="七、参数（局部变量）"></a>七、参数（局部变量）</h1><ol><li>参数采用<code>camel</code>规则命名，且首字符小写。</li><li>使用描述性参数名称，<strong>参数名称应当具有最够的说明性</strong>。</li><li>不要给参数加匈牙利语类型表示法的前缀，即不能添加 “_” 、 “s_” 等前缀。</li><li>检查方法所有输入参数的有效性，即<strong>不能定义不使用的参数</strong>。</li></ol><h1 id="八、常量"><a href="#八、常量" class="headerlink" title="八、常量"></a>八、常量</h1><ol><li>只读常量使用<code>Pascal</code>命名规则，即首字母大写。</li><li>枚举名使用<code>Pascal</code>规则命名，枚举成员本质属于常量，命名规则同上。</li><li>枚举值从小到大顺序定义。</li><li>静态字段或属性采用<code>Pascal</code>规则，即首字符大写。</li></ol><h1 id="九、接口"><a href="#九、接口" class="headerlink" title="九、接口"></a>九、接口</h1><ol><li>接口定义使用<code>Pascal</code>规则，且必须以大写“I”开头。</li><li>接口名称要有意义，中间不要有下划线“_”等字符。</li><li>如果类实现了接口，名称<strong>尽量</strong>和接口相同，只是省掉“I”字符。</li></ol><h1 id="十、委托与事件"><a href="#十、委托与事件" class="headerlink" title="十、委托与事件"></a>十、委托与事件</h1><ol><li>委托名称采用<code>Pascal</code>规则，即首字符大写。</li><li>定义事件的委托要使用<code>EventHandler</code>后缀，且包括<code>sender</code>和<code>e</code>两个参数。</li><li>事件用到的参数类，名称要带<code>EventArgs</code>后缀。</li><li>事件建议使用<code>Event</code>后缀</li></ol><h1 id="代码规范"><a href="#代码规范" class="headerlink" title="代码规范"></a>代码规范</h1><ol><li>代码块的大括号 <code>&#123; &#125;</code> 独占一行，不要使用 <code>Java</code> 习惯</li><li>接口、类、结构体、枚举、字段、属性、方法等必须添加<strong>访问修饰符</strong></li><li><strong>不写注释是流氓，乱写注释是混蛋</strong></li></ol><h1 id="README"><a href="#README" class="headerlink" title="README"></a>README</h1><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><details class="folding-tag" ><summary> 更新日志 </summary>              <div class='content'>              <div class="timeline orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-23</p></div></div><div class='timeline-item-content'><ol><li>在 “前言” 部分，增加对 ① ② 文章的引用链接</li></ol></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-19</p></div></div><div class='timeline-item-content'><ol><li>创建该文档，并规范了常用的代码</li></ol></div></div></div>              </div>            </details>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unity3D </category>
-          
-          <category> Csharp </category>
-          
-          <category> Csharp基础 </category>
-          
-          <category> Unity3D基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Csharp </tag>
-            
-            <tag> Unity3D </tag>
-            
-            <tag> Csharp基础 </tag>
-            
-            <tag> Unity3D基础 </tag>
-            
-            <tag> Csharp规范 </tag>
+            <tag> 团队协作 </tag>
             
         </tags>
       
@@ -1065,6 +1026,45 @@
             <tag> ArrayList </tag>
             
             <tag> List </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C#代码规范</title>
+      <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/02.Csharp%E8%A7%84%E8%8C%83.html"/>
+      <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/02.Csharp%E8%A7%84%E8%8C%83.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>我们在实际的代码开发中，经常会遇到代码的命名以及规范问题。而不同的人有不同的风格，因此，这篇文章主要讲述<strong>本人 C#代码的规范</strong>，仅作个人以及愿意参与本人项目中人使用。</p><blockquote><p>注意：大可不必争论，代码的命名是否合理，选择一套自己最喜欢的风格，并将其养成习惯，才是最重要的。</p><p>C#系列教程：</p><ol><li><a href="https://blog.yuilexi.cn/2023/04/26/编程/Csharp知识库/Csharp基础/Csharp基础语法/">C#基础语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></li><li><a href="https://blog.yuilexi.cn/2023/04/30/编程/Csharp知识库/Csharp基础/Csharp高级语法/">C#高级语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></li><li><a href="https://blog.yuilexi.cn/2023/05/19/编程/Csharp知识库/Csharp基础/Csharp规范/">C#代码规范 | 🪐 星空鸟 🪐 (yuilexi.cn)</a>⬅️ 当前的位置 °꒰๑’ꀾ’๑꒱°</li></ol></blockquote><h1 id="一、标识符规则"><a href="#一、标识符规则" class="headerlink" title="一、标识符规则"></a>一、标识符规则</h1><ul><li><code>Pascal</code>命名规范：标志符中，所有单词的首字母均大写，其余字母小写。</li><li><code>camel</code>命名规范：标志符中，<strong>首字母小写</strong>，其余<strong>单词的首字母</strong>大写，<strong>其余字母</strong>小写。</li><li>标识符命名的字符选择：<code>[a-zA-Z0-9_]</code>中的字符任意搭配，并且不能<strong>以数字作为开头</strong></li></ul><div class="table-container"><table><thead><tr><th style="text-align:center">类型</th><th style="text-align:center">命名规范</th><th style="text-align:center">举例</th></tr></thead><tbody><tr><td style="text-align:center">类： <code>class</code></td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PlayerControl</code></td></tr><tr><td style="text-align:center">私有非静态字段</td><td style="text-align:center"><code>camel</code>，并且必须以<strong>单下划线</strong><code>_</code>开头</td><td style="text-align:center"><code>_workerQueue</code></td></tr><tr><td style="text-align:center">私有静态字段</td><td style="text-align:center"><code>camel</code>，并且必须以<code>s_</code>开头</td><td style="text-align:center"><code>s_workerQueue</code></td></tr><tr><td style="text-align:center">属性和公共字段</td><td style="text-align:center"><code>Pascal</code>，不能以<strong>下划线</strong>或者<code>s_</code>开头</td><td style="text-align:center"><code>WorkerQueue</code></td></tr><tr><td style="text-align:center">方法</td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PascalCasing()</code></td></tr><tr><td style="text-align:center">局部变量</td><td style="text-align:center"><code>camel</code>，并且不能以<strong>下划线</strong>或者<code>s_</code>开头</td><td style="text-align:center"><code>workerQueue</code></td></tr><tr><td style="text-align:center">结构体：<code>struct</code></td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PascalCasing</code></td></tr><tr><td style="text-align:center">接口<code>interface</code></td><td style="text-align:center"><code>Pascal</code>，并在开头加上<code>I</code></td><td style="text-align:center"><code>IWorkerQueue</code></td></tr></tbody></table></div><h1 id="C-语言命名空间"><a href="#C-语言命名空间" class="headerlink" title="C#语言命名空间"></a>C#语言命名空间</h1><ol><li>命名空间名称采用<code>Pascal</code>规则，且首字符大写。</li><li>命名空间名称尽量反映其内容所提供的整体功能。</li></ol><p>对于引用的命名空间：</p><ul><li>每一条命名空间的引用，独占一行</li><li>按照：<code>系统的命名空间 -&gt; 第三方库的命名空间 -&gt; 自定义的命名空间</code> 进行排序</li><li>每一大类的命名空间，<strong>按照字母排序</strong></li></ul><h1 id="三、类"><a href="#三、类" class="headerlink" title="三、类"></a>三、类</h1><ol><li>使用<code>Pascal</code>规则命名类名，即首字母要大写。</li><li>使用能够反映类功能的名词或名词短语命名类。</li><li><strong>不要使用 “I”、“C”、“_” 等特定含义前缀</strong>。</li><li>自定义异常类应以 Exception 结尾。</li><li>文件名要能反映类的内容，最好是和类同名。</li></ol><h1 id="四、字段"><a href="#四、字段" class="headerlink" title="四、字段"></a>四、字段</h1><ol><li>用<code>camel</code>规则来命名类成员变量名称，即首单词（或单词缩写）小写。</li><li>类字段变量名前加 “_” 前缀，静态字段变量名前加 “s_” 前缀。</li><li>坚决禁止在普通变量前加“m_”（这是 VC 老命名规则）。</li><li>公共的字段采用<code>Pascal</code>规则</li></ol><h1 id="五、属性"><a href="#五、属性" class="headerlink" title="五、属性"></a>五、属性</h1><ol><li>使用名词定义属性</li><li>属性使用<code>Pascal</code>规则，首字符大写。</li><li><strong>属性和相应字段名称要关联</strong>，可以使用“重构”菜单来生成属性。</li></ol><h1 id="六、方法"><a href="#六、方法" class="headerlink" title="六、方法"></a>六、方法</h1><ol><li>方法名采用<code>Pascal</code>规则，第一个字符要大写。</li><li>方法名应使用动词或动词短语。</li><li>类中访问修饰符或功能相同的方法应该放在一起</li><li>通常情况下，类中方法的排序为：实现接口的方法 -&gt; 私有方法 -&gt; 公共方法</li></ol><h1 id="七、参数（局部变量）"><a href="#七、参数（局部变量）" class="headerlink" title="七、参数（局部变量）"></a>七、参数（局部变量）</h1><ol><li>参数采用<code>camel</code>规则命名，且首字符小写。</li><li>使用描述性参数名称，<strong>参数名称应当具有最够的说明性</strong>。</li><li>不要给参数加匈牙利语类型表示法的前缀，即不能添加 “_” 、 “s_” 等前缀。</li><li>检查方法所有输入参数的有效性，即<strong>不能定义不使用的参数</strong>。</li></ol><h1 id="八、常量"><a href="#八、常量" class="headerlink" title="八、常量"></a>八、常量</h1><ol><li>只读常量使用<code>Pascal</code>命名规则，即首字母大写。</li><li>枚举名使用<code>Pascal</code>规则命名，枚举成员本质属于常量，命名规则同上。</li><li>枚举值从小到大顺序定义。</li><li>静态字段或属性采用<code>Pascal</code>规则，即首字符大写。</li></ol><h1 id="九、接口"><a href="#九、接口" class="headerlink" title="九、接口"></a>九、接口</h1><ol><li>接口定义使用<code>Pascal</code>规则，且必须以大写“I”开头。</li><li>接口名称要有意义，中间不要有下划线“_”等字符。</li><li>如果类实现了接口，名称<strong>尽量</strong>和接口相同，只是省掉“I”字符。</li></ol><h1 id="十、委托与事件"><a href="#十、委托与事件" class="headerlink" title="十、委托与事件"></a>十、委托与事件</h1><ol><li>委托名称采用<code>Pascal</code>规则，即首字符大写。</li><li>定义事件的委托要使用<code>EventHandler</code>后缀，且包括<code>sender</code>和<code>e</code>两个参数。</li><li>事件用到的参数类，名称要带<code>EventArgs</code>后缀。</li><li>事件建议使用<code>Event</code>后缀</li></ol><h1 id="代码规范"><a href="#代码规范" class="headerlink" title="代码规范"></a>代码规范</h1><ol><li>代码块的大括号 <code>&#123; &#125;</code> 独占一行，不要使用 <code>Java</code> 习惯</li><li>接口、类、结构体、枚举、字段、属性、方法等必须添加<strong>访问修饰符</strong></li><li><strong>不写注释是流氓，乱写注释是混蛋</strong></li></ol><h1 id="README"><a href="#README" class="headerlink" title="README"></a>README</h1><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><details class="folding-tag" ><summary> 更新日志 </summary>              <div class='content'>              <div class="timeline orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-23</p></div></div><div class='timeline-item-content'><ol><li>在 “前言” 部分，增加对 ① ② 文章的引用链接</li></ol></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-19</p></div></div><div class='timeline-item-content'><ol><li>创建该文档，并规范了常用的代码</li></ol></div></div></div>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity3D </category>
+          
+          <category> Csharp </category>
+          
+          <category> Csharp基础 </category>
+          
+          <category> Unity3D基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Csharp </tag>
+            
+            <tag> Unity3D </tag>
+            
+            <tag> Csharp基础 </tag>
+            
+            <tag> Unity3D基础 </tag>
+            
+            <tag> Csharp规范 </tag>
             
         </tags>
       
@@ -1298,9 +1298,9 @@
             
             <tag> 经典功能实现 </tag>
             
-            <tag> A星寻路算法 </tag>
-            
             <tag> 最短路径 </tag>
+            
+            <tag> A星寻路算法 </tag>
             
         </tags>
       
@@ -1419,9 +1419,9 @@
             
             <tag> Csharp基础 </tag>
             
-            <tag> Unity3D基础 </tag>
-            
             <tag> Csharp高级语法 </tag>
+            
+            <tag> Unity3D基础 </tag>
             
             <tag> 面型对象 </tag>
             
@@ -1489,11 +1489,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1526,11 +1526,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1563,11 +1563,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1600,11 +1600,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1637,11 +1637,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1674,11 +1674,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1711,11 +1711,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1748,11 +1748,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
