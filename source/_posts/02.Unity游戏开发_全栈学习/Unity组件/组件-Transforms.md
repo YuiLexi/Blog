@@ -1,7 +1,6 @@
 ---
 title: Unity组件-Transform
-data: 2023-5-11 00:00:00
-update: 2023-7-24 00:00:00
+date: 2023-5-11 00:00:00
 categories:
   - [Unity3D, Unity组件]
 tags: [Unity3D, Unity组件, Transform变换]

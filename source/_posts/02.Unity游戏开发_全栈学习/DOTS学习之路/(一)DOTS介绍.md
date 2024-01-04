@@ -1,7 +1,6 @@
 ---
 title: (一)DOTS基础—1. 认识DOTS
 date: 2023-8-21 ：00:00:00
-updated: 2023-8-21 ：00:00:00
 categories: [Unity3D, DOTS]
 tags: [Unity3D, DOTS]
 description: 此文章主要介绍DOTS架构的基础认识
@@ -107,8 +106,3 @@ Job System的一个非常关键的方面是它可以融入Unity内部的原生Jo
 
 
 
-# 说明
-
-## 参考文章
-
-[Unity DOTS：入门简介（ECS，Burst Complier，JobSystem） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/138029194)

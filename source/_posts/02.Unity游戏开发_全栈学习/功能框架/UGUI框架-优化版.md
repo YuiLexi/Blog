@@ -1,7 +1,6 @@
 ---
 title: Unity之UGUI框架(优化版)
 date: 2023-5-16 00:00:00
-update: 2023-7-24 00:00:00
 categories:
   - [Unity3D, 功能框架]
   - [Unity3D, GUI]

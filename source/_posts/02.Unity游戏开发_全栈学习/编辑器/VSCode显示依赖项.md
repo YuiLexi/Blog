@@ -1,7 +1,6 @@
 ---
 title: Visual Studio Code显示Unity依赖项
 date: 2023-8-21 00:00:00
-update: 2023-8-21 00:00:00
 categories:
   - [Unity3D, 编辑器]
 tags: [Unity3D, 编辑器, Visual Studio Code, 依赖项]

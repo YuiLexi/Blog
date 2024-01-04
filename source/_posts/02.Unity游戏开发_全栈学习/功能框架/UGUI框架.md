@@ -1,7 +1,6 @@
 ---
 title: Unity之UGUI框架
 date: 2023-5-2 00:00:00
-update: 2023-7-24 00:00:00
 categories:
   - [Unity3D, 功能框架]
   - [Unity3D, GUI]
@@ -564,7 +563,7 @@ public class MainMenuUIPanel : BaseUIPanel
       using System.Collections;
       using System.Collections.Generic;
       using UnityEngine;
-
+    
       /// <summary>
       /// 该类需要挂载到每一个Panel的预制件上，因此继承MonoBehaviour
       /// </summary>
@@ -586,7 +585,7 @@ public class MainMenuUIPanel : BaseUIPanel
               _canvasGroup.blocksRaycasts = true;
               _canvasGroup.alpha = 1;
           }
-
+    
           /// <summary>
           /// 暂停时需要执行的方法
           /// </summary>
@@ -595,7 +594,7 @@ public class MainMenuUIPanel : BaseUIPanel
               _canvasGroup.blocksRaycasts = false;
               _canvasGroup.alpha = 1;
           }
-
+    
           /// <summary>
           /// 重新启动时需要执行的方法
           /// </summary>
@@ -605,7 +604,7 @@ public class MainMenuUIPanel : BaseUIPanel
               _canvasGroup.blocksRaycasts = true;
               _canvasGroup.alpha = 1;
           }
-
+    
           /// <summary>
           /// 关闭时需要执行的方法
           /// </summary>
@@ -841,7 +840,7 @@ public class MainMenuUIPanel : BaseUIPanel
 
       ```c#
       using UnityEngine;
-
+    
       public class UIManagerLoader : MonoBehaviour
       {
           //先把当前场景中的Canvas对象的Transform属性赋值给UIManager的CanvasTransform属性
@@ -861,7 +860,7 @@ public class MainMenuUIPanel : BaseUIPanel
       ```c#
       using System.Collections;
       using System.Collections.Generic;
-
+    
       public static class ListExtesion
       {
           /// <summary>
@@ -928,7 +927,7 @@ public class MainMenuUIPanel : BaseUIPanel
       using System.Collections;
       using System.Collections.Generic;
       using UnityEngine;
-
+      
       public class SettingUIPanel : BaseUIPanel
       {
           public override void OnEnter()
