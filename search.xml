@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>Lua基础语法</title>
+      <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/05.Lua/01.Lua%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.html"/>
+      <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/05.Lua/01.Lua%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h1><h1 id="二、Lua基础"><a href="#二、Lua基础" class="headerlink" title="二、Lua基础"></a>二、Lua基础</h1><h2 id="2-1-第一个Lua程序"><a href="#2-1-第一个Lua程序" class="headerlink" title="2.1 第一个Lua程序"></a>2.1 第一个Lua程序</h2><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, world!&quot;</span>)</span><br></pre></td></tr></table></figure><blockquote><p>注意：在 <code>Lua</code> 语法中，语句的结尾可以添加 “;”，也可以选择不添加 “;”，但是习惯上不添加 “;”。</p></blockquote><h2 id="2-2-注释"><a href="#2-2-注释" class="headerlink" title="2.2 注释"></a>2.2 注释</h2><p>俗话说的好：我讨厌两种人，一是不写注释的人；二是让我写注释的人。尽管如此，良好的注释习惯不仅能提升代码的美观度和可读性，而且便于后期迭代修改。因此，养成写注释的好习惯是写代码的第一步。</p><p>基本上所有的计算机语言都有注释，而在 <code>Lua</code> 语言中，支持的注释类型有两种，分别是：</p><ol><li><p>单行注释</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********单行注释**********&quot;</span>)</span><br><span class="line"><span class="comment">-- 我是单行注释</span></span><br></pre></td></tr></table></figure><p> 这里是两个短横线 “-”。</p></li><li><p>多行注释</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********多行注释**********&quot;</span>)</span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">我是多行注释</span></span><br><span class="line"><span class="comment">1</span></span><br><span class="line"><span class="comment">]]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">我是多行注释</span></span><br><span class="line"><span class="comment">2</span></span><br><span class="line"><span class="comment">]]</span></span><br><span class="line">   <span class="comment">--</span></span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">我是多行注释</span></span><br><span class="line"><span class="comment">3</span></span><br><span class="line"><span class="comment">--]]</span></span><br></pre></td></tr></table></figure></li></ol><h2 id="2-3-基础变量类型"><a href="#2-3-基础变量类型" class="headerlink" title="2.3 基础变量类型"></a>2.3 基础变量类型</h2><p>在 <code>Lua</code> 语言中，所有的变量类型总结起来一共有 8 种，分别是：</p><div class="table-container"><table><thead><tr><th style="text-align:center">nil</th><th style="text-align:center">number</th><th style="text-align:center">string</th><th style="text-align:center">boolean</th><th style="text-align:center">table</th><th style="text-align:center">function</th><th style="text-align:center">userdata</th><th style="text-align:center">thread</th></tr></thead><tbody><tr><td style="text-align:center">表示NULL</td><td style="text-align:center">表示数字，包含整数和浮点数</td><td style="text-align:center">表示字符串</td><td style="text-align:center">表示布尔类型</td><td style="text-align:center">表类型</td><td style="text-align:center">函数类型</td><td style="text-align:center">数据结构</td><td style="text-align:center">协同程序</td></tr></tbody></table></div><p>本节中，主要讲解前四种基础变量类型，而后四种的复杂变量类型放在以后的小节中。</p><p>首先，在 <code>Lua</code> 语言中，声明变量是不需要指明其类型的，系统能够自动推断出变量的类型，属于<strong>弱语言</strong>。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 1. nil变量</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********nil变量**********&quot;</span>)</span><br><span class="line">a = <span class="literal">nil</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;a的值:&quot;</span>, a, <span class="string">&quot;    a的类型:&quot;</span>, <span class="built_in">type</span>(a))</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 2. number变量</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********number变量**********&quot;</span>)</span><br><span class="line">num = <span class="number">100</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;num的值:&quot;</span>, num, <span class="string">&quot;    num的类型:&quot;</span>, <span class="built_in">type</span>(num))</span><br><span class="line">number = <span class="number">73.123123</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;number的值:&quot;</span>, number, <span class="string">&quot;    number的类型:&quot;</span>, <span class="built_in">type</span>(number))</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 3. string变量</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********string变量**********&quot;</span>)</span><br><span class="line">str = <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str的值:&quot;</span>, str, <span class="string">&quot;    str的类型:&quot;</span>, <span class="built_in">type</span>(str))</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 4. boolean变量</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********boolean变量**********&quot;</span>)</span><br><span class="line">bool = <span class="literal">true</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;bool的值:&quot;</span>, bool, <span class="string">&quot;    bool的类型:&quot;</span>, <span class="built_in">type</span>(bool))</span><br></pre></td></tr></table></figure><p>从上面的代码中，我们能得到：</p><ol><li><p>变量的类型是根据其赋值所决定的；</p><p> 疑问：如果一个没有赋值的变量，那么它的类型是什么呢？</p><p> 答案：</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;变量 “ABCD” 的类型是&quot;</span>, <span class="built_in">type</span>(ABCD))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[结果为:</span></span><br><span class="line"><span class="comment">变量 “ABCD” 的类型是nil</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p> 由此可见，使用为定义的变量时，系统并不会报错，并且未定义的变量的类型为 <code>nil</code> 。</p></li><li><p>同一变量名可以进行多次赋值，并且取最后赋的值。</p><p> 疑问：如果我将一个变量赋<strong>不同类型的变量</strong>，是否可取？结果又会是什么呢？</p><p> 答案：</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********变量的多次赋值**********&quot;</span>)</span><br><span class="line">a = <span class="number">10</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;a的值:&quot;</span>, a, <span class="string">&quot;    a的类型:&quot;</span>, <span class="built_in">type</span>(a))</span><br><span class="line">a = <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;a的值:&quot;</span>, a, <span class="string">&quot;    a的类型:&quot;</span>, <span class="built_in">type</span>(a))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********变量的多次赋值**********</span></span><br><span class="line"><span class="comment">a的值:10    a的类型:number</span></span><br><span class="line"><span class="comment">a的值:Hello, World!    a的类型:string</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure></li></ol><blockquote><p>Tip：在 <code>Lua</code> 语言中，可以使用 <code>type(..)</code> 函数来获取变量类型，其返回值是一个字符串。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********type()**********&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="number">10</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="built_in">type</span>(<span class="number">10</span>)))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********type()**********</span></span><br><span class="line"><span class="comment">string</span></span><br><span class="line"><span class="comment">string</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure></blockquote><h2 id="2-4-字符串"><a href="#2-4-字符串" class="headerlink" title="2.4 字符串"></a>2.4 字符串</h2><p>在 <code>Lua</code> 语言中，针对字符的变量类型只有字符串 <code>string</code> ，没有字符 <code>char</code> 。</p><p><strong>对于字符串的表示，既可以使用双引号，也可以使用单引号</strong>。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的声明**********&quot;</span>)</span><br><span class="line">str = <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line">str2 = <span class="string">&#x27;你好&#x27;</span></span><br></pre></td></tr></table></figure><p>对于字符串来讲，我们使用字符串，不仅会要学会创建字符串，而且还必须学会如可操作字符串，例如：获取字符串长度、拼接字符串、大小写转换、查找、截取、重复、替换等。</p><p>首先，给出字符串多行打印的方法，并且 <code>Lua</code> 语言中，<strong>字符串支持转义字符</strong>；而字符串类型的转换，是通过函数 <code>tostring(..)</code> 来完成的。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********多行打印**********&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;12345\n67890\n&quot;</span>)</span><br><span class="line">str3 = <span class="string">[[</span></span><br><span class="line"><span class="string">我是</span></span><br><span class="line"><span class="string">多行打印</span></span><br><span class="line"><span class="string">!!!!</span></span><br><span class="line"><span class="string">]]</span></span><br><span class="line"><span class="built_in">print</span>(str3)</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********多行打印**********</span></span><br><span class="line"><span class="comment">12345</span></span><br><span class="line"><span class="comment">67890</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">我是</span></span><br><span class="line"><span class="comment">多行打印</span></span><br><span class="line"><span class="comment">!!!!</span></span><br><span class="line"><span class="comment">]]</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的转换**********&quot;</span>)</span><br><span class="line">str4 = <span class="string">&quot;123&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str4的值:&quot;</span>, str4, <span class="string">&quot;    str4的类型:&quot;</span>, <span class="built_in">type</span>(str4))</span><br><span class="line">str4 = <span class="built_in">tonumber</span>(str4)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str4的值:&quot;</span>, str4, <span class="string">&quot;    str4的类型:&quot;</span>, <span class="built_in">type</span>(str4))</span><br><span class="line">str4 = <span class="built_in">tostring</span>(str4)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str4的值:&quot;</span>, str4, <span class="string">&quot;    str4的类型:&quot;</span>, <span class="built_in">type</span>(str4))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********字符串的转换**********</span></span><br><span class="line"><span class="comment">str4的值:123    str4的类型:string</span></span><br><span class="line"><span class="comment">str4的值:123    str4的类型:number</span></span><br><span class="line"><span class="comment">str4的值:123    str4的类型:string</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p>对于如何获取字符串的长度，通过 <code>#</code> 符号来进行操作的，其使用方法如下：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的长度**********&quot;</span>)</span><br><span class="line">str5 = <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str5的长度:&quot;</span>, #str5)</span><br><span class="line">str6 = <span class="string">&quot;你好&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str6的长度:&quot;</span>, #str6)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(#str6))</span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********字符串的长度**********</span></span><br><span class="line"><span class="comment">str5的长度:13</span></span><br><span class="line"><span class="comment">str6的长度:6</span></span><br><span class="line"><span class="comment">number</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><blockquote><p>注意：在 <code>Lua</code> 语言中，通过 <code>#</code> 获取字符串的长度，并不是字符数，而是返回的字节数（汉字占三个字节）。</p></blockquote><p>字符串的拼接：使用 <code>..</code> 操作符。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的连接**********&quot;</span>)</span><br><span class="line">str7 = <span class="string">&quot;Hello, &quot;</span></span><br><span class="line">str8 = <span class="string">&quot;World!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(str7 .. str8)</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********字符串的连接**********</span></span><br><span class="line"><span class="comment">Hello, World!</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p>还可以使用模式匹配的方式：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********模式匹配**********&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">format</span>(<span class="string">&quot;我已经使用了 %d 天的Lua&quot;</span>, <span class="number">7</span>))</span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********模式匹配**********</span></span><br><span class="line"><span class="comment">我已经使用了 7 天的Lua</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p>而对于字符串的其余操作，其用法如下：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的操作**********&quot;</span>)</span><br><span class="line">str9 = <span class="string">&quot;abcDEFghabc&quot;</span></span><br><span class="line"><span class="comment">-- 1. 小写转大写</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">upper</span>(str9))</span><br><span class="line"><span class="comment">-- 2. 大写转小写</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">lower</span>(str9))</span><br><span class="line"><span class="comment">-- 3. 反转</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">reverse</span>(str9))</span><br><span class="line"><span class="comment">-- 4. 查找</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">find</span>(str9, <span class="string">&quot;abc&quot;</span>))</span><br><span class="line"><span class="comment">-- 5. 截取</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">sub</span>(str9, <span class="number">4</span>, <span class="number">6</span>))</span><br><span class="line"><span class="comment">-- 6. 替换</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">gsub</span>(str9, <span class="string">&quot;abc&quot;</span>, <span class="string">&quot;***&quot;</span>))</span><br><span class="line"><span class="comment">-- 7. 重复</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">rep</span>(str9, <span class="number">3</span>))</span><br><span class="line"><span class="comment">-- 8. 匹配</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">match</span>(str9, <span class="string">&quot;DEF&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********字符串的操作**********</span></span><br><span class="line"><span class="comment">ABCDEFGHABC</span></span><br><span class="line"><span class="comment">abcdefghabc</span></span><br><span class="line"><span class="comment">cbahgFEDcba</span></span><br><span class="line"><span class="comment">13</span></span><br><span class="line"><span class="comment">DEF</span></span><br><span class="line"><span class="comment">***DEFgh***2</span></span><br><span class="line"><span class="comment">abcDEFghabcabcDEFghabcabcDEFghabc</span></span><br><span class="line"><span class="comment">DEF</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p>函数 <code>find()</code> 返回值有两个，表明查找到两处，位置分别是 1 和 3；函数 <code>gsub()</code> 最后输出一个数字，表明替换的次数。</p><blockquote><p>注意：在 <code>Lua</code> 语言中，字符串的索引是从 “1” 开始的，这一点需要和替他语言进行区分。在后面的学习中，其实发现，涉及到索引的，默认都是从 “1” 开始，而不是从 “0” 开始。</p></blockquote><h2 id="2-5-运算符"><a href="#2-5-运算符" class="headerlink" title="2.5 运算符"></a>2.5 运算符</h2><p>在 <code>Lua</code> 语言中，运算符的种类分为三种：<strong>算术运算符</strong>、<strong>条件运算符</strong>和<strong>逻辑运算符</strong>。</p><ol><li><p>算术运算符：<code>+  -  *  /  %  ^</code> （加、减、乘、除、取余、幂）；</p><blockquote><p><strong>在 <code>Lua</code> 语言中，没有自增自减运算符（<code>++ --</code>），同时也没有复合运算符（<code>+= -= *= /= %=</code>）</strong>。</p></blockquote><p> <code>string</code> 与 <code>number</code> 类型运算时，如果 <code>string</code> 可以被转换成 <code>number</code> ，那么会得到 <code>number</code> 类型的结果。</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********算术运算符**********&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;12.3&quot;</span> + <span class="number">2</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;12.3&quot;</span> - <span class="number">2</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;12.3&quot;</span> * <span class="number">2</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;12.3&quot;</span> / <span class="number">2</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;12.3&quot;</span> % <span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********算术运算符**********</span></span><br><span class="line"><span class="comment">14.3</span></span><br><span class="line"><span class="comment">10.3</span></span><br><span class="line"><span class="comment">24.6</span></span><br><span class="line"><span class="comment">6.15</span></span><br><span class="line"><span class="comment">0.3</span></span><br><span class="line"><span class="comment">]]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol><ol><li><p>条件(关系)运算符：<code>&gt;  &lt;  &gt;=  &lt;=  ==  ~=</code> （大于、小于、大于等于、小于等于、等于、不等于）</p></li><li><p>逻辑运算符：<code>and  or  not</code> （与、或、非）。</p><p> 在 <code>Lua</code> 语言中，“与” 和 “或” 都遵循逻辑电路的 “短路” 原则。</p></li></ol><blockquote><p>在 <code>Lua</code> 语言中，<strong>不支持位运算符和三目运算符</strong>。</p></blockquote><h1 id="三、流程控制语句"><a href="#三、流程控制语句" class="headerlink" title="三、流程控制语句"></a>三、流程控制语句</h1><h2 id="3-1-条件分支语句"><a href="#3-1-条件分支语句" class="headerlink" title="3.1 条件分支语句"></a>3.1 条件分支语句</h2><p>在 <code>Lua</code> 语言中，基本的 <code>if</code> 语句如下：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> [条件表达式] <span class="keyword">then</span></span><br><span class="line">    [分支]</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    [分支]</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure><p>例如：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">9</span></span><br><span class="line"><span class="keyword">if</span> a &gt; <span class="number">5</span> <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;a大于5&quot;</span>)</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;a小于5&quot;</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="comment">--[[结果为:</span></span><br><span class="line"><span class="comment">a大于5</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p>多分支语句：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">5</span></span><br><span class="line"><span class="keyword">if</span> a &gt; <span class="number">5</span> <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;a大于5&quot;</span>)</span><br><span class="line"><span class="keyword">elseif</span> a &lt; <span class="number">5</span> <span class="keyword">then</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;a小于5&quot;</span>)</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;a等于5&quot;</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="comment">--[[结果为:</span></span><br><span class="line"><span class="comment">a大于5</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><blockquote><p>注意：<strong>在<code>Lua</code>语法中，没有<code>switch</code>语法</strong>。</p></blockquote><h2 id="3-2-循环语句"><a href="#3-2-循环语句" class="headerlink" title="3.2 循环语句"></a>3.2 循环语句</h2><ol><li><p><code>while</code>循环</p><p> 基本语法格式如下：</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> [条件表达式] <span class="keyword">do</span></span><br><span class="line">    [循环体]</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure></li></ol><ol><li><p>“<code>do-while</code>“ <code>repeat</code>循环</p><p> 基本语法格式如下：</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">repeat</span></span><br><span class="line">    [循环体]</span><br><span class="line"><span class="keyword">until</span> [结束条件判断表达式]</span><br></pre></td></tr></table></figure></li></ol><ol><li><p><code>for</code>循环</p><p> 基本语法格式如下：</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i = [初值], [目标值(不包含)], [step] <span class="keyword">do</span></span><br><span class="line">    [循环体]</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure><ul><li>在<code>Lua</code>语言中，<code>for</code>循环会自行累计计数，不需要手动著名<code>i = i + 1</code>；</li><li><code>step</code>是步长，也就是每一次迭代，<code>i</code>变换的量，<strong>默认是 “1”</strong>；</li><li>初值和目标值是左开右闭（区间）范围，也就是相当于 “初值 &lt;= X &lt; 目标值”。</li></ul></li></ol><h1 id="四、函数💲"><a href="#四、函数💲" class="headerlink" title="四、函数💲"></a>四、函数💲</h1><h2 id="4-1-函数的定义"><a href="#4-1-函数的定义" class="headerlink" title="4.1 函数的定义"></a>4.1 函数的定义</h2><p>在<code>Lua</code>语言中，函数的表示方式有两种，分别是：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Name</span><span class="params">()</span></span></span><br><span class="line">    [函数体]</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">Name()</span><br><span class="line"></span><br><span class="line">Name = <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">    [函数体]</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">Name()</span><br></pre></td></tr></table></figure><blockquote><p>Tips：在前面的学习中提到过函数<code>function</code>也是一种特殊的变量，而第二种表示方式就类似于变量的定义。</p><p>注意：在<code>Lua</code>语言中，由于是解释型语言，系统逐行进行执行的，因此<strong>不能将函数的执行放在函数的定义之前</strong>。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 这样的代码会报错</span></span><br><span class="line">Name()</span><br><span class="line">Name = <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;I&#x27;m a function&quot;</span>)</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure></blockquote><p>对于含有参数的函数，在定义的时候不需要指明参数的类型，因此，在函数处理的时候，就要做好应对多种数据类型的准备，例如：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">F1 = <span class="function"><span class="keyword">function</span><span class="params">(a)</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;你输入的是：&quot;</span>, a)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">F1(<span class="literal">nil</span>)</span><br><span class="line">F1(<span class="number">1</span>)</span><br><span class="line">F1(<span class="string">&quot;Hello, World!&quot;</span>)</span><br><span class="line">F1(<span class="literal">true</span>)</span><br><span class="line">F1()</span><br><span class="line">F1(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[结果为:</span></span><br><span class="line"><span class="comment">你输入的是：nil</span></span><br><span class="line"><span class="comment">你输入的是：1</span></span><br><span class="line"><span class="comment">你输入的是：Hello, World!</span></span><br><span class="line"><span class="comment">你输入的是：true</span></span><br><span class="line"><span class="comment">你输入的是：nil</span></span><br><span class="line"><span class="comment">你输入的是：1</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><blockquote><p>注意：<strong>当执行有参的函数时，如果输入零个参数，那么会按照<code>nil</code>对每个参数进行处理；如果输入的参数多于定义的参数，那么会默认忽略多余的参数</strong>。</p></blockquote><p>对于有返回值的参数，在函数体内部使用<code>return</code>语句，并且<strong>可以有多返回值</strong>。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********函数的返回值**********&quot;</span>)</span><br><span class="line">F2 = <span class="function"><span class="keyword">function</span><span class="params">(a, b)</span></span></span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"><span class="built_in">print</span>(F2(<span class="number">1</span>, <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">F3 = <span class="function"><span class="keyword">function</span><span class="params">(a, b)</span></span></span><br><span class="line">    <span class="keyword">return</span> a, b, a + b</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">a, b, c = F3(<span class="number">1</span>, <span class="number">2</span>)</span><br><span class="line"><span class="built_in">print</span>(a, b, c)</span><br></pre></td></tr></table></figure><p>对于多返回值，可以声明多个变量来接收，如果接收者多于返回者，那么多余的接收者为<code>nil</code>；如果接收者小于返回者，那么多余的返回者丢弃。</p><blockquote><p>在<code>Lua</code>语言中，如果中间某个返回值不想要，可以使用弃元<code>_</code>（单下划线），作为接收的占位符。</p></blockquote><h2 id="4-2-函数的重载"><a href="#4-2-函数的重载" class="headerlink" title="4.2 函数的重载"></a>4.2 函数的重载</h2><p>先回答一下什么是函数额重载：函数名相同，但是函数的参数不同，称为<strong>函数的重载</strong>。</p><p>在<code>Lua</code>语言中</p><h2 id="4-3-变长参数"><a href="#4-3-变长参数" class="headerlink" title="4.3 变长参数"></a>4.3 变长参数</h2><h1 id="五、复杂数据结构——表"><a href="#五、复杂数据结构——表" class="headerlink" title="五、复杂数据结构——表"></a>五、复杂数据结构——表</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity3D </category>
+          
+          <category> Unity3D基础 </category>
+          
+          <category> Lua </category>
+          
+          <category> Lua基础语法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机 </tag>
+            
+            <tag> 离散数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>附录【离散数学】</title>
       <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/02.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/04.%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/08.%E9%99%84%E5%BD%95.html"/>
       <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/02.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/04.%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/08.%E9%99%84%E5%BD%95.html</url>
@@ -45,39 +78,6 @@
           <category> 计算机学习 </category>
           
           <category> 离散数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 计算机 </tag>
-            
-            <tag> 离散数学 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Lua基础语法</title>
-      <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/05.Lua/01.Lua%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.html"/>
-      <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/05.Lua/01.Lua%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h1><h1 id="二、Lua基础"><a href="#二、Lua基础" class="headerlink" title="二、Lua基础"></a>二、Lua基础</h1><h2 id="2-1-第一个Lua程序"><a href="#2-1-第一个Lua程序" class="headerlink" title="2.1 第一个Lua程序"></a>2.1 第一个Lua程序</h2><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, world!&quot;</span>)</span><br></pre></td></tr></table></figure><blockquote><p>注意：在 <code>Lua</code> 语法中，语句的结尾可以添加 “;”，也可以选择不添加 “;”，但是习惯上不添加 “;”。</p></blockquote><h2 id="2-2-注释"><a href="#2-2-注释" class="headerlink" title="2.2 注释"></a>2.2 注释</h2><p>俗话说的好：我讨厌两种人，一是不写注释的人；二是让我写注释的人。尽管如此，良好的注释习惯不仅能提升代码的美观度和可读性，而且便于后期迭代修改。因此，养成写注释的好习惯是写代码的第一步。</p><p>基本上所有的计算机语言都有注释，而在 <code>Lua</code> 语言中，支持的注释类型有两种，分别是：</p><ol><li><p>单行注释</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********单行注释**********&quot;</span>)</span><br><span class="line"><span class="comment">-- 我是单行注释</span></span><br></pre></td></tr></table></figure><p> 这里是两个短横线 “-”。</p></li><li><p>多行注释</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********多行注释**********&quot;</span>)</span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">我是多行注释</span></span><br><span class="line"><span class="comment">1</span></span><br><span class="line"><span class="comment">]]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">我是多行注释</span></span><br><span class="line"><span class="comment">2</span></span><br><span class="line"><span class="comment">]]</span></span><br><span class="line">   <span class="comment">--</span></span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">我是多行注释</span></span><br><span class="line"><span class="comment">3</span></span><br><span class="line"><span class="comment">--]]</span></span><br></pre></td></tr></table></figure></li></ol><h2 id="2-3-基础变量类型"><a href="#2-3-基础变量类型" class="headerlink" title="2.3 基础变量类型"></a>2.3 基础变量类型</h2><p>在 <code>Lua</code> 语言中，所有的变量类型总结起来一共有 8 种，分别是：</p><div class="table-container"><table><thead><tr><th style="text-align:center">nil</th><th style="text-align:center">number</th><th style="text-align:center">string</th><th style="text-align:center">boolean</th><th style="text-align:center">table</th><th style="text-align:center">function</th><th style="text-align:center">userdata</th><th style="text-align:center">thread</th></tr></thead><tbody><tr><td style="text-align:center">表示NULL</td><td style="text-align:center">表示数字，包含整数和浮点数</td><td style="text-align:center">表示字符串</td><td style="text-align:center">表示布尔类型</td><td style="text-align:center">表类型</td><td style="text-align:center">函数类型</td><td style="text-align:center">数据结构</td><td style="text-align:center">协同程序</td></tr></tbody></table></div><p>本节中，主要讲解前四种基础变量类型，而后四种的复杂变量类型放在以后的小节中。</p><p>首先，在 <code>Lua</code> 语言中，声明变量是不需要指明其类型的，系统能够自动推断出变量的类型，属于<strong>弱语言</strong>。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 1. nil变量</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********nil变量**********&quot;</span>)</span><br><span class="line">a = <span class="literal">nil</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;a的值:&quot;</span>, a, <span class="string">&quot;    a的类型:&quot;</span>, <span class="built_in">type</span>(a))</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 2. number变量</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********number变量**********&quot;</span>)</span><br><span class="line">num = <span class="number">100</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;num的值:&quot;</span>, num, <span class="string">&quot;    num的类型:&quot;</span>, <span class="built_in">type</span>(num))</span><br><span class="line">number = <span class="number">73.123123</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;number的值:&quot;</span>, number, <span class="string">&quot;    number的类型:&quot;</span>, <span class="built_in">type</span>(number))</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 3. string变量</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********string变量**********&quot;</span>)</span><br><span class="line">str = <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str的值:&quot;</span>, str, <span class="string">&quot;    str的类型:&quot;</span>, <span class="built_in">type</span>(str))</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 4. boolean变量</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********boolean变量**********&quot;</span>)</span><br><span class="line">bool = <span class="literal">true</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;bool的值:&quot;</span>, bool, <span class="string">&quot;    bool的类型:&quot;</span>, <span class="built_in">type</span>(bool))</span><br></pre></td></tr></table></figure><p>从上面的代码中，我们能得到：</p><ol><li><p>变量的类型是根据其赋值所决定的；</p><p> 疑问：如果一个没有赋值的变量，那么它的类型是什么呢？</p><p> 答案：</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;变量 “ABCD” 的类型是&quot;</span>, <span class="built_in">type</span>(ABCD))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[结果为:</span></span><br><span class="line"><span class="comment">变量 “ABCD” 的类型是nil</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p> 由此可见，使用为定义的变量时，系统并不会报错，并且未定义的变量的类型为 <code>nil</code> 。</p></li><li><p>同一变量名可以进行多次赋值，并且取最后赋的值。</p><p> 疑问：如果我将一个变量赋<strong>不同类型的变量</strong>，是否可取？结果又会是什么呢？</p><p> 答案：</p> <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********变量的多次赋值**********&quot;</span>)</span><br><span class="line">a = <span class="number">10</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;a的值:&quot;</span>, a, <span class="string">&quot;    a的类型:&quot;</span>, <span class="built_in">type</span>(a))</span><br><span class="line">a = <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;a的值:&quot;</span>, a, <span class="string">&quot;    a的类型:&quot;</span>, <span class="built_in">type</span>(a))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********变量的多次赋值**********</span></span><br><span class="line"><span class="comment">a的值:10    a的类型:number</span></span><br><span class="line"><span class="comment">a的值:Hello, World!    a的类型:string</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure></li></ol><blockquote><p>Tip：在 <code>Lua</code> 语言中，可以使用 <code>type(..)</code> 函数来获取变量类型，其返回值是一个字符串。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********type()**********&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="number">10</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="built_in">type</span>(<span class="number">10</span>)))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********type()**********</span></span><br><span class="line"><span class="comment">string</span></span><br><span class="line"><span class="comment">string</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure></blockquote><h2 id="2-4-字符串"><a href="#2-4-字符串" class="headerlink" title="2.4 字符串"></a>2.4 字符串</h2><p>在 <code>Lua</code> 语言中，针对字符的变量类型只有字符串 <code>string</code> ，没有字符 <code>char</code> 。</p><p><strong>对于字符串的表示，既可以使用双引号，也可以使用单引号</strong>。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的声明**********&quot;</span>)</span><br><span class="line">str = <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line">str2 = <span class="string">&#x27;你好&#x27;</span></span><br></pre></td></tr></table></figure><p>对于字符串来讲，我们使用字符串，不仅会要学会创建字符串，而且还必须学会如可操作字符串，例如：获取字符串长度、拼接字符串、大小写转换、查找、截取、重复、替换等。</p><p>首先，给出字符串多行打印的方法，并且 <code>Lua</code> 语言中，字符串支持转义字符；而字符串类型的转换，是通过函数 <code>tostring(..)</code> 来完成的。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********多行打印**********&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;12345\n67890\n&quot;</span>)</span><br><span class="line">str3 = <span class="string">[[</span></span><br><span class="line"><span class="string">我是</span></span><br><span class="line"><span class="string">多行打印</span></span><br><span class="line"><span class="string">!!!!</span></span><br><span class="line"><span class="string">]]</span></span><br><span class="line"><span class="built_in">print</span>(str3)</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********多行打印**********</span></span><br><span class="line"><span class="comment">12345</span></span><br><span class="line"><span class="comment">67890</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">我是</span></span><br><span class="line"><span class="comment">多行打印</span></span><br><span class="line"><span class="comment">!!!!</span></span><br><span class="line"><span class="comment">]]</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的转换**********&quot;</span>)</span><br><span class="line">str4 = <span class="string">&quot;123&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str4的值:&quot;</span>, str4, <span class="string">&quot;    str4的类型:&quot;</span>, <span class="built_in">type</span>(str4))</span><br><span class="line">str4 = <span class="built_in">tonumber</span>(str4)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str4的值:&quot;</span>, str4, <span class="string">&quot;    str4的类型:&quot;</span>, <span class="built_in">type</span>(str4))</span><br><span class="line">str4 = <span class="built_in">tostring</span>(str4)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str4的值:&quot;</span>, str4, <span class="string">&quot;    str4的类型:&quot;</span>, <span class="built_in">type</span>(str4))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********字符串的转换**********</span></span><br><span class="line"><span class="comment">str4的值:123    str4的类型:string</span></span><br><span class="line"><span class="comment">str4的值:123    str4的类型:number</span></span><br><span class="line"><span class="comment">str4的值:123    str4的类型:string</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p>对于如何获取字符串的长度，通过 <code>#</code> 符号来进行操作的，其使用方法如下：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的长度**********&quot;</span>)</span><br><span class="line">str5 = <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str5的长度:&quot;</span>, #str5)</span><br><span class="line">str6 = <span class="string">&quot;你好&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;str6的长度:&quot;</span>, #str6)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(#str6))</span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********字符串的长度**********</span></span><br><span class="line"><span class="comment">str5的长度:13</span></span><br><span class="line"><span class="comment">str6的长度:6</span></span><br><span class="line"><span class="comment">number</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><blockquote><p>注意：在 <code>Lua</code> 语言中，通过 <code>#</code> 获取字符串的长度，并不是字符数，而是返回的字节数（汉字占三个字节）。</p></blockquote><p>字符串的拼接：使用 <code>..</code> 操作符。</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的连接**********&quot;</span>)</span><br><span class="line">str7 = <span class="string">&quot;Hello, &quot;</span></span><br><span class="line">str8 = <span class="string">&quot;World!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(str7 .. str8)</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********字符串的连接**********</span></span><br><span class="line"><span class="comment">Hello, World!</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p>还可以使用模式匹配的方式：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********模式匹配**********&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">format</span>(<span class="string">&quot;我已经使用了 %d 天的Lua&quot;</span>, <span class="number">7</span>))</span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********模式匹配**********</span></span><br><span class="line"><span class="comment">我已经使用了 7 天的Lua</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p>而对于字符串的其余操作，其用法如下：</p><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;**********字符串的操作**********&quot;</span>)</span><br><span class="line">str9 = <span class="string">&quot;abcDEFghabc&quot;</span></span><br><span class="line"><span class="comment">-- 1. 小写转大写</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">upper</span>(str9))</span><br><span class="line"><span class="comment">-- 2. 大写转小写</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">lower</span>(str9))</span><br><span class="line"><span class="comment">-- 3. 反转</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">reverse</span>(str9))</span><br><span class="line"><span class="comment">-- 4. 查找</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">find</span>(str9, <span class="string">&quot;abc&quot;</span>))</span><br><span class="line"><span class="comment">-- 5. 截取</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">sub</span>(str9, <span class="number">4</span>, <span class="number">6</span>))</span><br><span class="line"><span class="comment">-- 6. 替换</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">gsub</span>(str9, <span class="string">&quot;abc&quot;</span>, <span class="string">&quot;***&quot;</span>))</span><br><span class="line"><span class="comment">-- 7. 重复</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">rep</span>(str9, <span class="number">3</span>))</span><br><span class="line"><span class="comment">-- 8. 匹配</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">string</span>.<span class="built_in">match</span>(str9, <span class="string">&quot;DEF&quot;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment">--[[</span></span><br><span class="line"><span class="comment">结果为:</span></span><br><span class="line"><span class="comment">**********字符串的操作**********</span></span><br><span class="line"><span class="comment">ABCDEFGHABC</span></span><br><span class="line"><span class="comment">abcdefghabc</span></span><br><span class="line"><span class="comment">cbahgFEDcba</span></span><br><span class="line"><span class="comment">13</span></span><br><span class="line"><span class="comment">DEF</span></span><br><span class="line"><span class="comment">***DEFgh***2</span></span><br><span class="line"><span class="comment">abcDEFghabcabcDEFghabcabcDEFghabc</span></span><br><span class="line"><span class="comment">DEF</span></span><br><span class="line"><span class="comment">]]</span></span><br></pre></td></tr></table></figure><p>函数 <code>find()</code> 返回值有两个，表明查找到两处，位置分别是 1 和 3；函数 <code>gsub()</code> 最后输出一个数字，表明替换的次数。</p><blockquote><p>注意：在 <code>Lua</code> 语言中，字符串的索引是从 “1” 开始的，这一点需要和替他语言进行区分。在后面的学习中，其实发现，涉及到索引的，默认都是从 “1” 开始，而不是从 “0” 开始。</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unity3D </category>
-          
-          <category> Unity3D基础 </category>
-          
-          <category> Lua </category>
-          
-          <category> Lua基础语法 </category>
           
       </categories>
       
@@ -235,9 +235,9 @@
       
         <tags>
             
-            <tag> 程序设计 </tag>
-            
             <tag> Rust </tag>
+            
+            <tag> 程序设计 </tag>
             
             <tag> 服务器 </tag>
             
@@ -272,11 +272,11 @@
       
         <tags>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -309,11 +309,11 @@
       
         <tags>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -346,11 +346,11 @@
       
         <tags>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -383,11 +383,11 @@
       
         <tags>
             
-            <tag> 计算机学习 </tag>
+            <tag> 考研 </tag>
             
             <tag> 大学学习 </tag>
             
-            <tag> 考研 </tag>
+            <tag> 计算机学习 </tag>
             
             <tag> 计算机组成 </tag>
             
@@ -464,37 +464,6 @@
     
     
     <entry>
-      <title>第三章 多维随机变量及其分布【概率论与数理统计】</title>
-      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
-      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第三章-多维随机变量及其分布【概率论与数理统计】"><a href="#第三章-多维随机变量及其分布【概率论与数理统计】" class="headerlink" title="第三章 多维随机变量及其分布【概率论与数理统计】"></a>第三章 多维随机变量及其分布【概率论与数理统计】</h1><h1 id="一、二维随机变量及其分布"><a href="#一、二维随机变量及其分布" class="headerlink" title="一、二维随机变量及其分布"></a>一、二维随机变量及其分布</h1><h2 id="1-1-二维随机变量"><a href="#1-1-二维随机变量" class="headerlink" title="1.1 二维随机变量"></a>1.1 二维随机变量</h2><p>设 $E$ 是一次试验， $\Omega $ 是样本空间， $X,Y$ 是 $\Omega $ 的两个随机变量，那么分布函数</p><script type="math/tex; mode=display">F(x,y) = P\left \{ X\le x,Y\le y \right \}</script><p>为 $X,Y$ 的<strong>联合分布函数</strong>。</p><p><strong>性质</strong>：</p><ol><li>$F(x,y)$ 是一个不减函数；</li><li>$F(-\infty,y)=0,F(x,-\infty)=0$ ；</li><li>$F(-\infty,-\infty)=0,F(\infty,\infty)=1$ ；</li><li>$F(x,y)$ 分别关于 $x$ 和 $y$ 右连续；</li><li>$P\left \{ x_{1}&lt; X\le x_{2},y_{1}&lt; Y\le y_{2} \right \}=F(x_{2},y_{2}) -F(x_{2},y_{1})-F(x_{1},y_{2})+F(x_{1},y_{1})$ 。</li></ol><h2 id="1-2-边缘分布"><a href="#1-2-边缘分布" class="headerlink" title="1.2 边缘分布"></a>1.2 边缘分布</h2><p><strong>定义</strong>： $X,Y$ 的<strong>联合分布函数</strong>的分布函数为 $F(x,y)$ ，那么关于 $X$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{X}(x) & = P\left \{ X\le x \right \}  = F(x,+\infty )\\&=\int_{-\infty }^{x} \int_{-\infty }^{+\infty}f(t,y)\mathrm{d}y\mathrm{d}t\end{align}</script><p> 关于 $Y$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{Y}(y) & = P\left \{ Y\le y \right \}  = F(+\infty,y )\\&=\int_{-\infty }^{y} \int_{-\infty }^{+\infty}f(x,t)\mathrm{d}x\mathrm{d}t\end{align}</script><h1 id="二、二维离散型的联合概率分布及边缘分布"><a href="#二、二维离散型的联合概率分布及边缘分布" class="headerlink" title="二、二维离散型的联合概率分布及边缘分布"></a>二、二维离散型的联合概率分布及边缘分布</h1><h2 id="2-1-联合分布表"><a href="#2-1-联合分布表" class="headerlink" title="2.1 联合分布表"></a>2.1 联合分布表</h2><p>形如：</p><div class="table-container"><table><thead><tr><th style="text-align:center">X\Y</th><th style="text-align:center">1</th><th style="text-align:center">2</th><th style="text-align:center">3</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">$0$</td><td style="text-align:center">$\displaystyle \frac{1}{2} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr></tbody></table></div><p><strong>性质 </strong>：</p><ol><li>$p_{ij}\ge 0$ ；</li><li>$\sum_{i,j}p_{ij}=1$ ；</li><li>$\displaystyle F(x,y) = P\left \{ X\le x,Y\le y \right \} $ ；</li></ol><h2 id="2-2-边缘分布"><a href="#2-2-边缘分布" class="headerlink" title="2.2 边缘分布"></a>2.2 边缘分布</h2><ul><li>$X$ 的边缘分布，就是将每一行求和，并且将符合要求的行相加；</li><li>$Y$ 的边缘分布，就是将每一列求和，并且将符合要求的列相加；</li></ul><h1 id="三、二位连续性的联合概率密度和边缘分布函数"><a href="#三、二位连续性的联合概率密度和边缘分布函数" class="headerlink" title="三、二位连续性的联合概率密度和边缘分布函数"></a>三、二位连续性的联合概率密度和边缘分布函数</h1><p><strong>定义</strong>：分布函数</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x,y) & = P\left \{ X\le x,Y\le y \right \} \\&=\int_{-\infty }^{x}\int_{-\infty }^{y} f(s,t)\mathrm{d}s\mathrm{d}t \end{align}</script><p>并且称 $f(x,y)$ 为联合概率密度。</p><p><strong>性质</strong>：</p><ol><li>$f(x,y)\ge 0$ ；</li><li>$\displaystyle \int_{-\infty }^{+\infty}\int_{-\infty }^{+\infty} f(x,y)\mathrm{d}x\mathrm{d}y$ ；</li><li>$\displaystyle \frac{\partial^{2}  F(x,y)}{\partial x\partial y} =f(x,y)$ ；</li></ol><p><strong>边缘分布</strong>：</p><ol><li>$\displaystyle F_{X} (x)=F(x,+\infty )=\int_{- \infty }^{x} \int_{-\infty }^{+\infty } f(t,y)\mathrm{d}t\mathrm{d}y$ ；</li><li>$\displaystyle F_{Y} (x)=F(+\infty,y)=\int_{- \infty }^{y} \int_{-\infty }^{+\infty } f(x,t)\mathrm{d}x\mathrm{d}t$ ；</li></ol><p><strong>边缘概率密度</strong>：</p><ol><li>$\displaystyle f_{X}(x) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}y $ ；</li><li>$\displaystyle f_{Y}(y) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}x $ 。</li></ol><blockquote><ol><li>二维正态分布的边缘分布也是正态分布；</li><li>两个边缘分布是正态分布，二维并非正态分布。</li></ol></blockquote><h1 id="四、条件分布"><a href="#四、条件分布" class="headerlink" title="四、条件分布"></a>四、条件分布</h1><p><strong>定义</strong>：在事件 $A$ 发生的条件下，即</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x|A) & = P\left \{ X\le x|A \right \} \\&=\frac{P\left \{  X\le x|A \right \} }{P\left \{ A \right \} } \end{align}</script><h3 id="3-4-1-离散型"><a href="#3-4-1-离散型" class="headerlink" title="3.4.1 离散型"></a>3.4.1 离散型</h3><p>方法：</p><ol><li>列出联合概率分布表；</li><li>计算出对应的边缘概率分布表</li><li>然后根据公式进行计算</li></ol><h3 id="3-4-2-连续性"><a href="#3-4-2-连续性" class="headerlink" title="3.4.2 连续性"></a>3.4.2 连续性</h3><p><strong>定义</strong>：已知概率密度函数为 $f(x,y)$ ，且边缘分布函数为：$f_{X}(x),f_{Y}(y)$ ，如果 $f_{Y}(y)&gt;0$ ，那么在 $Y=y$ 的条件下</p><script type="math/tex; mode=display">F(x|y)=\int_{-\infty }^{x} \frac{f(t,y)}{f_{Y}(y)}\mathrm{d}t</script><h1 id="五、随机变量的独立性"><a href="#五、随机变量的独立性" class="headerlink" title="五、随机变量的独立性"></a>五、随机变量的独立性</h1><p><strong>定义</strong>：如果满足</p><script type="math/tex; mode=display">f(x,y) = f_{X}(x)f_{Y}(y)</script><p>那么称二维随机变量 $X,Y$ 是<strong>相互独立</strong>的。</p><h3 id="3-5-1-二维离散型"><a href="#3-5-1-二维离散型" class="headerlink" title="3.5.1 二维离散型"></a>3.5.1 二维离散型</h3><p><strong>定理</strong>：如果随机变量是独立的，那么由随机变量构造的函数之间也是独立的。</p><h3 id="3-5-2-二维连续型"><a href="#3-5-2-二维连续型" class="headerlink" title="3.5.2 二维连续型"></a>3.5.2 二维连续型</h3><h1 id="六、二维随机变量函数的分布"><a href="#六、二维随机变量函数的分布" class="headerlink" title="六、二维随机变量函数的分布"></a>六、二维随机变量函数的分布</h1><h3 id="3-6-1-二维离散型"><a href="#3-6-1-二维离散型" class="headerlink" title="3.6.1 二维离散型"></a>3.6.1 二维离散型</h3>]]></content>
-      
-      
-      <categories>
-          
-          <category> 大学学习 </category>
-          
-          <category> 概率论与数理统计 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 大学学习 </tag>
-            
-            <tag> 数学 </tag>
-            
-            <tag> 概率论与数理统计 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>第二章 随机变量及其分布【概率论与数理统计】</title>
       <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/2_%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
       <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/2_%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
@@ -526,11 +495,11 @@
     
     
     <entry>
-      <title>第五章 大数定律及中心极限定理【概率论与数理统计】</title>
-      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/5_%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%E5%8F%8A%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86.html"/>
-      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/5_%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%E5%8F%8A%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86.html</url>
+      <title>第三章 多维随机变量及其分布【概率论与数理统计】</title>
+      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html"/>
+      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/3_%E5%A4%9A%E7%BB%B4%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E5%88%86%E5%B8%83.html</url>
       
-        <content type="html"><![CDATA[<h1 id="第五章-大数定律及中心极限定理【概率论与数理统计】"><a href="#第五章-大数定律及中心极限定理【概率论与数理统计】" class="headerlink" title="第五章 大数定律及中心极限定理【概率论与数理统计】"></a>第五章 大数定律及中心极限定理【概率论与数理统计】</h1><h1 id="一、大数定律"><a href="#一、大数定律" class="headerlink" title="一、大数定律"></a>一、大数定律</h1><p>当量重复试验的平均结果的稳定性</p><h2 id="1-1-切比雪夫不等式"><a href="#1-1-切比雪夫不等式" class="headerlink" title="1.1 切比雪夫不等式"></a>1.1 切比雪夫不等式</h2><p><strong>定理</strong>：假设 $EX$ 和 $X$ 都存在，$\displaystyle \forall \varepsilon &gt;0$ ，那么</p><script type="math/tex; mode=display">\displaystyle P(\left | X-EX \right |\ge \varepsilon  )\le \frac{DX}{\varepsilon ^{2} }</script><h2 id="1-2-切比雪夫大数定律"><a href="#1-2-切比雪夫大数定律" class="headerlink" title="1.2 切比雪夫大数定律"></a>1.2 切比雪夫大数定律</h2><p><strong>定义（收敛）</strong>： $\displaystyle a_{n}\to a$ ，那么 $\displaystyle \forall \varepsilon &gt; 0,\exists N&gt;0$ ，当 $n&gt;N$ 时， $\displaystyle \left | a_{n}-a  \right | &lt; \varepsilon $ 。</p><p><strong>定义（依概率收敛）</strong>： $\displaystyle \forall \varepsilon &gt; 0,\exists N&gt;0$ ，使得 $n&gt;N$ 时， $\displaystyle \lim_{n \to \infty} P(\left | X_{n}-a  \right | &lt; \varepsilon )=1$ 。</p><p><strong>定理（伯努利大数定律）</strong>：一个 $n$ 重伯努律事件， $A$ 发生了 $\displaystyle m_{n} $ 次， $p $ 为发生的概率， $\displaystyle \frac{m_{n} }{n} $ 为频率，那么</p><script type="math/tex; mode=display">\begin{align}\displaystyle \lim_{n \to \infty} P(\left |\frac{m_{n} }{n} -p  \right | < \varepsilon ) & = 1\\\displaystyle \lim_{n \to \infty} P(\left |\frac{m_{n} }{n} -p  \right | \ge \varepsilon ) & = 0\end{align}</script><p><strong>定理（切比雪夫大数定律）</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是不相关的随机变量，并且 $\displaystyle EX_{i} , DX_{i}$ 都存在，并且方差是有界的，即 $\displaystyle DX_{i}\le M$ ，那么 $\displaystyle \forall \varepsilon &gt; 0$ ，有</p><script type="math/tex; mode=display">\displaystyle\lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\frac{1}{n} \sum_{i=1}^{n}X_{i} \right | < \varepsilon \right \} =1</script><p>如何理解呢？其实就是，当 $n \to \infty$ 时，我们<strong>求得的均值</strong>，无限接近<strong>期望的均值</strong>。</p><p><strong>推论</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu ,DX_{i} =\sigma ^{2} $ ，那么 $\displaystyle\forall \varepsilon &gt;0$ ，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\mu   \right |< \varepsilon   \right \} =1</script><p><strong>定理（辛钦）</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu$ ，方差无要求，那么 $\displaystyle\forall \varepsilon &gt;0$ ，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\mu   \right |< \varepsilon   \right \} =1</script><h1 id="二、中心极限定理"><a href="#二、中心极限定理" class="headerlink" title="二、中心极限定理"></a>二、中心极限定理</h1><p>现象有大量的相互独立的因素影响，<strong>大量独立同分布</strong>的随机变量和<strong>中心极限分布</strong>是<strong>正态分布</strong>。</p><p><strong>定理</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu ,DX_{i} =\sigma ^{2} $ ，如果 $\displaystyle 0&lt; \sigma ^{2} &lt; +\infty $ ，那么</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P \left ( \frac{\displaystyle \sum_{i=1}^{n} -n\mu }{\sqrt{n} \sigma } \le x \right ) =\Phi _{0} (x)</script><p><strong>定理（棣莫佛 － 拉普拉斯）</strong>：随机变量 $Y_{n}$ 是服从 $n,p$ 的二项分布，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P \left ( \frac{Y_{n}-np}{\sqrt{np(1-p)} }\le x  \right ) =\Phi _{0} (x)</script>]]></content>
+        <content type="html"><![CDATA[<h1 id="第三章-多维随机变量及其分布【概率论与数理统计】"><a href="#第三章-多维随机变量及其分布【概率论与数理统计】" class="headerlink" title="第三章 多维随机变量及其分布【概率论与数理统计】"></a>第三章 多维随机变量及其分布【概率论与数理统计】</h1><h1 id="一、二维随机变量及其分布"><a href="#一、二维随机变量及其分布" class="headerlink" title="一、二维随机变量及其分布"></a>一、二维随机变量及其分布</h1><h2 id="1-1-二维随机变量"><a href="#1-1-二维随机变量" class="headerlink" title="1.1 二维随机变量"></a>1.1 二维随机变量</h2><p>设 $E$ 是一次试验， $\Omega $ 是样本空间， $X,Y$ 是 $\Omega $ 的两个随机变量，那么分布函数</p><script type="math/tex; mode=display">F(x,y) = P\left \{ X\le x,Y\le y \right \}</script><p>为 $X,Y$ 的<strong>联合分布函数</strong>。</p><p><strong>性质</strong>：</p><ol><li>$F(x,y)$ 是一个不减函数；</li><li>$F(-\infty,y)=0,F(x,-\infty)=0$ ；</li><li>$F(-\infty,-\infty)=0,F(\infty,\infty)=1$ ；</li><li>$F(x,y)$ 分别关于 $x$ 和 $y$ 右连续；</li><li>$P\left \{ x_{1}&lt; X\le x_{2},y_{1}&lt; Y\le y_{2} \right \}=F(x_{2},y_{2}) -F(x_{2},y_{1})-F(x_{1},y_{2})+F(x_{1},y_{1})$ 。</li></ol><h2 id="1-2-边缘分布"><a href="#1-2-边缘分布" class="headerlink" title="1.2 边缘分布"></a>1.2 边缘分布</h2><p><strong>定义</strong>： $X,Y$ 的<strong>联合分布函数</strong>的分布函数为 $F(x,y)$ ，那么关于 $X$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{X}(x) & = P\left \{ X\le x \right \}  = F(x,+\infty )\\&=\int_{-\infty }^{x} \int_{-\infty }^{+\infty}f(t,y)\mathrm{d}y\mathrm{d}t\end{align}</script><p> 关于 $Y$ 的边缘分布函数为：</p><script type="math/tex; mode=display">\begin{align}\displaystyle F_{Y}(y) & = P\left \{ Y\le y \right \}  = F(+\infty,y )\\&=\int_{-\infty }^{y} \int_{-\infty }^{+\infty}f(x,t)\mathrm{d}x\mathrm{d}t\end{align}</script><h1 id="二、二维离散型的联合概率分布及边缘分布"><a href="#二、二维离散型的联合概率分布及边缘分布" class="headerlink" title="二、二维离散型的联合概率分布及边缘分布"></a>二、二维离散型的联合概率分布及边缘分布</h1><h2 id="2-1-联合分布表"><a href="#2-1-联合分布表" class="headerlink" title="2.1 联合分布表"></a>2.1 联合分布表</h2><p>形如：</p><div class="table-container"><table><thead><tr><th style="text-align:center">X\Y</th><th style="text-align:center">1</th><th style="text-align:center">2</th><th style="text-align:center">3</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td style="text-align:center">$0$</td><td style="text-align:center">$\displaystyle \frac{1}{2} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr><tr><td style="text-align:center">2</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td><td style="text-align:center">$\displaystyle \frac{1}{8} $</td></tr></tbody></table></div><p><strong>性质 </strong>：</p><ol><li>$p_{ij}\ge 0$ ；</li><li>$\sum_{i,j}p_{ij}=1$ ；</li><li>$\displaystyle F(x,y) = P\left \{ X\le x,Y\le y \right \} $ ；</li></ol><h2 id="2-2-边缘分布"><a href="#2-2-边缘分布" class="headerlink" title="2.2 边缘分布"></a>2.2 边缘分布</h2><ul><li>$X$ 的边缘分布，就是将每一行求和，并且将符合要求的行相加；</li><li>$Y$ 的边缘分布，就是将每一列求和，并且将符合要求的列相加；</li></ul><h1 id="三、二位连续性的联合概率密度和边缘分布函数"><a href="#三、二位连续性的联合概率密度和边缘分布函数" class="headerlink" title="三、二位连续性的联合概率密度和边缘分布函数"></a>三、二位连续性的联合概率密度和边缘分布函数</h1><p><strong>定义</strong>：分布函数</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x,y) & = P\left \{ X\le x,Y\le y \right \} \\&=\int_{-\infty }^{x}\int_{-\infty }^{y} f(s,t)\mathrm{d}s\mathrm{d}t \end{align}</script><p>并且称 $f(x,y)$ 为联合概率密度。</p><p><strong>性质</strong>：</p><ol><li>$f(x,y)\ge 0$ ；</li><li>$\displaystyle \int_{-\infty }^{+\infty}\int_{-\infty }^{+\infty} f(x,y)\mathrm{d}x\mathrm{d}y$ ；</li><li>$\displaystyle \frac{\partial^{2}  F(x,y)}{\partial x\partial y} =f(x,y)$ ；</li></ol><p><strong>边缘分布</strong>：</p><ol><li>$\displaystyle F_{X} (x)=F(x,+\infty )=\int_{- \infty }^{x} \int_{-\infty }^{+\infty } f(t,y)\mathrm{d}t\mathrm{d}y$ ；</li><li>$\displaystyle F_{Y} (x)=F(+\infty,y)=\int_{- \infty }^{y} \int_{-\infty }^{+\infty } f(x,t)\mathrm{d}x\mathrm{d}t$ ；</li></ol><p><strong>边缘概率密度</strong>：</p><ol><li>$\displaystyle f_{X}(x) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}y $ ；</li><li>$\displaystyle f_{Y}(y) = \int_{-\infty }^{+\infty } f(x,y)\mathrm{d}x $ 。</li></ol><blockquote><ol><li>二维正态分布的边缘分布也是正态分布；</li><li>两个边缘分布是正态分布，二维并非正态分布。</li></ol></blockquote><h1 id="四、条件分布"><a href="#四、条件分布" class="headerlink" title="四、条件分布"></a>四、条件分布</h1><p><strong>定义</strong>：在事件 $A$ 发生的条件下，即</p><script type="math/tex; mode=display">\begin{align}\displaystyle F(x|A) & = P\left \{ X\le x|A \right \} \\&=\frac{P\left \{  X\le x|A \right \} }{P\left \{ A \right \} } \end{align}</script><h3 id="3-4-1-离散型"><a href="#3-4-1-离散型" class="headerlink" title="3.4.1 离散型"></a>3.4.1 离散型</h3><p>方法：</p><ol><li>列出联合概率分布表；</li><li>计算出对应的边缘概率分布表</li><li>然后根据公式进行计算</li></ol><h3 id="3-4-2-连续性"><a href="#3-4-2-连续性" class="headerlink" title="3.4.2 连续性"></a>3.4.2 连续性</h3><p><strong>定义</strong>：已知概率密度函数为 $f(x,y)$ ，且边缘分布函数为：$f_{X}(x),f_{Y}(y)$ ，如果 $f_{Y}(y)&gt;0$ ，那么在 $Y=y$ 的条件下</p><script type="math/tex; mode=display">F(x|y)=\int_{-\infty }^{x} \frac{f(t,y)}{f_{Y}(y)}\mathrm{d}t</script><h1 id="五、随机变量的独立性"><a href="#五、随机变量的独立性" class="headerlink" title="五、随机变量的独立性"></a>五、随机变量的独立性</h1><p><strong>定义</strong>：如果满足</p><script type="math/tex; mode=display">f(x,y) = f_{X}(x)f_{Y}(y)</script><p>那么称二维随机变量 $X,Y$ 是<strong>相互独立</strong>的。</p><h3 id="3-5-1-二维离散型"><a href="#3-5-1-二维离散型" class="headerlink" title="3.5.1 二维离散型"></a>3.5.1 二维离散型</h3><p><strong>定理</strong>：如果随机变量是独立的，那么由随机变量构造的函数之间也是独立的。</p><h3 id="3-5-2-二维连续型"><a href="#3-5-2-二维连续型" class="headerlink" title="3.5.2 二维连续型"></a>3.5.2 二维连续型</h3><h1 id="六、二维随机变量函数的分布"><a href="#六、二维随机变量函数的分布" class="headerlink" title="六、二维随机变量函数的分布"></a>六、二维随机变量函数的分布</h1><h3 id="3-6-1-二维离散型"><a href="#3-6-1-二维离散型" class="headerlink" title="3.6.1 二维离散型"></a>3.6.1 二维离散型</h3>]]></content>
       
       
       <categories>
@@ -588,6 +557,37 @@
     
     
     <entry>
+      <title>第五章 大数定律及中心极限定理【概率论与数理统计】</title>
+      <link href="/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/5_%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%E5%8F%8A%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86.html"/>
+      <url>/03.%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/01.%E6%9C%AC%E7%A7%91%E5%AD%A6%E4%B9%A0/03.%E6%A6%82%E7%8E%87%E8%AE%BA/5_%E5%A4%A7%E6%95%B0%E5%AE%9A%E5%BE%8B%E5%8F%8A%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="第五章-大数定律及中心极限定理【概率论与数理统计】"><a href="#第五章-大数定律及中心极限定理【概率论与数理统计】" class="headerlink" title="第五章 大数定律及中心极限定理【概率论与数理统计】"></a>第五章 大数定律及中心极限定理【概率论与数理统计】</h1><h1 id="一、大数定律"><a href="#一、大数定律" class="headerlink" title="一、大数定律"></a>一、大数定律</h1><p>当量重复试验的平均结果的稳定性</p><h2 id="1-1-切比雪夫不等式"><a href="#1-1-切比雪夫不等式" class="headerlink" title="1.1 切比雪夫不等式"></a>1.1 切比雪夫不等式</h2><p><strong>定理</strong>：假设 $EX$ 和 $X$ 都存在，$\displaystyle \forall \varepsilon &gt;0$ ，那么</p><script type="math/tex; mode=display">\displaystyle P(\left | X-EX \right |\ge \varepsilon  )\le \frac{DX}{\varepsilon ^{2} }</script><h2 id="1-2-切比雪夫大数定律"><a href="#1-2-切比雪夫大数定律" class="headerlink" title="1.2 切比雪夫大数定律"></a>1.2 切比雪夫大数定律</h2><p><strong>定义（收敛）</strong>： $\displaystyle a_{n}\to a$ ，那么 $\displaystyle \forall \varepsilon &gt; 0,\exists N&gt;0$ ，当 $n&gt;N$ 时， $\displaystyle \left | a_{n}-a  \right | &lt; \varepsilon $ 。</p><p><strong>定义（依概率收敛）</strong>： $\displaystyle \forall \varepsilon &gt; 0,\exists N&gt;0$ ，使得 $n&gt;N$ 时， $\displaystyle \lim_{n \to \infty} P(\left | X_{n}-a  \right | &lt; \varepsilon )=1$ 。</p><p><strong>定理（伯努利大数定律）</strong>：一个 $n$ 重伯努律事件， $A$ 发生了 $\displaystyle m_{n} $ 次， $p $ 为发生的概率， $\displaystyle \frac{m_{n} }{n} $ 为频率，那么</p><script type="math/tex; mode=display">\begin{align}\displaystyle \lim_{n \to \infty} P(\left |\frac{m_{n} }{n} -p  \right | < \varepsilon ) & = 1\\\displaystyle \lim_{n \to \infty} P(\left |\frac{m_{n} }{n} -p  \right | \ge \varepsilon ) & = 0\end{align}</script><p><strong>定理（切比雪夫大数定律）</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是不相关的随机变量，并且 $\displaystyle EX_{i} , DX_{i}$ 都存在，并且方差是有界的，即 $\displaystyle DX_{i}\le M$ ，那么 $\displaystyle \forall \varepsilon &gt; 0$ ，有</p><script type="math/tex; mode=display">\displaystyle\lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\frac{1}{n} \sum_{i=1}^{n}X_{i} \right | < \varepsilon \right \} =1</script><p>如何理解呢？其实就是，当 $n \to \infty$ 时，我们<strong>求得的均值</strong>，无限接近<strong>期望的均值</strong>。</p><p><strong>推论</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu ,DX_{i} =\sigma ^{2} $ ，那么 $\displaystyle\forall \varepsilon &gt;0$ ，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\mu   \right |< \varepsilon   \right \} =1</script><p><strong>定理（辛钦）</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu$ ，方差无要求，那么 $\displaystyle\forall \varepsilon &gt;0$ ，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P\left \{ \left | \frac{1}{n} \sum_{i=1}^{n}X_{i}-\mu   \right |< \varepsilon   \right \} =1</script><h1 id="二、中心极限定理"><a href="#二、中心极限定理" class="headerlink" title="二、中心极限定理"></a>二、中心极限定理</h1><p>现象有大量的相互独立的因素影响，<strong>大量独立同分布</strong>的随机变量和<strong>中心极限分布</strong>是<strong>正态分布</strong>。</p><p><strong>定理</strong>： $X_{1},X_{2},\cdots ,X_{n}$ 是独立同分布的随机变量，并且 $\displaystyle EX_{i}=\mu ,DX_{i} =\sigma ^{2} $ ，如果 $\displaystyle 0&lt; \sigma ^{2} &lt; +\infty $ ，那么</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P \left ( \frac{\displaystyle \sum_{i=1}^{n} -n\mu }{\sqrt{n} \sigma } \le x \right ) =\Phi _{0} (x)</script><p><strong>定理（棣莫佛 － 拉普拉斯）</strong>：随机变量 $Y_{n}$ 是服从 $n,p$ 的二项分布，有</p><script type="math/tex; mode=display">\displaystyle \lim_{n \to \infty} P \left ( \frac{Y_{n}-np}{\sqrt{np(1-p)} }\le x  \right ) =\Phi _{0} (x)</script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 大学学习 </category>
+          
+          <category> 概率论与数理统计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 大学学习 </tag>
+            
+            <tag> 数学 </tag>
+            
+            <tag> 概率论与数理统计 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>游戏数据持久化系统</title>
       <link href="/02.Unity%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91_%E5%85%A8%E6%A0%88%E5%AD%A6%E4%B9%A0/%E5%8A%9F%E8%83%BD%E6%A1%86%E6%9E%B6/%E6%B8%B8%E6%88%8F%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96%E7%B3%BB%E7%BB%9F.html"/>
       <url>/02.Unity%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91_%E5%85%A8%E6%A0%88%E5%AD%A6%E4%B9%A0/%E5%8A%9F%E8%83%BD%E6%A1%86%E6%9E%B6/%E6%B8%B8%E6%88%8F%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96%E7%B3%BB%E7%BB%9F.html</url>
@@ -610,9 +610,9 @@
       
         <tags>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 功能框架 </tag>
             
@@ -931,9 +931,9 @@
             
             <tag> 游戏开发 </tag>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 脚本开发 </tag>
             
@@ -1115,45 +1115,6 @@
     
     
     <entry>
-      <title>C#代码规范</title>
-      <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/02.Csharp%E8%A7%84%E8%8C%83.html"/>
-      <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/02.Csharp%E8%A7%84%E8%8C%83.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>我们在实际的代码开发中，经常会遇到代码的命名以及规范问题。而不同的人有不同的风格，因此，这篇文章主要讲述<strong>本人 C#代码的规范</strong>，仅作个人以及愿意参与本人项目中人使用。</p><blockquote><p>注意：大可不必争论，代码的命名是否合理，选择一套自己最喜欢的风格，并将其养成习惯，才是最重要的。</p><p>C#系列教程：</p><ol><li><a href="https://blog.yuilexi.cn/2023/04/26/编程/Csharp知识库/Csharp基础/Csharp基础语法/">C#基础语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></li><li><a href="https://blog.yuilexi.cn/2023/04/30/编程/Csharp知识库/Csharp基础/Csharp高级语法/">C#高级语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></li><li><a href="https://blog.yuilexi.cn/2023/05/19/编程/Csharp知识库/Csharp基础/Csharp规范/">C#代码规范 | 🪐 星空鸟 🪐 (yuilexi.cn)</a>⬅️ 当前的位置 °꒰๑’ꀾ’๑꒱°</li></ol></blockquote><h1 id="一、标识符规则"><a href="#一、标识符规则" class="headerlink" title="一、标识符规则"></a>一、标识符规则</h1><ul><li><code>Pascal</code>命名规范：标志符中，所有单词的首字母均大写，其余字母小写。</li><li><code>camel</code>命名规范：标志符中，<strong>首字母小写</strong>，其余<strong>单词的首字母</strong>大写，<strong>其余字母</strong>小写。</li><li>标识符命名的字符选择：<code>[a-zA-Z0-9_]</code>中的字符任意搭配，并且不能<strong>以数字作为开头</strong></li></ul><div class="table-container"><table><thead><tr><th style="text-align:center">类型</th><th style="text-align:center">命名规范</th><th style="text-align:center">举例</th></tr></thead><tbody><tr><td style="text-align:center">类： <code>class</code></td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PlayerControl</code></td></tr><tr><td style="text-align:center">私有非静态字段</td><td style="text-align:center"><code>camel</code>，并且必须以<strong>单下划线</strong><code>_</code>开头</td><td style="text-align:center"><code>_workerQueue</code></td></tr><tr><td style="text-align:center">私有静态字段</td><td style="text-align:center"><code>camel</code>，并且必须以<code>s_</code>开头</td><td style="text-align:center"><code>s_workerQueue</code></td></tr><tr><td style="text-align:center">属性和公共字段</td><td style="text-align:center"><code>Pascal</code>，不能以<strong>下划线</strong>或者<code>s_</code>开头</td><td style="text-align:center"><code>WorkerQueue</code></td></tr><tr><td style="text-align:center">方法</td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PascalCasing()</code></td></tr><tr><td style="text-align:center">局部变量</td><td style="text-align:center"><code>camel</code>，并且不能以<strong>下划线</strong>或者<code>s_</code>开头</td><td style="text-align:center"><code>workerQueue</code></td></tr><tr><td style="text-align:center">结构体：<code>struct</code></td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PascalCasing</code></td></tr><tr><td style="text-align:center">接口<code>interface</code></td><td style="text-align:center"><code>Pascal</code>，并在开头加上<code>I</code></td><td style="text-align:center"><code>IWorkerQueue</code></td></tr></tbody></table></div><h1 id="C-语言命名空间"><a href="#C-语言命名空间" class="headerlink" title="C#语言命名空间"></a>C#语言命名空间</h1><ol><li>命名空间名称采用<code>Pascal</code>规则，且首字符大写。</li><li>命名空间名称尽量反映其内容所提供的整体功能。</li></ol><p>对于引用的命名空间：</p><ul><li>每一条命名空间的引用，独占一行</li><li>按照：<code>系统的命名空间 -&gt; 第三方库的命名空间 -&gt; 自定义的命名空间</code> 进行排序</li><li>每一大类的命名空间，<strong>按照字母排序</strong></li></ul><h1 id="三、类"><a href="#三、类" class="headerlink" title="三、类"></a>三、类</h1><ol><li>使用<code>Pascal</code>规则命名类名，即首字母要大写。</li><li>使用能够反映类功能的名词或名词短语命名类。</li><li><strong>不要使用 “I”、“C”、“_” 等特定含义前缀</strong>。</li><li>自定义异常类应以 Exception 结尾。</li><li>文件名要能反映类的内容，最好是和类同名。</li></ol><h1 id="四、字段"><a href="#四、字段" class="headerlink" title="四、字段"></a>四、字段</h1><ol><li>用<code>camel</code>规则来命名类成员变量名称，即首单词（或单词缩写）小写。</li><li>类字段变量名前加 “_” 前缀，静态字段变量名前加 “s_” 前缀。</li><li>坚决禁止在普通变量前加“m_”（这是 VC 老命名规则）。</li><li>公共的字段采用<code>Pascal</code>规则</li></ol><h1 id="五、属性"><a href="#五、属性" class="headerlink" title="五、属性"></a>五、属性</h1><ol><li>使用名词定义属性</li><li>属性使用<code>Pascal</code>规则，首字符大写。</li><li><strong>属性和相应字段名称要关联</strong>，可以使用“重构”菜单来生成属性。</li></ol><h1 id="六、方法"><a href="#六、方法" class="headerlink" title="六、方法"></a>六、方法</h1><ol><li>方法名采用<code>Pascal</code>规则，第一个字符要大写。</li><li>方法名应使用动词或动词短语。</li><li>类中访问修饰符或功能相同的方法应该放在一起</li><li>通常情况下，类中方法的排序为：实现接口的方法 -&gt; 私有方法 -&gt; 公共方法</li></ol><h1 id="七、参数（局部变量）"><a href="#七、参数（局部变量）" class="headerlink" title="七、参数（局部变量）"></a>七、参数（局部变量）</h1><ol><li>参数采用<code>camel</code>规则命名，且首字符小写。</li><li>使用描述性参数名称，<strong>参数名称应当具有最够的说明性</strong>。</li><li>不要给参数加匈牙利语类型表示法的前缀，即不能添加 “_” 、 “s_” 等前缀。</li><li>检查方法所有输入参数的有效性，即<strong>不能定义不使用的参数</strong>。</li></ol><h1 id="八、常量"><a href="#八、常量" class="headerlink" title="八、常量"></a>八、常量</h1><ol><li>只读常量使用<code>Pascal</code>命名规则，即首字母大写。</li><li>枚举名使用<code>Pascal</code>规则命名，枚举成员本质属于常量，命名规则同上。</li><li>枚举值从小到大顺序定义。</li><li>静态字段或属性采用<code>Pascal</code>规则，即首字符大写。</li></ol><h1 id="九、接口"><a href="#九、接口" class="headerlink" title="九、接口"></a>九、接口</h1><ol><li>接口定义使用<code>Pascal</code>规则，且必须以大写“I”开头。</li><li>接口名称要有意义，中间不要有下划线“_”等字符。</li><li>如果类实现了接口，名称<strong>尽量</strong>和接口相同，只是省掉“I”字符。</li></ol><h1 id="十、委托与事件"><a href="#十、委托与事件" class="headerlink" title="十、委托与事件"></a>十、委托与事件</h1><ol><li>委托名称采用<code>Pascal</code>规则，即首字符大写。</li><li>定义事件的委托要使用<code>EventHandler</code>后缀，且包括<code>sender</code>和<code>e</code>两个参数。</li><li>事件用到的参数类，名称要带<code>EventArgs</code>后缀。</li><li>事件建议使用<code>Event</code>后缀</li></ol><h1 id="代码规范"><a href="#代码规范" class="headerlink" title="代码规范"></a>代码规范</h1><ol><li>代码块的大括号 <code>&#123; &#125;</code> 独占一行，不要使用 <code>Java</code> 习惯</li><li>接口、类、结构体、枚举、字段、属性、方法等必须添加<strong>访问修饰符</strong></li><li><strong>不写注释是流氓，乱写注释是混蛋</strong></li></ol><h1 id="README"><a href="#README" class="headerlink" title="README"></a>README</h1><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><details class="folding-tag" ><summary> 更新日志 </summary>              <div class='content'>              <div class="timeline orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-23</p></div></div><div class='timeline-item-content'><ol><li>在 “前言” 部分，增加对 ① ② 文章的引用链接</li></ol></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-19</p></div></div><div class='timeline-item-content'><ol><li>创建该文档，并规范了常用的代码</li></ol></div></div></div>              </div>            </details>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unity3D </category>
-          
-          <category> Csharp </category>
-          
-          <category> Unity3D基础 </category>
-          
-          <category> Csharp基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Csharp </tag>
-            
-            <tag> Unity3D </tag>
-            
-            <tag> Csharp基础 </tag>
-            
-            <tag> Unity3D基础 </tag>
-            
-            <tag> Csharp规范 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>C#中数组、ArrayList和List三者的区别</title>
       <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/%E6%95%B0%E7%BB%84-ArrayList-List.html"/>
       <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/%E6%95%B0%E7%BB%84-ArrayList-List.html</url>
@@ -1185,6 +1146,45 @@
             <tag> ArrayList </tag>
             
             <tag> List </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C#代码规范</title>
+      <link href="/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/02.Csharp%E8%A7%84%E8%8C%83.html"/>
+      <url>/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0/01.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/03.CSharp/02.Csharp%E8%A7%84%E8%8C%83.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>我们在实际的代码开发中，经常会遇到代码的命名以及规范问题。而不同的人有不同的风格，因此，这篇文章主要讲述<strong>本人 C#代码的规范</strong>，仅作个人以及愿意参与本人项目中人使用。</p><blockquote><p>注意：大可不必争论，代码的命名是否合理，选择一套自己最喜欢的风格，并将其养成习惯，才是最重要的。</p><p>C#系列教程：</p><ol><li><a href="https://blog.yuilexi.cn/2023/04/26/编程/Csharp知识库/Csharp基础/Csharp基础语法/">C#基础语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></li><li><a href="https://blog.yuilexi.cn/2023/04/30/编程/Csharp知识库/Csharp基础/Csharp高级语法/">C#高级语法 | 🪐 星空鸟 🪐 (yuilexi.cn)</a></li><li><a href="https://blog.yuilexi.cn/2023/05/19/编程/Csharp知识库/Csharp基础/Csharp规范/">C#代码规范 | 🪐 星空鸟 🪐 (yuilexi.cn)</a>⬅️ 当前的位置 °꒰๑’ꀾ’๑꒱°</li></ol></blockquote><h1 id="一、标识符规则"><a href="#一、标识符规则" class="headerlink" title="一、标识符规则"></a>一、标识符规则</h1><ul><li><code>Pascal</code>命名规范：标志符中，所有单词的首字母均大写，其余字母小写。</li><li><code>camel</code>命名规范：标志符中，<strong>首字母小写</strong>，其余<strong>单词的首字母</strong>大写，<strong>其余字母</strong>小写。</li><li>标识符命名的字符选择：<code>[a-zA-Z0-9_]</code>中的字符任意搭配，并且不能<strong>以数字作为开头</strong></li></ul><div class="table-container"><table><thead><tr><th style="text-align:center">类型</th><th style="text-align:center">命名规范</th><th style="text-align:center">举例</th></tr></thead><tbody><tr><td style="text-align:center">类： <code>class</code></td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PlayerControl</code></td></tr><tr><td style="text-align:center">私有非静态字段</td><td style="text-align:center"><code>camel</code>，并且必须以<strong>单下划线</strong><code>_</code>开头</td><td style="text-align:center"><code>_workerQueue</code></td></tr><tr><td style="text-align:center">私有静态字段</td><td style="text-align:center"><code>camel</code>，并且必须以<code>s_</code>开头</td><td style="text-align:center"><code>s_workerQueue</code></td></tr><tr><td style="text-align:center">属性和公共字段</td><td style="text-align:center"><code>Pascal</code>，不能以<strong>下划线</strong>或者<code>s_</code>开头</td><td style="text-align:center"><code>WorkerQueue</code></td></tr><tr><td style="text-align:center">方法</td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PascalCasing()</code></td></tr><tr><td style="text-align:center">局部变量</td><td style="text-align:center"><code>camel</code>，并且不能以<strong>下划线</strong>或者<code>s_</code>开头</td><td style="text-align:center"><code>workerQueue</code></td></tr><tr><td style="text-align:center">结构体：<code>struct</code></td><td style="text-align:center"><code>Pascal</code></td><td style="text-align:center"><code>PascalCasing</code></td></tr><tr><td style="text-align:center">接口<code>interface</code></td><td style="text-align:center"><code>Pascal</code>，并在开头加上<code>I</code></td><td style="text-align:center"><code>IWorkerQueue</code></td></tr></tbody></table></div><h1 id="C-语言命名空间"><a href="#C-语言命名空间" class="headerlink" title="C#语言命名空间"></a>C#语言命名空间</h1><ol><li>命名空间名称采用<code>Pascal</code>规则，且首字符大写。</li><li>命名空间名称尽量反映其内容所提供的整体功能。</li></ol><p>对于引用的命名空间：</p><ul><li>每一条命名空间的引用，独占一行</li><li>按照：<code>系统的命名空间 -&gt; 第三方库的命名空间 -&gt; 自定义的命名空间</code> 进行排序</li><li>每一大类的命名空间，<strong>按照字母排序</strong></li></ul><h1 id="三、类"><a href="#三、类" class="headerlink" title="三、类"></a>三、类</h1><ol><li>使用<code>Pascal</code>规则命名类名，即首字母要大写。</li><li>使用能够反映类功能的名词或名词短语命名类。</li><li><strong>不要使用 “I”、“C”、“_” 等特定含义前缀</strong>。</li><li>自定义异常类应以 Exception 结尾。</li><li>文件名要能反映类的内容，最好是和类同名。</li></ol><h1 id="四、字段"><a href="#四、字段" class="headerlink" title="四、字段"></a>四、字段</h1><ol><li>用<code>camel</code>规则来命名类成员变量名称，即首单词（或单词缩写）小写。</li><li>类字段变量名前加 “_” 前缀，静态字段变量名前加 “s_” 前缀。</li><li>坚决禁止在普通变量前加“m_”（这是 VC 老命名规则）。</li><li>公共的字段采用<code>Pascal</code>规则</li></ol><h1 id="五、属性"><a href="#五、属性" class="headerlink" title="五、属性"></a>五、属性</h1><ol><li>使用名词定义属性</li><li>属性使用<code>Pascal</code>规则，首字符大写。</li><li><strong>属性和相应字段名称要关联</strong>，可以使用“重构”菜单来生成属性。</li></ol><h1 id="六、方法"><a href="#六、方法" class="headerlink" title="六、方法"></a>六、方法</h1><ol><li>方法名采用<code>Pascal</code>规则，第一个字符要大写。</li><li>方法名应使用动词或动词短语。</li><li>类中访问修饰符或功能相同的方法应该放在一起</li><li>通常情况下，类中方法的排序为：实现接口的方法 -&gt; 私有方法 -&gt; 公共方法</li></ol><h1 id="七、参数（局部变量）"><a href="#七、参数（局部变量）" class="headerlink" title="七、参数（局部变量）"></a>七、参数（局部变量）</h1><ol><li>参数采用<code>camel</code>规则命名，且首字符小写。</li><li>使用描述性参数名称，<strong>参数名称应当具有最够的说明性</strong>。</li><li>不要给参数加匈牙利语类型表示法的前缀，即不能添加 “_” 、 “s_” 等前缀。</li><li>检查方法所有输入参数的有效性，即<strong>不能定义不使用的参数</strong>。</li></ol><h1 id="八、常量"><a href="#八、常量" class="headerlink" title="八、常量"></a>八、常量</h1><ol><li>只读常量使用<code>Pascal</code>命名规则，即首字母大写。</li><li>枚举名使用<code>Pascal</code>规则命名，枚举成员本质属于常量，命名规则同上。</li><li>枚举值从小到大顺序定义。</li><li>静态字段或属性采用<code>Pascal</code>规则，即首字符大写。</li></ol><h1 id="九、接口"><a href="#九、接口" class="headerlink" title="九、接口"></a>九、接口</h1><ol><li>接口定义使用<code>Pascal</code>规则，且必须以大写“I”开头。</li><li>接口名称要有意义，中间不要有下划线“_”等字符。</li><li>如果类实现了接口，名称<strong>尽量</strong>和接口相同，只是省掉“I”字符。</li></ol><h1 id="十、委托与事件"><a href="#十、委托与事件" class="headerlink" title="十、委托与事件"></a>十、委托与事件</h1><ol><li>委托名称采用<code>Pascal</code>规则，即首字符大写。</li><li>定义事件的委托要使用<code>EventHandler</code>后缀，且包括<code>sender</code>和<code>e</code>两个参数。</li><li>事件用到的参数类，名称要带<code>EventArgs</code>后缀。</li><li>事件建议使用<code>Event</code>后缀</li></ol><h1 id="代码规范"><a href="#代码规范" class="headerlink" title="代码规范"></a>代码规范</h1><ol><li>代码块的大括号 <code>&#123; &#125;</code> 独占一行，不要使用 <code>Java</code> 习惯</li><li>接口、类、结构体、枚举、字段、属性、方法等必须添加<strong>访问修饰符</strong></li><li><strong>不写注释是流氓，乱写注释是混蛋</strong></li></ol><h1 id="README"><a href="#README" class="headerlink" title="README"></a>README</h1><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><details class="folding-tag" ><summary> 更新日志 </summary>              <div class='content'>              <div class="timeline orange"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>更新日志</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-23</p></div></div><div class='timeline-item-content'><ol><li>在 “前言” 部分，增加对 ① ② 文章的引用链接</li></ol></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2023-5-19</p></div></div><div class='timeline-item-content'><ol><li>创建该文档，并规范了常用的代码</li></ol></div></div></div>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity3D </category>
+          
+          <category> Csharp </category>
+          
+          <category> Unity3D基础 </category>
+          
+          <category> Csharp基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
+            
+            <tag> Csharp基础 </tag>
+            
+            <tag> Unity3D基础 </tag>
+            
+            <tag> Csharp规范 </tag>
             
         </tags>
       
@@ -1254,9 +1254,9 @@
       
         <tags>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 功能框架 </tag>
             
@@ -1328,9 +1328,9 @@
       
         <tags>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 功能框架 </tag>
             
@@ -1369,9 +1369,9 @@
             
             <tag> 游戏开发 </tag>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 脚本开发 </tag>
             
@@ -1410,9 +1410,9 @@
             
             <tag> 游戏开发 </tag>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 脚本开发 </tag>
             
@@ -1449,9 +1449,9 @@
             
             <tag> 游戏开发 </tag>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 设计模式 </tag>
             
@@ -1486,9 +1486,9 @@
             
             <tag> 游戏开发 </tag>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 脚本开发 </tag>
             
@@ -1531,9 +1531,9 @@
       
         <tags>
             
-            <tag> Csharp </tag>
-            
             <tag> Unity3D </tag>
+            
+            <tag> Csharp </tag>
             
             <tag> 程序设计 </tag>
             
@@ -1609,11 +1609,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1646,11 +1646,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1683,11 +1683,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1720,11 +1720,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1757,11 +1757,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1794,11 +1794,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1831,11 +1831,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -1868,11 +1868,11 @@
             
             <tag> 数据结构 </tag>
             
-            <tag> 大学学习 </tag>
+            <tag> C语言 </tag>
             
             <tag> 考研 </tag>
             
-            <tag> C语言 </tag>
+            <tag> 大学学习 </tag>
             
         </tags>
       
@@ -2339,9 +2339,9 @@
       
         <tags>
             
-            <tag> C语言基础 </tag>
-            
             <tag> 程序设计 </tag>
+            
+            <tag> C语言基础 </tag>
             
             <tag> 编程语言 </tag>
             
@@ -2460,11 +2460,11 @@
             
             <tag> 程序设计 </tag>
             
-            <tag> 数据分析 </tag>
-            
             <tag> 服务器 </tag>
             
             <tag> Web开发 </tag>
+            
+            <tag> 数据分析 </tag>
             
             <tag> 机器学习 </tag>
             
